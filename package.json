@@ -1,0 +1,27 @@
+{
+    "name": "@volusion/aphrodite-tachyons",
+    "version": "1.0.0",
+    "description": "",
+    "main": " ",
+    "scripts": {
+        "lint": "eslint .",
+        "test": "jest ",
+        "test:watch": "jest --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Volusion2Dev/zero-Blocks.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/preset-env": "^7.6.2",
+        "babel-jest": "^24.9.0",
+        "jest": "^24.9.0"
+    },
+    "jest": {
+        "transform": {
+            "^.+\\.jsx?$": "babel-jest"
+        }
+    }
+}
