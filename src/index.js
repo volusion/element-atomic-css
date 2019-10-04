@@ -1,2 +1,3 @@
 import { width } from './width';
-export const aphroditeTachyons = { ...width };
+import { maxWidth } from './maxWidth';
+export const aphroditeTachyons = { ...width, ...maxWidth };
