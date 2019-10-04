@@ -2,85 +2,65 @@ import { aphroditeTachyons } from '../src';
 
 describe('The aphroditeTachyons object', () => {
     it('should contain the correct static position classes', () => {
+        const cssRules = { position: 'static' };
         const expectedCSS = {
-            static: { position: 'static' },
+            static: cssRules,
             'static-ns': {
-                '@media only screen and (min-width: 30em)': {
-                    position: 'static'
-                }
+                '@media only screen and (min-width: 30em)': cssRules
             },
             'static-m': {
-                '@media only screen and (min-width: 30em) and (max-width: 60em)': {
-                    position: 'static'
-                }
+                '@media only screen and (min-width: 30em) and (max-width: 60em)': cssRules
             },
             'static-l': {
-                '@media only screen and (min-width: 60em)': {
-                    position: 'static'
-                }
+                '@media only screen and (min-width: 60em)': cssRules
             }
         };
         expect(aphroditeTachyons).toEqual(expect.objectContaining(expectedCSS));
     });
     it('should contain the correct relative position classes', () => {
+        const cssRules = { position: 'relative' };
         const expectedCSS = {
-            relative: { position: 'relative' },
+            relative: cssRules,
             'relative-ns': {
-                '@media only screen and (min-width: 30em)': {
-                    position: 'relative'
-                }
+                '@media only screen and (min-width: 30em)': cssRules
             },
             'relative-m': {
-                '@media only screen and (min-width: 30em) and (max-width: 60em)': {
-                    position: 'relative'
-                }
+                '@media only screen and (min-width: 30em) and (max-width: 60em)': cssRules
             },
             'relative-l': {
-                '@media only screen and (min-width: 60em)': {
-                    position: 'relative'
-                }
+                '@media only screen and (min-width: 60em)': cssRules
             }
         };
         expect(aphroditeTachyons).toEqual(expect.objectContaining(expectedCSS));
     });
     it('should contain the correct absolute position classes', () => {
+        const cssRules = { position: 'absolute' };
         const expectedCSS = {
-            absolute: { position: 'absolute' },
+            absolute: cssRules,
             'absolute-ns': {
-                '@media only screen and (min-width: 30em)': {
-                    position: 'absolute'
-                }
+                '@media only screen and (min-width: 30em)': cssRules
             },
             'absolute-m': {
-                '@media only screen and (min-width: 30em) and (max-width: 60em)': {
-                    position: 'absolute'
-                }
+                '@media only screen and (min-width: 30em) and (max-width: 60em)': cssRules
             },
             'absolute-l': {
-                '@media only screen and (min-width: 60em)': {
-                    position: 'absolute'
-                }
+                '@media only screen and (min-width: 60em)': cssRules
             }
         };
         expect(aphroditeTachyons).toEqual(expect.objectContaining(expectedCSS));
     });
     it('should contain the correct fixed position classes', () => {
+        const cssRules = { position: 'fixed' };
         const expectedCSS = {
-            fixed: { position: 'fixed' },
+            fixed: cssRules,
             'fixed-ns': {
-                '@media only screen and (min-width: 30em)': {
-                    position: 'fixed'
-                }
+                '@media only screen and (min-width: 30em)': cssRules
             },
             'fixed-m': {
-                '@media only screen and (min-width: 30em) and (max-width: 60em)': {
-                    position: 'fixed'
-                }
+                '@media only screen and (min-width: 30em) and (max-width: 60em)': cssRules
             },
             'fixed-l': {
-                '@media only screen and (min-width: 60em)': {
-                    position: 'fixed'
-                }
+                '@media only screen and (min-width: 60em)': cssRules
             }
         };
         expect(aphroditeTachyons).toEqual(expect.objectContaining(expectedCSS));
