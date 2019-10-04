@@ -1,4 +1,4 @@
-import { createResponsiveClasses } from './utils';
+import { createResponsiveClasses } from '../utils';
 
 export const width = {
     ...createResponsiveClasses({ w1: { width: '1rem' } }),

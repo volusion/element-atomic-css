@@ -1,4 +1,4 @@
-import { createResponsiveClasses } from './utils';
+import { createResponsiveClasses } from '../utils';
 
 export const maxWidth = {
     ...createResponsiveClasses({ 'mw-100': { maxWidth: '100%' } }),
