@@ -7,6 +7,7 @@ import { forms } from './properties/forms';
 import { hovers } from './properties/hovers';
 import { debug } from './properties/debug';
 import { skins } from './properties/skins';
+import { skinsPseudo } from './properties/skinsPseudo';
 
 export const aphroditeTachyons = {
     ...position,
@@ -17,5 +18,6 @@ export const aphroditeTachyons = {
     ...forms,
     ...hovers,
     ...debug,
-    ...skins
+    ...skins,
+    ...skinsPseudo
 };
