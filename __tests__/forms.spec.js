@@ -1,16 +1,16 @@
-import { aphroditeTachyons } from '../src';
+import { cssForClass } from './utils';
 
 describe('The aphroditeTachyons object', () => {
     it('should contain the correct forms classes', () => {
-        const resetCss = { border: 0, padding: 0 };
-        const expectedCSS = {
-            'input-reset': {
-                '-webkit-appearance': 'none',
-                '-moz-appearance': 'none'
-            },
-            'button-reset::-moz-focus-inner': resetCss,
-            'input-reset::-moz-focus-inner': resetCss
+        const cssRules = {
+            '-webkit-appearance': 'none',
+            '-moz-appearance': 'none'
         };
-        expect(aphroditeTachyons).toEqual(expect.objectContaining(expectedCSS));
+        expect(cssForClass('input-reset')).toEqual(cssRules);
+    });
+    it('should contain the correct forms classes', () => {
+        const cssRules = { border: 0, padding: 0 };
+        expect(cssForClass('button-reset::-moz-focus-inner')).toEqual(cssRules);
+        expect(cssForClass('input-reset::-moz-focus-inner')).toEqual(cssRules);
     });
 });

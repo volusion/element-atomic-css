@@ -55,6 +55,8 @@ const growLarge = {
     'grow-large': getGrowCss(1.2, 0.95)
 };
 
+const pointer = { pointer: { ':hover': { cursor: 'pointer' } } };
+
 const shadowHover = {
     'shadow-hover': {
         '::after': {
@@ -82,7 +84,7 @@ export const hovers = {
     ...underlineHover,
     ...grow,
     ...growLarge,
-    'pointer:hover': { cursor: 'pointer' },
+    ...pointer,
     ...shadowHover,
     ...bgAnimate
 };

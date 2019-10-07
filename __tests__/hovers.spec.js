@@ -1,113 +1,99 @@
-import { aphroditeTachyons } from '../src';
+import { cssForClass } from './utils';
 
 describe('The aphroditeTachyons object', () => {
-    it('should contain the correct dim hovers classes', () => {
-        const expectedCSS = {
-            dim: {
-                opacity: 1,
-                transition: 'opacity .15s ease-in',
-                ':hover': { opacity: 0.5, transition: 'opacity .15s ease-in' },
-                ':focus': { opacity: 0.5, transition: 'opacity .15s ease-in' },
-                ':active': {
-                    opacity: 0.8,
-                    transition: 'opacity .15s ease-out'
-                }
+    it('should contain the correct dim classes', () => {
+        const cssRules = {
+            opacity: 1,
+            transition: 'opacity .15s ease-in',
+            ':hover': { opacity: 0.5, transition: 'opacity .15s ease-in' },
+            ':focus': { opacity: 0.5, transition: 'opacity .15s ease-in' },
+            ':active': {
+                opacity: 0.8,
+                transition: 'opacity .15s ease-out'
             }
         };
-        expect(aphroditeTachyons).toEqual(expect.objectContaining(expectedCSS));
+        expect(cssForClass('dim')).toEqual(cssRules);
     });
-    it('should contain the correct hide-child hovers classes', () => {
-        const expectedCSS = {
-            'hide-child': {
-                child: { opacity: 0, transition: 'opacity .15s ease-in' },
-                ':hover': {
-                    child: { opacity: 1, transition: 'opacity .15s ease-in' }
-                },
-                ':focus': {
-                    child: { opacity: 1, transition: 'opacity .15s ease-in' }
-                },
-                ':active': {
-                    child: { opacity: 1, transition: 'opacity .15s ease-in' }
-                }
+    it('should contain the correct hide-child classes', () => {
+        const cssRules = {
+            child: { opacity: 0, transition: 'opacity .15s ease-in' },
+            ':hover': {
+                child: { opacity: 1, transition: 'opacity .15s ease-in' }
+            },
+            ':focus': {
+                child: { opacity: 1, transition: 'opacity .15s ease-in' }
+            },
+            ':active': {
+                child: { opacity: 1, transition: 'opacity .15s ease-in' }
             }
         };
-        expect(aphroditeTachyons).toEqual(expect.objectContaining(expectedCSS));
+        expect(cssForClass('hide-child')).toEqual(cssRules);
     });
-    it('should contain the correct underline hovers classes', () => {
-        const expectedCSS = {
-            'underline-hover': {
-                ':hover': { 'text-decoration': 'underline' },
-                ':focus': { 'text-decoration': 'underline' }
+    it('should contain the correct underline-hover class', () => {
+        const cssRules = {
+            ':hover': { 'text-decoration': 'underline' },
+            ':focus': { 'text-decoration': 'underline' }
+        };
+        expect(cssForClass('underline-hover')).toEqual(cssRules);
+    });
+    it('should contain the correct grow class', () => {
+        const cssRules = {
+            '-moz-osx-font-smoothing': 'grayscale',
+            transform: 'translateZ(0)',
+            transition: 'transform .25s ease-out',
+            ':hover': {
+                transform: `scale(1.05)`
+            },
+            ':focus': {
+                transform: `scale(1.05)`
+            },
+            ':active': {
+                transform: `scale(0.9)`
             }
         };
-        expect(aphroditeTachyons).toEqual(expect.objectContaining(expectedCSS));
+        expect(cssForClass('grow')).toEqual(cssRules);
     });
-    it('should contain the correct grow hovers classes', () => {
-        const expectedCSS = {
-            grow: {
-                '-moz-osx-font-smoothing': 'grayscale',
-                transform: 'translateZ(0)',
-                transition: 'transform .25s ease-out',
-                ':hover': {
-                    transform: `scale(1.05)`
-                },
-                ':focus': {
-                    transform: `scale(1.05)`
-                },
-                ':active': {
-                    transform: `scale(0.9)`
-                }
+    it('should contain the correct grow-large class', () => {
+        const cssRules = {
+            '-moz-osx-font-smoothing': 'grayscale',
+            transform: 'translateZ(0)',
+            transition: 'transform .25s ease-out',
+            ':hover': {
+                transform: `scale(1.2)`
+            },
+            ':focus': {
+                transform: `scale(1.2)`
+            },
+            ':active': {
+                transform: `scale(0.95)`
             }
         };
-        expect(aphroditeTachyons).toEqual(expect.objectContaining(expectedCSS));
+        expect(cssForClass('grow-large')).toEqual(cssRules);
     });
-    it('should contain the correct grow-large hovers classes', () => {
-        const expectedCSS = {
-            'grow-large': {
-                '-moz-osx-font-smoothing': 'grayscale',
-                transform: 'translateZ(0)',
-                transition: 'transform .25s ease-out',
-                ':hover': {
-                    transform: `scale(1.2)`
-                },
-                ':focus': {
-                    transform: `scale(1.2)`
-                },
-                ':active': {
-                    transform: `scale(0.95)`
-                }
-            }
+    it('should contain the correct pointer class', () => {
+        const cssRules = {
+            ':hover': { cursor: 'pointer' }
         };
-        expect(aphroditeTachyons).toEqual(expect.objectContaining(expectedCSS));
+        expect(cssForClass('pointer')).toEqual(cssRules);
     });
-    it('should contain the correct pointer hovers classes', () => {
-        const expectedCSS = {
-            'pointer:hover': { cursor: 'pointer' }
+    it('should contain the correct shadow-hover class', () => {
+        const cssRules = {
+            '::after': {
+                'box-shadow': '0 0 8px 2px rgba( 0, 0, 0, .2 )',
+                opacity: 0,
+                transition: 'opacity .25s ease-in-out'
+            },
+            ':hover::after': { opacity: 1 },
+            ':focus::after': { opacity: 1 }
         };
-        expect(aphroditeTachyons).toEqual(expect.objectContaining(expectedCSS));
+        expect(cssForClass('shadow-hover')).toEqual(cssRules);
     });
-    it('should contain the correct shadow hovers classes', () => {
-        const expectedCSS = {
-            'shadow-hover': {
-                '::after': {
-                    'box-shadow': '0 0 8px 2px rgba( 0, 0, 0, .2 )',
-                    opacity: 0,
-                    transition: 'opacity .25s ease-in-out'
-                },
-                ':hover::after': { opacity: 1 },
-                ':focus::after': { opacity: 1 }
-            }
+    it('should contain the correct bg-animate class', () => {
+        const cssRules = {
+            transition: 'background-color .15s ease-in-out',
+            ':hover': { transition: 'background-color .15s ease-in-out' },
+            ':focus': { transition: 'background-color .15s ease-in-out' }
         };
-        expect(aphroditeTachyons).toEqual(expect.objectContaining(expectedCSS));
-    });
-    it('should contain the correct bg-animate hovers classes', () => {
-        const expectedCSS = {
-            'bg-animate': {
-                transition: 'background-color .15s ease-in-out',
-                ':hover': { transition: 'background-color .15s ease-in-out' },
-                ':focus': { transition: 'background-color .15s ease-in-out' }
-            }
-        };
-        expect(aphroditeTachyons).toEqual(expect.objectContaining(expectedCSS));
+        expect(cssForClass('bg-animate')).toEqual(cssRules);
     });
 });

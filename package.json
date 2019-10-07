@@ -16,12 +16,16 @@
     "license": "ISC",
     "devDependencies": {
         "@babel/preset-env": "^7.6.2",
+        "aphrodite": "^2.4.0",
         "babel-jest": "^24.9.0",
         "jest": "^24.9.0"
     },
     "jest": {
         "transform": {
             "^.+\\.jsx?$": "babel-jest"
-        }
+        },
+        "watchPathIgnorePatterns": [
+            "<rootDir>/__tests__/utils"
+        ]
     }
 }
