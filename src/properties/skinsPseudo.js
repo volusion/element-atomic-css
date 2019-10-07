@@ -44,52 +44,52 @@ export const skinsPseudo = {
         ':focus': { color: '#fff' }
     },
     'hover-bg-black': {
-        ':hover': { 'background-color': '#000' },
-        ':focus': { 'background-color': '#000' }
+        ':hover': { backgroundColor: '#000' },
+        ':focus': { backgroundColor: '#000' }
     },
     'hover-bg-near-black': {
-        ':hover': { 'background-color': '#111' },
-        ':focus': { 'background-color': '#111' }
+        ':hover': { backgroundColor: '#111' },
+        ':focus': { backgroundColor: '#111' }
     },
     'hover-bg-dark-gray': {
-        ':hover': { 'background-color': '#333' },
-        ':focus': { 'background-color': '#333' }
+        ':hover': { backgroundColor: '#333' },
+        ':focus': { backgroundColor: '#333' }
     },
     'hover-bg-mid-gray': {
-        ':hover': { 'background-color': '#555' },
-        ':focus': { 'background-color': '#555' }
+        ':hover': { backgroundColor: '#555' },
+        ':focus': { backgroundColor: '#555' }
     },
     'hover-bg-gray': {
-        ':hover': { 'background-color': '#777' },
-        ':focus': { 'background-color': '#777' }
+        ':hover': { backgroundColor: '#777' },
+        ':focus': { backgroundColor: '#777' }
     },
     'hover-bg-silver': {
-        ':hover': { 'background-color': '#999' },
-        ':focus': { 'background-color': '#999' }
+        ':hover': { backgroundColor: '#999' },
+        ':focus': { backgroundColor: '#999' }
     },
     'hover-bg-light-silver': {
-        ':hover': { 'background-color': '#aaa' },
-        ':focus': { 'background-color': '#aaa' }
+        ':hover': { backgroundColor: '#aaa' },
+        ':focus': { backgroundColor: '#aaa' }
     },
     'hover-bg-moon-gray': {
-        ':hover': { 'background-color': '#ccc' },
-        ':focus': { 'background-color': '#ccc' }
+        ':hover': { backgroundColor: '#ccc' },
+        ':focus': { backgroundColor: '#ccc' }
     },
     'hover-bg-light-gray': {
-        ':hover': { 'background-color': '#eee' },
-        ':focus': { 'background-color': '#eee' }
+        ':hover': { backgroundColor: '#eee' },
+        ':focus': { backgroundColor: '#eee' }
     },
     'hover-bg-near-white': {
-        ':hover': { 'background-color': '#f4f4f4' },
-        ':focus': { 'background-color': '#f4f4f4' }
+        ':hover': { backgroundColor: '#f4f4f4' },
+        ':focus': { backgroundColor: '#f4f4f4' }
     },
     'hover-bg-white': {
-        ':hover': { 'background-color': '#fff' },
-        ':focus': { 'background-color': '#fff' }
+        ':hover': { backgroundColor: '#fff' },
+        ':focus': { backgroundColor: '#fff' }
     },
     'hover-bg-transparent': {
-        ':hover': { 'background-color': 'transparent' },
-        ':focus': { 'background-color': 'transparent' }
+        ':hover': { backgroundColor: 'transparent' },
+        ':focus': { backgroundColor: 'transparent' }
     },
     'hover-dark-red': {
         ':hover': { color: '#e7040f' },
@@ -192,103 +192,103 @@ export const skinsPseudo = {
         ':focus': { color: '#ffdfdf' }
     },
     'hover-bg-dark-red': {
-        ':hover': { 'background-color': '#e7040f' },
-        ':focus': { 'background-color': '#e7040f' }
+        ':hover': { backgroundColor: '#e7040f' },
+        ':focus': { backgroundColor: '#e7040f' }
     },
     'hover-bg-red': {
-        ':hover': { 'background-color': '#ff4136' },
-        ':focus': { 'background-color': '#ff4136' }
+        ':hover': { backgroundColor: '#ff4136' },
+        ':focus': { backgroundColor: '#ff4136' }
     },
     'hover-bg-light-red': {
-        ':hover': { 'background-color': '#ff725c' },
-        ':focus': { 'background-color': '#ff725c' }
+        ':hover': { backgroundColor: '#ff725c' },
+        ':focus': { backgroundColor: '#ff725c' }
     },
     'hover-bg-orange': {
-        ':hover': { 'background-color': '#ff6300' },
-        ':focus': { 'background-color': '#ff6300' }
+        ':hover': { backgroundColor: '#ff6300' },
+        ':focus': { backgroundColor: '#ff6300' }
     },
     'hover-bg-gold': {
-        ':hover': { 'background-color': '#ffb700' },
-        ':focus': { 'background-color': '#ffb700' }
+        ':hover': { backgroundColor: '#ffb700' },
+        ':focus': { backgroundColor: '#ffb700' }
     },
     'hover-bg-yellow': {
-        ':hover': { 'background-color': '#ffd700' },
-        ':focus': { 'background-color': '#ffd700' }
+        ':hover': { backgroundColor: '#ffd700' },
+        ':focus': { backgroundColor: '#ffd700' }
     },
     'hover-bg-light-yellow': {
-        ':hover': { 'background-color': '#fbf1a9' },
-        ':focus': { 'background-color': '#fbf1a9' }
+        ':hover': { backgroundColor: '#fbf1a9' },
+        ':focus': { backgroundColor: '#fbf1a9' }
     },
     'hover-bg-purple': {
-        ':hover': { 'background-color': '#5e2ca5' },
-        ':focus': { 'background-color': '#5e2ca5' }
+        ':hover': { backgroundColor: '#5e2ca5' },
+        ':focus': { backgroundColor: '#5e2ca5' }
     },
     'hover-bg-light-purple': {
-        ':hover': { 'background-color': '#a463f2' },
-        ':focus': { 'background-color': '#a463f2' }
+        ':hover': { backgroundColor: '#a463f2' },
+        ':focus': { backgroundColor: '#a463f2' }
     },
     'hover-bg-dark-pink': {
-        ':hover': { 'background-color': '#d5008f' },
-        ':focus': { 'background-color': '#d5008f' }
+        ':hover': { backgroundColor: '#d5008f' },
+        ':focus': { backgroundColor: '#d5008f' }
     },
     'hover-bg-hot-pink': {
-        ':hover': { 'background-color': '#ff41b4' },
-        ':focus': { 'background-color': '#ff41b4' }
+        ':hover': { backgroundColor: '#ff41b4' },
+        ':focus': { backgroundColor: '#ff41b4' }
     },
     'hover-bg-pink': {
-        ':hover': { 'background-color': '#ff80cc' },
-        ':focus': { 'background-color': '#ff80cc' }
+        ':hover': { backgroundColor: '#ff80cc' },
+        ':focus': { backgroundColor: '#ff80cc' }
     },
     'hover-bg-light-pink': {
-        ':hover': { 'background-color': '#ffa3d7' },
-        ':focus': { 'background-color': '#ffa3d7' }
+        ':hover': { backgroundColor: '#ffa3d7' },
+        ':focus': { backgroundColor: '#ffa3d7' }
     },
     'hover-bg-dark-green': {
-        ':hover': { 'background-color': '#137752' },
-        ':focus': { 'background-color': '#137752' }
+        ':hover': { backgroundColor: '#137752' },
+        ':focus': { backgroundColor: '#137752' }
     },
     'hover-bg-green': {
-        ':hover': { 'background-color': '#19a974' },
-        ':focus': { 'background-color': '#19a974' }
+        ':hover': { backgroundColor: '#19a974' },
+        ':focus': { backgroundColor: '#19a974' }
     },
     'hover-bg-light-green': {
-        ':hover': { 'background-color': '#9eebcf' },
-        ':focus': { 'background-color': '#9eebcf' }
+        ':hover': { backgroundColor: '#9eebcf' },
+        ':focus': { backgroundColor: '#9eebcf' }
     },
     'hover-bg-navy': {
-        ':hover': { 'background-color': '#001b44' },
-        ':focus': { 'background-color': '#001b44' }
+        ':hover': { backgroundColor: '#001b44' },
+        ':focus': { backgroundColor: '#001b44' }
     },
     'hover-bg-dark-blue': {
-        ':hover': { 'background-color': '#00449e' },
-        ':focus': { 'background-color': '#00449e' }
+        ':hover': { backgroundColor: '#00449e' },
+        ':focus': { backgroundColor: '#00449e' }
     },
     'hover-bg-blue': {
-        ':hover': { 'background-color': '#357edd' },
-        ':focus': { 'background-color': '#357edd' }
+        ':hover': { backgroundColor: '#357edd' },
+        ':focus': { backgroundColor: '#357edd' }
     },
     'hover-bg-light-blue': {
-        ':hover': { 'background-color': '#96ccff' },
-        ':focus': { 'background-color': '#96ccff' }
+        ':hover': { backgroundColor: '#96ccff' },
+        ':focus': { backgroundColor: '#96ccff' }
     },
     'hover-bg-lightest-blue': {
-        ':hover': { 'background-color': '#cdecff' },
-        ':focus': { 'background-color': '#cdecff' }
+        ':hover': { backgroundColor: '#cdecff' },
+        ':focus': { backgroundColor: '#cdecff' }
     },
     'hover-bg-washed-blue': {
-        ':hover': { 'background-color': '#f6fffe' },
-        ':focus': { 'background-color': '#f6fffe' }
+        ':hover': { backgroundColor: '#f6fffe' },
+        ':focus': { backgroundColor: '#f6fffe' }
     },
     'hover-bg-washed-green': {
-        ':hover': { 'background-color': '#e8fdf5' },
-        ':focus': { 'background-color': '#e8fdf5' }
+        ':hover': { backgroundColor: '#e8fdf5' },
+        ':focus': { backgroundColor: '#e8fdf5' }
     },
     'hover-bg-washed-yellow': {
-        ':hover': { 'background-color': '#fffceb' },
-        ':focus': { 'background-color': '#fffceb' }
+        ':hover': { backgroundColor: '#fffceb' },
+        ':focus': { backgroundColor: '#fffceb' }
     },
     'hover-bg-washed-red': {
-        ':hover': { 'background-color': '#ffdfdf' },
-        ':focus': { 'background-color': '#ffdfdf' }
+        ':hover': { backgroundColor: '#ffdfdf' },
+        ':focus': { backgroundColor: '#ffdfdf' }
     }
 };
