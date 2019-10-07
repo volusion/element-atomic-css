@@ -4,11 +4,13 @@ import { flexbox } from './properties/flexbox';
 import { width } from './properties/width';
 import { maxWidth } from './properties/maxWidth';
 import { forms } from './properties/forms';
+import { hovers } from './properties/hovers';
 export const aphroditeTachyons = {
     ...position,
     ...display,
     ...flexbox,
     ...width,
     ...maxWidth,
-    ...forms
+    ...forms,
+    ...hovers
 };
