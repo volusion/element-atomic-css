@@ -1,7 +1,7 @@
 import { aphroditeTachyons } from '../src';
 
 describe('The aphroditeTachyons object', () => {
-    it('should contain the correct 1rem width classes', () => {
+    it('should contain the correct forms classes', () => {
         const resetCss = { border: 0, padding: 0 };
         const expectedCSS = {
             'input-reset': {
