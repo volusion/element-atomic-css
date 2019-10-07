@@ -5,6 +5,8 @@ import { width } from './properties/width';
 import { maxWidth } from './properties/maxWidth';
 import { forms } from './properties/forms';
 import { hovers } from './properties/hovers';
+import { debug } from './properties/debug';
+
 export const aphroditeTachyons = {
     ...position,
     ...display,
@@ -12,5 +14,6 @@ export const aphroditeTachyons = {
     ...width,
     ...maxWidth,
     ...forms,
-    ...hovers
+    ...hovers,
+    ...debug
 };
