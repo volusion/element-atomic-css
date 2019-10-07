@@ -15,5 +15,8 @@ export const display = {
     ...createResponsiveClasses({ 'dt-column': { display: 'table-column' } }),
     ...createResponsiveClasses({
         'dt-column-group': { display: 'table-column-group' }
+    }),
+    ...createResponsiveClasses({
+        'dt--fixed': { display: 'fixed', width: '100%' }
     })
 };

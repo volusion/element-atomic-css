@@ -177,4 +177,20 @@ describe('The aphroditeTachyons object', () => {
         };
         expect(aphroditeTachyons).toEqual(expect.objectContaining(expectedCSS));
     });
+    it('should contain the correct display fixed table classes', () => {
+        const cssRules = { display: 'fixed', width: '100%' };
+        const expectedCSS = {
+            'dt--fixed': cssRules,
+            'dt--fixed-ns': {
+                '@media only screen and (min-width: 30em)': cssRules
+            },
+            'dt--fixed-m': {
+                '@media only screen and (min-width: 30em) and (max-width: 60em)': cssRules
+            },
+            'dt--fixed-l': {
+                '@media only screen and (min-width: 60em)': cssRules
+            }
+        };
+        expect(aphroditeTachyons).toEqual(expect.objectContaining(expectedCSS));
+    });
 });
