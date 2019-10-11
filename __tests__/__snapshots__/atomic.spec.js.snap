@@ -7646,5 +7646,41 @@ Object {
   "yellow": Object {
     "color": "#ffd700",
   },
+  "z-0": Object {
+    "zIndex": 0,
+  },
+  "z-1": Object {
+    "zIndex": 1,
+  },
+  "z-2": Object {
+    "zIndex": 2,
+  },
+  "z-3": Object {
+    "zIndex": 3,
+  },
+  "z-4": Object {
+    "zIndex": 4,
+  },
+  "z-5": Object {
+    "zIndex": 5,
+  },
+  "z-999": Object {
+    "zIndex": 999,
+  },
+  "z-9999": Object {
+    "zIndex": 9999,
+  },
+  "z-inherit": Object {
+    "zIndex": "inherit",
+  },
+  "z-initial": Object {
+    "zIndex": "initial",
+  },
+  "z-max": Object {
+    "zIndex": 2147483647,
+  },
+  "z-unset": Object {
+    "zIndex": "unset",
+  },
 }
 `;
