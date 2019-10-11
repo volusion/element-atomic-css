@@ -1,6 +1,6 @@
 import { createResponsiveClasses } from '../utils';
 
-export const flexbox = {
+const classes = {
     ...createResponsiveClasses({ flex: { display: 'flex' } }),
     ...createResponsiveClasses({ 'inline-flex': { display: 'inline-flex' } }),
     ...createResponsiveClasses({
@@ -78,3 +78,5 @@ export const flexbox = {
     ...createResponsiveClasses({ 'flex-shrink-0': { flexShrink: 0 } }),
     ...createResponsiveClasses({ 'flex-shrink-1': { flexShrink: 1 } })
 };
+
+export default classes;

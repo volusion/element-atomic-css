@@ -1,6 +1,6 @@
 import { createResponsiveClasses } from '../utils';
 
-export const aspectRatios = {
+const classes = {
     ...createResponsiveClasses({
         'aspect-ratio': { height: 0, position: 'relative' }
     }),
@@ -50,3 +50,5 @@ export const aspectRatios = {
         }
     })
 };
+
+export default classes;

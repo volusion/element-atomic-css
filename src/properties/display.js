@@ -1,6 +1,6 @@
 import { createResponsiveClasses } from '../utils';
 
-export const display = {
+const classes = {
     ...createResponsiveClasses({ dn: { display: 'none' } }),
     ...createResponsiveClasses({ di: { display: 'inline' } }),
     ...createResponsiveClasses({ db: { display: 'block' } }),
@@ -20,3 +20,5 @@ export const display = {
         'dt--fixed': { display: 'fixed', width: '100%' }
     })
 };
+
+export default classes;

@@ -1,6 +1,6 @@
 import { createResponsiveClasses } from '../utils';
 
-export const spacing = {
+const classes = {
     ...createResponsiveClasses({ pa0: { padding: 0 } }),
     ...createResponsiveClasses({ pa1: { padding: '.25rem' } }),
     ...createResponsiveClasses({ pa2: { padding: '.5rem' } }),
@@ -178,3 +178,5 @@ export const spacing = {
         mh7: { marginLeft: '16rem', marginRight: '16rem' }
     })
 };
+
+export default classes;

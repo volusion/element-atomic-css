@@ -1,4 +1,4 @@
-export const tables = {
+const classes = {
     collapse: { borderCollapse: 'collapse', borderSpacing: 0 },
     'striped--moon-gray': {
         ':nth-child(odd)': { backgroundColor: '#aaa' }
@@ -13,3 +13,5 @@ export const tables = {
         ':nth-child(odd)': { backgroundColor: '#f4f4f4' }
     }
 };
+
+export default classes;

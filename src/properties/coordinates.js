@@ -1,6 +1,6 @@
 import { createResponsiveClasses } from '../utils';
 
-export const coordinates = {
+const classes = {
     ...createResponsiveClasses({ 'top-0': { top: 0 } }),
     ...createResponsiveClasses({ 'right-0': { right: 0 } }),
     ...createResponsiveClasses({ 'bottom-0': { bottom: 0 } }),
@@ -25,3 +25,5 @@ export const coordinates = {
         'absolute--fill': { top: 0, right: 0, bottom: 0, left: 0 }
     })
 };
+
+export default classes;

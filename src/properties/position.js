@@ -1,8 +1,10 @@
 import { createResponsiveClasses } from '../utils';
 
-export const position = {
+const classes = {
     ...createResponsiveClasses({ static: { position: 'static' } }),
     ...createResponsiveClasses({ relative: { position: 'relative' } }),
     ...createResponsiveClasses({ absolute: { position: 'absolute' } }),
     ...createResponsiveClasses({ fixed: { position: 'fixed' } })
 };
+
+export default classes;

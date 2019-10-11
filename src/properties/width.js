@@ -1,6 +1,6 @@
 import { createResponsiveClasses } from '../utils';
 
-export const width = {
+const classes = {
     ...createResponsiveClasses({ w1: { width: '1rem' } }),
     ...createResponsiveClasses({ w2: { width: '2rem' } }),
     ...createResponsiveClasses({ w3: { width: '4rem' } }),
@@ -24,3 +24,5 @@ export const width = {
     ...createResponsiveClasses({ 'w-90': { width: '90%' } }),
     ...createResponsiveClasses({ 'w-100': { width: '100%' } })
 };
+
+export default classes;

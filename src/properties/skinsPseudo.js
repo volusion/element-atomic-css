@@ -1,4 +1,4 @@
-export const skinsPseudo = {
+const classes = {
     'hover-black': {
         ':hover': { color: '#000' },
         ':focus': { color: '#000' }
@@ -292,3 +292,5 @@ export const skinsPseudo = {
         ':focus': { backgroundColor: '#ffdfdf' }
     }
 };
+
+export default classes;

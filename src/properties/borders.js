@@ -1,6 +1,6 @@
 import { createResponsiveClasses } from '../utils';
 
-export const borders = {
+const classes = {
     ...createResponsiveClasses({
         ba: { borderStyle: 'solid', borderWidth: '1px' }
     }),
@@ -18,3 +18,5 @@ export const borders = {
     }),
     ...createResponsiveClasses({ bn: { borderStyle: 'none', borderWidth: 0 } })
 };
+
+export default classes;

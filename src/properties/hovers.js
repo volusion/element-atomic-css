@@ -78,7 +78,7 @@ const bgAnimate = {
     }
 };
 
-export const hovers = {
+const classes = {
     ...dim,
     ...hideChild,
     ...underlineHover,
@@ -88,3 +88,5 @@ export const hovers = {
     ...shadowHover,
     ...bgAnimate
 };
+
+export default classes;

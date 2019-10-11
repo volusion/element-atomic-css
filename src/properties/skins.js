@@ -1,4 +1,4 @@
-export const skins = {
+const classes = {
     'black-90': { color: 'rgba( 0, 0, 0, .9 )' },
     'black-80': { color: 'rgba( 0, 0, 0, .8 )' },
     'black-70': { color: 'rgba( 0, 0, 0, .7 )' },
@@ -113,3 +113,5 @@ export const skins = {
     'bg-washed-red': { backgroundColor: '#ffdfdf' },
     'bg-inherit': { backgroundColor: 'inherit' }
 };
+
+export default classes;

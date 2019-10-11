@@ -1,6 +1,6 @@
 import { createResponsiveClasses } from '../utils';
 
-export const borderRadius = {
+const classes = {
     ...createResponsiveClasses({ br0: { borderRadius: 0 } }),
     ...createResponsiveClasses({ br1: { borderRadius: '.125rem' } }),
     ...createResponsiveClasses({ br2: { borderRadius: '.25rem' } }),
@@ -33,3 +33,5 @@ export const borderRadius = {
         }
     })
 };
+
+export default classes;

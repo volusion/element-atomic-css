@@ -1,6 +1,6 @@
 import { createResponsiveClasses } from '../utils';
 
-export const backgroundPosition = {
+const classes = {
     ...createResponsiveClasses({
         'bg-center': {
             backgroundRepeat: 'no-repeat',
@@ -32,3 +32,5 @@ export const backgroundPosition = {
         }
     })
 };
+
+export default classes;

@@ -1,5 +1,5 @@
 const resetCss = { '::-moz-focus-inner': { border: 0, padding: 0 } };
-export const forms = {
+const classes = {
     'input-reset': {
         '-webkit-appearance': 'none',
         '-moz-appearance': 'none',
@@ -7,3 +7,5 @@ export const forms = {
     },
     'button-reset': resetCss
 };
+
+export default classes;

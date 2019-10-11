@@ -1,6 +1,6 @@
 import { createResponsiveClasses } from '../utils';
 
-export const backgroundSize = {
+const classes = {
     ...createResponsiveClasses({
         cover: {
             backgroundSize: 'cover'
@@ -12,3 +12,5 @@ export const backgroundSize = {
         }
     })
 };
+
+export default classes;
