@@ -5,6 +5,36 @@ Object {
   "absolute": Object {
     "position": "absolute",
   },
+  "absolute--fill": Object {
+    "bottom": 0,
+    "left": 0,
+    "right": 0,
+    "top": 0,
+  },
+  "absolute--fill-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "bottom": 0,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+    },
+  },
+  "absolute--fill-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "bottom": 0,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+    },
+  },
+  "absolute--fill-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "bottom": 0,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+    },
+  },
   "absolute-l": Object {
     "@media only screen and (min-width: 60em)": Object {
       "position": "absolute",
@@ -698,6 +728,96 @@ Object {
     "@media only screen and (min-width: 30em)": Object {
       "borderStyle": "none",
       "borderWidth": 0,
+    },
+  },
+  "bottom--1": Object {
+    "bottom": "-1rem",
+  },
+  "bottom--1-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "bottom": "-1rem",
+    },
+  },
+  "bottom--1-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "bottom": "-1rem",
+    },
+  },
+  "bottom--1-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "bottom": "-1rem",
+    },
+  },
+  "bottom--2": Object {
+    "bottom": "-2rem",
+  },
+  "bottom--2-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "bottom": "-2rem",
+    },
+  },
+  "bottom--2-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "bottom": "-2rem",
+    },
+  },
+  "bottom--2-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "bottom": "-2rem",
+    },
+  },
+  "bottom-0": Object {
+    "bottom": 0,
+  },
+  "bottom-0-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "bottom": 0,
+    },
+  },
+  "bottom-0-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "bottom": 0,
+    },
+  },
+  "bottom-0-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "bottom": 0,
+    },
+  },
+  "bottom-1": Object {
+    "bottom": "1rem",
+  },
+  "bottom-1-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "bottom": "1rem",
+    },
+  },
+  "bottom-1-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "bottom": "1rem",
+    },
+  },
+  "bottom-1-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "bottom": "1rem",
+    },
+  },
+  "bottom-2": Object {
+    "bottom": "2rem",
+  },
+  "bottom-2-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "bottom": "2rem",
+    },
+  },
+  "bottom-2-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "bottom": "2rem",
+    },
+  },
+  "bottom-2-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "bottom": "2rem",
     },
   },
   "br": Object {
@@ -2508,6 +2628,96 @@ Object {
   "justify-start-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "justifyContent": "flex-start",
+    },
+  },
+  "left--1": Object {
+    "left": "-1rem",
+  },
+  "left--1-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "left": "-1rem",
+    },
+  },
+  "left--1-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "left": "-1rem",
+    },
+  },
+  "left--1-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "left": "-1rem",
+    },
+  },
+  "left--2": Object {
+    "left": "-2rem",
+  },
+  "left--2-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "left": "-2rem",
+    },
+  },
+  "left--2-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "left": "-2rem",
+    },
+  },
+  "left--2-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "left": "-2rem",
+    },
+  },
+  "left-0": Object {
+    "left": 0,
+  },
+  "left-0-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "left": 0,
+    },
+  },
+  "left-0-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "left": 0,
+    },
+  },
+  "left-0-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "left": 0,
+    },
+  },
+  "left-1": Object {
+    "left": "1rem",
+  },
+  "left-1-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "left": "1rem",
+    },
+  },
+  "left-1-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "left": "1rem",
+    },
+  },
+  "left-1-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "left": "1rem",
+    },
+  },
+  "left-2": Object {
+    "left": "2rem",
+  },
+  "left-2-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "left": "2rem",
+    },
+  },
+  "left-2-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "left": "2rem",
+    },
+  },
+  "left-2-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "left": "2rem",
     },
   },
   "light-blue": Object {
@@ -5109,6 +5319,96 @@ Object {
       "position": "relative",
     },
   },
+  "right--1": Object {
+    "right": "-1rem",
+  },
+  "right--1-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "right": "-1rem",
+    },
+  },
+  "right--1-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "right": "-1rem",
+    },
+  },
+  "right--1-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "right": "-1rem",
+    },
+  },
+  "right--2": Object {
+    "right": "-2rem",
+  },
+  "right--2-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "right": "-2rem",
+    },
+  },
+  "right--2-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "right": "-2rem",
+    },
+  },
+  "right--2-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "right": "-2rem",
+    },
+  },
+  "right-0": Object {
+    "right": 0,
+  },
+  "right-0-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "right": 0,
+    },
+  },
+  "right-0-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "right": 0,
+    },
+  },
+  "right-0-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "right": 0,
+    },
+  },
+  "right-1": Object {
+    "right": "1rem",
+  },
+  "right-1-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "right": "1rem",
+    },
+  },
+  "right-1-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "right": "1rem",
+    },
+  },
+  "right-1-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "right": "1rem",
+    },
+  },
+  "right-2": Object {
+    "right": "2rem",
+  },
+  "right-2-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "right": "2rem",
+    },
+  },
+  "right-2-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "right": "2rem",
+    },
+  },
+  "right-2-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "right": "2rem",
+    },
+  },
   "self-baseline": Object {
     "alignSelf": "baseline",
   },
@@ -5246,6 +5546,96 @@ Object {
   "striped--near-white": Object {
     ":nth-child(odd)": Object {
       "backgroundColor": "#f4f4f4",
+    },
+  },
+  "top--1": Object {
+    "top": "-1rem",
+  },
+  "top--1-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "top": "-1rem",
+    },
+  },
+  "top--1-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "top": "-1rem",
+    },
+  },
+  "top--1-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "top": "-1rem",
+    },
+  },
+  "top--2": Object {
+    "top": "-2rem",
+  },
+  "top--2-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "top": "-2rem",
+    },
+  },
+  "top--2-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "top": "-2rem",
+    },
+  },
+  "top--2-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "top": "-2rem",
+    },
+  },
+  "top-0": Object {
+    "top": 0,
+  },
+  "top-0-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "top": 0,
+    },
+  },
+  "top-0-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "top": 0,
+    },
+  },
+  "top-0-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "top": 0,
+    },
+  },
+  "top-1": Object {
+    "top": "1rem",
+  },
+  "top-1-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "top": "1rem",
+    },
+  },
+  "top-1-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "top": "1rem",
+    },
+  },
+  "top-1-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "top": "1rem",
+    },
+  },
+  "top-2": Object {
+    "top": "2rem",
+  },
+  "top-2-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "top": "2rem",
+    },
+  },
+  "top-2-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "top": "2rem",
+    },
+  },
+  "top-2-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "top": "2rem",
     },
   },
   "underline-hover": Object {
