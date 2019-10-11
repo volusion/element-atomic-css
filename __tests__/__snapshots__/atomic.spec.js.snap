@@ -5055,6 +5055,24 @@ Object {
       "fontWeight": "normal",
     },
   },
+  "nowrap": Object {
+    "whiteSpace": "nowrap",
+  },
+  "nowrap-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "whiteSpace": "nowrap",
+    },
+  },
+  "nowrap-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "whiteSpace": "nowrap",
+    },
+  },
+  "nowrap-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "whiteSpace": "nowrap",
+    },
+  },
   "o-0": Object {
     "opacity": 0,
   },
@@ -6308,6 +6326,24 @@ Object {
   "pr7-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "paddingRight": "16rem",
+    },
+  },
+  "pre": Object {
+    "whiteSpace": "pre",
+  },
+  "pre-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "whiteSpace": "pre",
+    },
+  },
+  "pre-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "whiteSpace": "pre",
+    },
+  },
+  "pre-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "whiteSpace": "pre",
     },
   },
   "pt0": Object {
@@ -7642,6 +7678,24 @@ Object {
   },
   "white-90": Object {
     "color": "rgba( 255, 255, 255, .9 )",
+  },
+  "ws-normal": Object {
+    "whiteSpace": "normal",
+  },
+  "ws-normal-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "whiteSpace": "normal",
+    },
+  },
+  "ws-normal-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "whiteSpace": "normal",
+    },
+  },
+  "ws-normal-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "whiteSpace": "normal",
+    },
   },
   "yellow": Object {
     "color": "#ffd700",
