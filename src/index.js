@@ -30,6 +30,7 @@ import lists from './properties/lists';
 import lineHeight from './properties/lineHeight';
 import letterSpacing from './properties/letterSpacing';
 import utilities from './properties/utilities';
+import overflow from './properties/overflow';
 
 export const aphroditeTachyons = {
     ...position,
@@ -63,5 +64,6 @@ export const aphroditeTachyons = {
     ...lists,
     ...lineHeight,
     ...letterSpacing,
-    ...utilities
+    ...utilities,
+    ...overflow
 };

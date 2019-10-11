@@ -5219,8 +5219,224 @@ Object {
       "order": 99999,
     },
   },
+  "overflow-auto": Object {
+    "overflow": "auto",
+  },
+  "overflow-auto-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "overflow": "auto",
+    },
+  },
+  "overflow-auto-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "overflow": "auto",
+    },
+  },
+  "overflow-auto-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "overflow": "auto",
+    },
+  },
   "overflow-container": Object {
     "overflowY": "scroll",
+  },
+  "overflow-hidden": Object {
+    "overflow": "hidden",
+  },
+  "overflow-hidden-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "overflow": "hidden",
+    },
+  },
+  "overflow-hidden-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "overflow": "hidden",
+    },
+  },
+  "overflow-hidden-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "overflow": "hidden",
+    },
+  },
+  "overflow-scroll": Object {
+    "overflow": "scroll",
+  },
+  "overflow-scroll-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "overflow": "scroll",
+    },
+  },
+  "overflow-scroll-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "overflow": "scroll",
+    },
+  },
+  "overflow-scroll-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "overflow": "scroll",
+    },
+  },
+  "overflow-visible": Object {
+    "overflow": "visible",
+  },
+  "overflow-visible-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "overflow": "visible",
+    },
+  },
+  "overflow-visible-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "overflow": "visible",
+    },
+  },
+  "overflow-visible-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "overflow": "visible",
+    },
+  },
+  "overflow-x-auto": Object {
+    "overflowX": "auto",
+  },
+  "overflow-x-auto-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "overflowX": "auto",
+    },
+  },
+  "overflow-x-auto-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "overflowX": "auto",
+    },
+  },
+  "overflow-x-auto-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "overflowX": "auto",
+    },
+  },
+  "overflow-x-hidden": Object {
+    "overflowX": "hidden",
+  },
+  "overflow-x-hidden-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "overflowX": "hidden",
+    },
+  },
+  "overflow-x-hidden-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "overflowX": "hidden",
+    },
+  },
+  "overflow-x-hidden-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "overflowX": "hidden",
+    },
+  },
+  "overflow-x-scroll": Object {
+    "overflowX": "scroll",
+  },
+  "overflow-x-scroll-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "overflowX": "scroll",
+    },
+  },
+  "overflow-x-scroll-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "overflowX": "scroll",
+    },
+  },
+  "overflow-x-scroll-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "overflowX": "scroll",
+    },
+  },
+  "overflow-x-visible": Object {
+    "overflowX": "visible",
+  },
+  "overflow-x-visible-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "overflowX": "visible",
+    },
+  },
+  "overflow-x-visible-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "overflowX": "visible",
+    },
+  },
+  "overflow-x-visible-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "overflowX": "visible",
+    },
+  },
+  "overflow-y-auto": Object {
+    "overflowY": "auto",
+  },
+  "overflow-y-auto-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "overflowY": "auto",
+    },
+  },
+  "overflow-y-auto-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "overflowY": "auto",
+    },
+  },
+  "overflow-y-auto-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "overflowY": "auto",
+    },
+  },
+  "overflow-y-hidden": Object {
+    "overflowY": "hidden",
+  },
+  "overflow-y-hidden-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "overflowY": "hidden",
+    },
+  },
+  "overflow-y-hidden-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "overflowY": "hidden",
+    },
+  },
+  "overflow-y-hidden-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "overflowY": "hidden",
+    },
+  },
+  "overflow-y-scroll": Object {
+    "overflowY": "scroll",
+  },
+  "overflow-y-scroll-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "overflowY": "scroll",
+    },
+  },
+  "overflow-y-scroll-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "overflowY": "scroll",
+    },
+  },
+  "overflow-y-scroll-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "overflowY": "scroll",
+    },
+  },
+  "overflow-y-visible": Object {
+    "overflowY": "visible",
+  },
+  "overflow-y-visible-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "overflowY": "visible",
+    },
+  },
+  "overflow-y-visible-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "overflowY": "visible",
+    },
+  },
+  "overflow-y-visible-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "overflowY": "visible",
+    },
   },
   "pa0": Object {
     "padding": 0,
