@@ -1,0 +1,3123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The atomic CSS object should match the snapshot 1`] = `
+Object {
+  "absolute": Object {
+    "position": "absolute",
+  },
+  "absolute-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "position": "absolute",
+    },
+  },
+  "absolute-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "position": "absolute",
+    },
+  },
+  "absolute-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "position": "absolute",
+    },
+  },
+  "bg-animate": Object {
+    ":focus": Object {
+      "transition": "background-color .15s ease-in-out",
+    },
+    ":hover": Object {
+      "transition": "background-color .15s ease-in-out",
+    },
+    "transition": "background-color .15s ease-in-out",
+  },
+  "bg-black": Object {
+    "backgroundColor": "#000",
+  },
+  "bg-black-05": Object {
+    "backgroundColor": "rgba( 0, 0, 0, .05 )",
+  },
+  "bg-black-10": Object {
+    "backgroundColor": "rgba( 0, 0, 0, .1 )",
+  },
+  "bg-black-20": Object {
+    "backgroundColor": "rgba( 0, 0, 0, .2 )",
+  },
+  "bg-black-30": Object {
+    "backgroundColor": "rgba( 0, 0, 0, .3 )",
+  },
+  "bg-black-40": Object {
+    "backgroundColor": "rgba( 0, 0, 0, .4 )",
+  },
+  "bg-black-50": Object {
+    "backgroundColor": "rgba( 0, 0, 0, .5 )",
+  },
+  "bg-black-60": Object {
+    "backgroundColor": "rgba( 0, 0, 0, .6 )",
+  },
+  "bg-black-70": Object {
+    "backgroundColor": "rgba( 0, 0, 0, .7 )",
+  },
+  "bg-black-80": Object {
+    "backgroundColor": "rgba( 0, 0, 0, .8 )",
+  },
+  "bg-black-90": Object {
+    "backgroundColor": "rgba( 0, 0, 0, .9 )",
+  },
+  "bg-blue": Object {
+    "backgroundColor": "#357edd",
+  },
+  "bg-bottom": Object {
+    "background-position": "bottom center",
+    "background-repeat": "no-repeat",
+  },
+  "bg-bottom-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "background-position": "bottom center",
+      "background-repeat": "no-repeat",
+    },
+  },
+  "bg-bottom-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "background-position": "bottom center",
+      "background-repeat": "no-repeat",
+    },
+  },
+  "bg-bottom-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "background-position": "bottom center",
+      "background-repeat": "no-repeat",
+    },
+  },
+  "bg-center": Object {
+    "background-position": "center center",
+    "background-repeat": "no-repeat",
+  },
+  "bg-center-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "background-position": "center center",
+      "background-repeat": "no-repeat",
+    },
+  },
+  "bg-center-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "background-position": "center center",
+      "background-repeat": "no-repeat",
+    },
+  },
+  "bg-center-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "background-position": "center center",
+      "background-repeat": "no-repeat",
+    },
+  },
+  "bg-dark-blue": Object {
+    "backgroundColor": "#00449e",
+  },
+  "bg-dark-gray": Object {
+    "backgroundColor": "#333",
+  },
+  "bg-dark-green": Object {
+    "backgroundColor": "#137752",
+  },
+  "bg-dark-pink": Object {
+    "backgroundColor": "#d5008f",
+  },
+  "bg-dark-red": Object {
+    "backgroundColor": "#e7040f",
+  },
+  "bg-gold": Object {
+    "backgroundColor": "#ffb700",
+  },
+  "bg-gray": Object {
+    "backgroundColor": "#777",
+  },
+  "bg-green": Object {
+    "backgroundColor": "#19a974",
+  },
+  "bg-hot-pink": Object {
+    "backgroundColor": "#ff41b4",
+  },
+  "bg-inherit": Object {
+    "backgroundColor": "inherit",
+  },
+  "bg-left": Object {
+    "background-position": "center left",
+    "background-repeat": "no-repeat",
+  },
+  "bg-left-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "background-position": "center left",
+      "background-repeat": "no-repeat",
+    },
+  },
+  "bg-left-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "background-position": "center left",
+      "background-repeat": "no-repeat",
+    },
+  },
+  "bg-left-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "background-position": "center left",
+      "background-repeat": "no-repeat",
+    },
+  },
+  "bg-light-blue": Object {
+    "backgroundColor": "#96ccff",
+  },
+  "bg-light-gray": Object {
+    "backgroundColor": "#eee",
+  },
+  "bg-light-green": Object {
+    "backgroundColor": "#9eebcf",
+  },
+  "bg-light-pink": Object {
+    "backgroundColor": "#ffa3d7",
+  },
+  "bg-light-purple": Object {
+    "backgroundColor": "#a463f2",
+  },
+  "bg-light-red": Object {
+    "backgroundColor": "#ff725c",
+  },
+  "bg-light-silver": Object {
+    "backgroundColor": "#aaa",
+  },
+  "bg-light-yellow": Object {
+    "backgroundColor": "#fbf1a9",
+  },
+  "bg-lightest-blue": Object {
+    "backgroundColor": "#cdecff",
+  },
+  "bg-mid-gray": Object {
+    "backgroundColor": "#555",
+  },
+  "bg-moon-gray": Object {
+    "backgroundColor": "#ccc",
+  },
+  "bg-navy": Object {
+    "backgroundColor": "#001b44",
+  },
+  "bg-near-black": Object {
+    "backgroundColor": "#111",
+  },
+  "bg-near-white": Object {
+    "backgroundColor": "#f4f4f4",
+  },
+  "bg-orange": Object {
+    "backgroundColor": "#ff6300",
+  },
+  "bg-pink": Object {
+    "backgroundColor": "#ff80cc",
+  },
+  "bg-purple": Object {
+    "backgroundColor": "#5e2ca5",
+  },
+  "bg-red": Object {
+    "backgroundColor": "#ff4136",
+  },
+  "bg-right": Object {
+    "background-position": "center right",
+    "background-repeat": "no-repeat",
+  },
+  "bg-right-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "background-position": "center right",
+      "background-repeat": "no-repeat",
+    },
+  },
+  "bg-right-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "background-position": "center right",
+      "background-repeat": "no-repeat",
+    },
+  },
+  "bg-right-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "background-position": "center right",
+      "background-repeat": "no-repeat",
+    },
+  },
+  "bg-silver": Object {
+    "backgroundColor": "#999",
+  },
+  "bg-top": Object {
+    "background-position": "top center",
+    "background-repeat": "no-repeat",
+  },
+  "bg-top-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "background-position": "top center",
+      "background-repeat": "no-repeat",
+    },
+  },
+  "bg-top-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "background-position": "top center",
+      "background-repeat": "no-repeat",
+    },
+  },
+  "bg-top-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "background-position": "top center",
+      "background-repeat": "no-repeat",
+    },
+  },
+  "bg-transparent": Object {
+    "backgroundColor": "transparent",
+  },
+  "bg-washed-blue": Object {
+    "backgroundColor": "#f6fffe",
+  },
+  "bg-washed-green": Object {
+    "backgroundColor": "#e8fdf5",
+  },
+  "bg-washed-red": Object {
+    "backgroundColor": "#ffdfdf",
+  },
+  "bg-washed-yellow": Object {
+    "backgroundColor": "#fffceb",
+  },
+  "bg-white": Object {
+    "backgroundColor": "#fff",
+  },
+  "bg-white-10": Object {
+    "backgroundColor": "rgba( 255, 255, 255, .1 )",
+  },
+  "bg-white-20": Object {
+    "backgroundColor": "rgba( 255, 255, 255, .2 )",
+  },
+  "bg-white-30": Object {
+    "backgroundColor": "rgba( 255, 255, 255, .3 )",
+  },
+  "bg-white-40": Object {
+    "backgroundColor": "rgba( 255, 255, 255, .4 )",
+  },
+  "bg-white-50": Object {
+    "backgroundColor": "rgba( 255, 255, 255, .5 )",
+  },
+  "bg-white-60": Object {
+    "backgroundColor": "rgba( 255, 255, 255, .6 )",
+  },
+  "bg-white-70": Object {
+    "backgroundColor": "rgba( 255, 255, 255, .7 )",
+  },
+  "bg-white-80": Object {
+    "backgroundColor": "rgba( 255, 255, 255, .8 )",
+  },
+  "bg-white-90": Object {
+    "backgroundColor": "rgba( 255, 255, 255, .9 )",
+  },
+  "bg-yellow": Object {
+    "backgroundColor": "#ffd700",
+  },
+  "black": Object {
+    "color": "#000",
+  },
+  "black-05": Object {
+    "color": "rgba( 0, 0, 0, .05 )",
+  },
+  "black-10": Object {
+    "color": "rgba( 0, 0, 0, .1 )",
+  },
+  "black-20": Object {
+    "color": "rgba( 0, 0, 0, .2 )",
+  },
+  "black-30": Object {
+    "color": "rgba( 0, 0, 0, .3 )",
+  },
+  "black-40": Object {
+    "color": "rgba( 0, 0, 0, .4 )",
+  },
+  "black-50": Object {
+    "color": "rgba( 0, 0, 0, .5 )",
+  },
+  "black-60": Object {
+    "color": "rgba( 0, 0, 0, .6 )",
+  },
+  "black-70": Object {
+    "color": "rgba( 0, 0, 0, .7 )",
+  },
+  "black-80": Object {
+    "color": "rgba( 0, 0, 0, .8 )",
+  },
+  "black-90": Object {
+    "color": "rgba( 0, 0, 0, .9 )",
+  },
+  "blue": Object {
+    "color": "#357edd",
+  },
+  "br--bottom": Object {
+    "border-top-left-radius": 0,
+    "border-top-right-radius": 0,
+  },
+  "br--bottom-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "border-top-left-radius": 0,
+      "border-top-right-radius": 0,
+    },
+  },
+  "br--bottom-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "border-top-left-radius": 0,
+      "border-top-right-radius": 0,
+    },
+  },
+  "br--bottom-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "border-top-left-radius": 0,
+      "border-top-right-radius": 0,
+    },
+  },
+  "br--left": Object {
+    "border-bottom-right-radius": 0,
+    "border-top-right-radius": 0,
+  },
+  "br--left-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "border-bottom-right-radius": 0,
+      "border-top-right-radius": 0,
+    },
+  },
+  "br--left-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "border-bottom-right-radius": 0,
+      "border-top-right-radius": 0,
+    },
+  },
+  "br--left-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "border-bottom-right-radius": 0,
+      "border-top-right-radius": 0,
+    },
+  },
+  "br--right": Object {
+    "border-bottom-left-radius": 0,
+    "border-top-left-radius": 0,
+  },
+  "br--right-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "border-bottom-left-radius": 0,
+      "border-top-left-radius": 0,
+    },
+  },
+  "br--right-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "border-bottom-left-radius": 0,
+      "border-top-left-radius": 0,
+    },
+  },
+  "br--right-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "border-bottom-left-radius": 0,
+      "border-top-left-radius": 0,
+    },
+  },
+  "br--top": Object {
+    "border-bottom-left-radius": 0,
+    "border-bottom-right-radius": 0,
+  },
+  "br--top-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "border-bottom-left-radius": 0,
+      "border-bottom-right-radius": 0,
+    },
+  },
+  "br--top-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "border-bottom-left-radius": 0,
+      "border-bottom-right-radius": 0,
+    },
+  },
+  "br--top-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "border-bottom-left-radius": 0,
+      "border-bottom-right-radius": 0,
+    },
+  },
+  "br-100": Object {
+    "border-radius": "100%",
+  },
+  "br-100-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "border-radius": "100%",
+    },
+  },
+  "br-100-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "border-radius": "100%",
+    },
+  },
+  "br-100-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "border-radius": "100%",
+    },
+  },
+  "br-pill": Object {
+    "border-radius": "9999px",
+  },
+  "br-pill-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "border-radius": "9999px",
+    },
+  },
+  "br-pill-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "border-radius": "9999px",
+    },
+  },
+  "br-pill-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "border-radius": "9999px",
+    },
+  },
+  "br0": Object {
+    "border-radius": 0,
+  },
+  "br0-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "border-radius": 0,
+    },
+  },
+  "br0-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "border-radius": 0,
+    },
+  },
+  "br0-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "border-radius": 0,
+    },
+  },
+  "br1": Object {
+    "border-radius": ".125rem",
+  },
+  "br1-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "border-radius": ".125rem",
+    },
+  },
+  "br1-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "border-radius": ".125rem",
+    },
+  },
+  "br1-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "border-radius": ".125rem",
+    },
+  },
+  "br2": Object {
+    "border-radius": ".25rem",
+  },
+  "br2-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "border-radius": ".25rem",
+    },
+  },
+  "br2-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "border-radius": ".25rem",
+    },
+  },
+  "br2-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "border-radius": ".25rem",
+    },
+  },
+  "br3": Object {
+    "border-radius": ".5rem",
+  },
+  "br3-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "border-radius": ".5rem",
+    },
+  },
+  "br3-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "border-radius": ".5rem",
+    },
+  },
+  "br3-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "border-radius": ".5rem",
+    },
+  },
+  "br4": Object {
+    "border-radius": "1rem",
+  },
+  "br4-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "border-radius": "1rem",
+    },
+  },
+  "br4-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "border-radius": "1rem",
+    },
+  },
+  "br4-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "border-radius": "1rem",
+    },
+  },
+  "button-reset": Object {
+    "::-moz-focus-inner": Object {
+      "border": 0,
+      "padding": 0,
+    },
+  },
+  "collapse": Object {
+    "borderCollapse": "collapse",
+    "borderSpacing": 0,
+  },
+  "color-inherit": Object {
+    "color": "inherit",
+  },
+  "contain": Object {
+    "background-size": "contain",
+  },
+  "contain-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "background-size": "contain",
+    },
+  },
+  "contain-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "background-size": "contain",
+    },
+  },
+  "contain-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "background-size": "contain",
+    },
+  },
+  "content-around": Object {
+    "alignContent": "space-around",
+  },
+  "content-around-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "alignContent": "space-around",
+    },
+  },
+  "content-around-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "alignContent": "space-around",
+    },
+  },
+  "content-around-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "alignContent": "space-around",
+    },
+  },
+  "content-between": Object {
+    "alignContent": "space-between",
+  },
+  "content-between-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "alignContent": "space-between",
+    },
+  },
+  "content-between-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "alignContent": "space-between",
+    },
+  },
+  "content-between-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "alignContent": "space-between",
+    },
+  },
+  "content-center": Object {
+    "alignContent": "center",
+  },
+  "content-center-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "alignContent": "center",
+    },
+  },
+  "content-center-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "alignContent": "center",
+    },
+  },
+  "content-center-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "alignContent": "center",
+    },
+  },
+  "content-end": Object {
+    "alignContent": "flex-end",
+  },
+  "content-end-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "alignContent": "flex-end",
+    },
+  },
+  "content-end-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "alignContent": "flex-end",
+    },
+  },
+  "content-end-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "alignContent": "flex-end",
+    },
+  },
+  "content-start": Object {
+    "alignContent": "flex-start",
+  },
+  "content-start-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "alignContent": "flex-start",
+    },
+  },
+  "content-start-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "alignContent": "flex-start",
+    },
+  },
+  "content-start-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "alignContent": "flex-start",
+    },
+  },
+  "content-stretch": Object {
+    "alignContent": "stretch",
+  },
+  "content-stretch-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "alignContent": "stretch",
+    },
+  },
+  "content-stretch-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "alignContent": "stretch",
+    },
+  },
+  "content-stretch-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "alignContent": "stretch",
+    },
+  },
+  "cover": Object {
+    "background-size": "cover",
+  },
+  "cover-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "background-size": "cover",
+    },
+  },
+  "cover-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "background-size": "cover",
+    },
+  },
+  "cover-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "background-size": "cover",
+    },
+  },
+  "dark-blue": Object {
+    "color": "#00449e",
+  },
+  "dark-gray": Object {
+    "color": "#333",
+  },
+  "dark-green": Object {
+    "color": "#137752",
+  },
+  "dark-pink": Object {
+    "color": "#d5008f",
+  },
+  "dark-red": Object {
+    "color": "#e7040f",
+  },
+  "db": Object {
+    "display": "block",
+  },
+  "db-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "display": "block",
+    },
+  },
+  "db-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "display": "block",
+    },
+  },
+  "db-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "display": "block",
+    },
+  },
+  "debug-grid": Object {
+    "background": "transparent url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTRDOTY4N0U2N0VFMTFFNjg2MzZDQjkwNkQ4MjgwMEIiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MTRDOTY4N0Q2N0VFMTFFNjg2MzZDQjkwNkQ4MjgwMEIiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3NjcyQkQ3NjY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3NjcyQkQ3NzY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsBS+GMAAAAjSURBVHjaYvz//z8DLsD4gcGXiYEAGBIKGBne//fFpwAgwAB98AaF2pjlUQAAAABJRU5ErkJggg== ) repeat top left",
+  },
+  "debug-grid-16": Object {
+    "background": "transparent url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6ODYyRjhERDU2N0YyMTFFNjg2MzZDQjkwNkQ4MjgwMEIiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6ODYyRjhERDQ2N0YyMTFFNjg2MzZDQjkwNkQ4MjgwMEIiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3NjcyQkQ3QTY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3NjcyQkQ3QjY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PvCS01IAAABMSURBVHjaYmR4/5+BFPBfAMFm/MBgx8RAGWCn1AAmSg34Q6kBDKMGMDCwICeMIemF/5QawEipAWwUhwEjMDvbAWlWkvVBwu8vQIABAEwBCph8U6c0AAAAAElFTkSuQmCC ) repeat top left",
+  },
+  "debug-grid-16-solid": Object {
+    "background": "white url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NzY3MkJEN0U2N0M1MTFFNkIyQkNFMjQwODEwMDIxNzEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NzY3MkJEN0Y2N0M1MTFFNkIyQkNFMjQwODEwMDIxNzEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3NjcyQkQ3QzY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3NjcyQkQ3RDY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pve6J3kAAAAzSURBVHjaYvz//z8D0UDsMwMjSRoYP5Gq4SPNbRjVMEQ1fCRDg+in/6+J1AJUxsgAEGAA31BAJMS0GYEAAAAASUVORK5CYII= ) repeat top left",
+  },
+  "debug-grid-8-solid": Object {
+    "background": "white url( data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAAAAAD/4QMxaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjYtYzExMSA3OS4xNTgzMjUsIDIwMTUvMDkvMTAtMDE6MTA6MjAgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE1IChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkIxMjI0OTczNjdCMzExRTZCMkJDRTI0MDgxMDAyMTcxIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkIxMjI0OTc0NjdCMzExRTZCMkJDRTI0MDgxMDAyMTcxIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QjEyMjQ5NzE2N0IzMTFFNkIyQkNFMjQwODEwMDIxNzEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QjEyMjQ5NzI2N0IzMTFFNkIyQkNFMjQwODEwMDIxNzEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7/7gAOQWRvYmUAZMAAAAAB/9sAhAAbGhopHSlBJiZBQi8vL0JHPz4+P0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHAR0pKTQmND8oKD9HPzU/R0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0f/wAARCAAIAAgDASIAAhEBAxEB/8QAWQABAQAAAAAAAAAAAAAAAAAAAAYBAQEAAAAAAAAAAAAAAAAAAAIEEAEBAAMBAAAAAAAAAAAAAAABADECA0ERAAEDBQAAAAAAAAAAAAAAAAARITFBUWESIv/aAAwDAQACEQMRAD8AoOnTV1QTD7JJshP3vSM3P//Z ) repeat top left",
+  },
+  "di": Object {
+    "display": "inline",
+  },
+  "di-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "display": "inline",
+    },
+  },
+  "di-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "display": "inline",
+    },
+  },
+  "di-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "display": "inline",
+    },
+  },
+  "dib": Object {
+    "display": "inline-block",
+  },
+  "dib-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "display": "inline-block",
+    },
+  },
+  "dib-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "display": "inline-block",
+    },
+  },
+  "dib-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "display": "inline-block",
+    },
+  },
+  "dim": Object {
+    ":active": Object {
+      "opacity": 0.8,
+      "transition": "opacity .15s ease-out",
+    },
+    ":focus": Object {
+      "opacity": 0.5,
+      "transition": "opacity .15s ease-in",
+    },
+    ":hover": Object {
+      "opacity": 0.5,
+      "transition": "opacity .15s ease-in",
+    },
+    "opacity": 1,
+    "transition": "opacity .15s ease-in",
+  },
+  "dit": Object {
+    "display": "inline-table",
+  },
+  "dit-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "display": "inline-table",
+    },
+  },
+  "dit-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "display": "inline-table",
+    },
+  },
+  "dit-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "display": "inline-table",
+    },
+  },
+  "dn": Object {
+    "display": "none",
+  },
+  "dn-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "display": "none",
+    },
+  },
+  "dn-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "display": "none",
+    },
+  },
+  "dn-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "display": "none",
+    },
+  },
+  "dt": Object {
+    "display": "table",
+  },
+  "dt--fixed": Object {
+    "display": "fixed",
+    "width": "100%",
+  },
+  "dt--fixed-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "display": "fixed",
+      "width": "100%",
+    },
+  },
+  "dt--fixed-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "display": "fixed",
+      "width": "100%",
+    },
+  },
+  "dt--fixed-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "display": "fixed",
+      "width": "100%",
+    },
+  },
+  "dt-column": Object {
+    "display": "table-column",
+  },
+  "dt-column-group": Object {
+    "display": "table-column-group",
+  },
+  "dt-column-group-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "display": "table-column-group",
+    },
+  },
+  "dt-column-group-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "display": "table-column-group",
+    },
+  },
+  "dt-column-group-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "display": "table-column-group",
+    },
+  },
+  "dt-column-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "display": "table-column",
+    },
+  },
+  "dt-column-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "display": "table-column",
+    },
+  },
+  "dt-column-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "display": "table-column",
+    },
+  },
+  "dt-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "display": "table",
+    },
+  },
+  "dt-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "display": "table",
+    },
+  },
+  "dt-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "display": "table",
+    },
+  },
+  "dt-row": Object {
+    "display": "table-row",
+  },
+  "dt-row-group": Object {
+    "display": "table-row-group",
+  },
+  "dt-row-group-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "display": "table-row-group",
+    },
+  },
+  "dt-row-group-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "display": "table-row-group",
+    },
+  },
+  "dt-row-group-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "display": "table-row-group",
+    },
+  },
+  "dt-row-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "display": "table-row",
+    },
+  },
+  "dt-row-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "display": "table-row",
+    },
+  },
+  "dt-row-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "display": "table-row",
+    },
+  },
+  "dtc": Object {
+    "display": "table-cell",
+  },
+  "dtc-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "display": "table-cell",
+    },
+  },
+  "dtc-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "display": "table-cell",
+    },
+  },
+  "dtc-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "display": "table-cell",
+    },
+  },
+  "fixed": Object {
+    "position": "fixed",
+  },
+  "fixed-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "position": "fixed",
+    },
+  },
+  "fixed-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "position": "fixed",
+    },
+  },
+  "fixed-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "position": "fixed",
+    },
+  },
+  "flex": Object {
+    "display": "flex",
+  },
+  "flex-auto": Object {
+    "flex": "1 1 auto",
+    "minHeight": 0,
+    "minWidth": 0,
+  },
+  "flex-auto-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "flex": "1 1 auto",
+      "minHeight": 0,
+      "minWidth": 0,
+    },
+  },
+  "flex-auto-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "flex": "1 1 auto",
+      "minHeight": 0,
+      "minWidth": 0,
+    },
+  },
+  "flex-auto-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "flex": "1 1 auto",
+      "minHeight": 0,
+      "minWidth": 0,
+    },
+  },
+  "flex-column": Object {
+    "flexDirection": "column",
+  },
+  "flex-column-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "flexDirection": "column",
+    },
+  },
+  "flex-column-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "flexDirection": "column",
+    },
+  },
+  "flex-column-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "flexDirection": "column",
+    },
+  },
+  "flex-column-reverse": Object {
+    "flexDirection": "column-reverse",
+  },
+  "flex-column-reverse-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "flexDirection": "column-reverse",
+    },
+  },
+  "flex-column-reverse-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "flexDirection": "column-reverse",
+    },
+  },
+  "flex-column-reverse-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "flexDirection": "column-reverse",
+    },
+  },
+  "flex-grow-0": Object {
+    "flexGrow": 0,
+  },
+  "flex-grow-0-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "flexGrow": 0,
+    },
+  },
+  "flex-grow-0-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "flexGrow": 0,
+    },
+  },
+  "flex-grow-0-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "flexGrow": 0,
+    },
+  },
+  "flex-grow-1": Object {
+    "flexGrow": 1,
+  },
+  "flex-grow-1-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "flexGrow": 1,
+    },
+  },
+  "flex-grow-1-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "flexGrow": 1,
+    },
+  },
+  "flex-grow-1-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "flexGrow": 1,
+    },
+  },
+  "flex-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "display": "flex",
+    },
+  },
+  "flex-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "display": "flex",
+    },
+  },
+  "flex-none": Object {
+    "flex": "none",
+  },
+  "flex-none-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "flex": "none",
+    },
+  },
+  "flex-none-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "flex": "none",
+    },
+  },
+  "flex-none-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "flex": "none",
+    },
+  },
+  "flex-nowrap": Object {
+    "flexWrap": "nowrap",
+  },
+  "flex-nowrap-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "flexWrap": "nowrap",
+    },
+  },
+  "flex-nowrap-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "flexWrap": "nowrap",
+    },
+  },
+  "flex-nowrap-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "flexWrap": "nowrap",
+    },
+  },
+  "flex-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "display": "flex",
+    },
+  },
+  "flex-row": Object {
+    "flexDirection": "row",
+  },
+  "flex-row-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "flexDirection": "row",
+    },
+  },
+  "flex-row-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "flexDirection": "row",
+    },
+  },
+  "flex-row-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "flexDirection": "row",
+    },
+  },
+  "flex-row-reverse": Object {
+    "flexDirection": "row-reverse",
+  },
+  "flex-row-reverse-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "flexDirection": "row-reverse",
+    },
+  },
+  "flex-row-reverse-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "flexDirection": "row-reverse",
+    },
+  },
+  "flex-row-reverse-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "flexDirection": "row-reverse",
+    },
+  },
+  "flex-shrink-0": Object {
+    "flexShrink": 0,
+  },
+  "flex-shrink-0-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "flexShrink": 0,
+    },
+  },
+  "flex-shrink-0-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "flexShrink": 0,
+    },
+  },
+  "flex-shrink-0-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "flexShrink": 0,
+    },
+  },
+  "flex-shrink-1": Object {
+    "flexShrink": 1,
+  },
+  "flex-shrink-1-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "flexShrink": 1,
+    },
+  },
+  "flex-shrink-1-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "flexShrink": 1,
+    },
+  },
+  "flex-shrink-1-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "flexShrink": 1,
+    },
+  },
+  "flex-wrap": Object {
+    "flexWrap": "wrap",
+  },
+  "flex-wrap-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "flexWrap": "wrap",
+    },
+  },
+  "flex-wrap-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "flexWrap": "wrap",
+    },
+  },
+  "flex-wrap-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "flexWrap": "wrap",
+    },
+  },
+  "flex-wrap-reverse": Object {
+    "flexWrap": "wrap-reverse",
+  },
+  "flex-wrap-reverse-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "flexWrap": "wrap-reverse",
+    },
+  },
+  "flex-wrap-reverse-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "flexWrap": "wrap-reverse",
+    },
+  },
+  "flex-wrap-reverse-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "flexWrap": "wrap-reverse",
+    },
+  },
+  "gold": Object {
+    "color": "#ffb700",
+  },
+  "gray": Object {
+    "color": "#777",
+  },
+  "green": Object {
+    "color": "#19a974",
+  },
+  "grow": Object {
+    "-moz-osx-font-smoothing": "grayscale",
+    ":active": Object {
+      "transform": "scale(0.9)",
+    },
+    ":focus": Object {
+      "transform": "scale(1.05)",
+    },
+    ":hover": Object {
+      "transform": "scale(1.05)",
+    },
+    "transform": "translateZ(0)",
+    "transition": "transform .25s ease-out",
+  },
+  "grow-large": Object {
+    "-moz-osx-font-smoothing": "grayscale",
+    ":active": Object {
+      "transform": "scale(0.95)",
+    },
+    ":focus": Object {
+      "transform": "scale(1.2)",
+    },
+    ":hover": Object {
+      "transform": "scale(1.2)",
+    },
+    "transform": "translateZ(0)",
+    "transition": "transform .25s ease-out",
+  },
+  "hide-child": Object {
+    ":active": Object {
+      "child": Object {
+        "opacity": 1,
+        "transition": "opacity .15s ease-in",
+      },
+    },
+    ":focus": Object {
+      "child": Object {
+        "opacity": 1,
+        "transition": "opacity .15s ease-in",
+      },
+    },
+    ":hover": Object {
+      "child": Object {
+        "opacity": 1,
+        "transition": "opacity .15s ease-in",
+      },
+    },
+    "child": Object {
+      "opacity": 0,
+      "transition": "opacity .15s ease-in",
+    },
+  },
+  "hot-pink": Object {
+    "color": "#ff41b4",
+  },
+  "hover-bg-black": Object {
+    ":focus": Object {
+      "backgroundColor": "#000",
+    },
+    ":hover": Object {
+      "backgroundColor": "#000",
+    },
+  },
+  "hover-bg-blue": Object {
+    ":focus": Object {
+      "backgroundColor": "#357edd",
+    },
+    ":hover": Object {
+      "backgroundColor": "#357edd",
+    },
+  },
+  "hover-bg-dark-blue": Object {
+    ":focus": Object {
+      "backgroundColor": "#00449e",
+    },
+    ":hover": Object {
+      "backgroundColor": "#00449e",
+    },
+  },
+  "hover-bg-dark-gray": Object {
+    ":focus": Object {
+      "backgroundColor": "#333",
+    },
+    ":hover": Object {
+      "backgroundColor": "#333",
+    },
+  },
+  "hover-bg-dark-green": Object {
+    ":focus": Object {
+      "backgroundColor": "#137752",
+    },
+    ":hover": Object {
+      "backgroundColor": "#137752",
+    },
+  },
+  "hover-bg-dark-pink": Object {
+    ":focus": Object {
+      "backgroundColor": "#d5008f",
+    },
+    ":hover": Object {
+      "backgroundColor": "#d5008f",
+    },
+  },
+  "hover-bg-dark-red": Object {
+    ":focus": Object {
+      "backgroundColor": "#e7040f",
+    },
+    ":hover": Object {
+      "backgroundColor": "#e7040f",
+    },
+  },
+  "hover-bg-gold": Object {
+    ":focus": Object {
+      "backgroundColor": "#ffb700",
+    },
+    ":hover": Object {
+      "backgroundColor": "#ffb700",
+    },
+  },
+  "hover-bg-gray": Object {
+    ":focus": Object {
+      "backgroundColor": "#777",
+    },
+    ":hover": Object {
+      "backgroundColor": "#777",
+    },
+  },
+  "hover-bg-green": Object {
+    ":focus": Object {
+      "backgroundColor": "#19a974",
+    },
+    ":hover": Object {
+      "backgroundColor": "#19a974",
+    },
+  },
+  "hover-bg-hot-pink": Object {
+    ":focus": Object {
+      "backgroundColor": "#ff41b4",
+    },
+    ":hover": Object {
+      "backgroundColor": "#ff41b4",
+    },
+  },
+  "hover-bg-light-blue": Object {
+    ":focus": Object {
+      "backgroundColor": "#96ccff",
+    },
+    ":hover": Object {
+      "backgroundColor": "#96ccff",
+    },
+  },
+  "hover-bg-light-gray": Object {
+    ":focus": Object {
+      "backgroundColor": "#eee",
+    },
+    ":hover": Object {
+      "backgroundColor": "#eee",
+    },
+  },
+  "hover-bg-light-green": Object {
+    ":focus": Object {
+      "backgroundColor": "#9eebcf",
+    },
+    ":hover": Object {
+      "backgroundColor": "#9eebcf",
+    },
+  },
+  "hover-bg-light-pink": Object {
+    ":focus": Object {
+      "backgroundColor": "#ffa3d7",
+    },
+    ":hover": Object {
+      "backgroundColor": "#ffa3d7",
+    },
+  },
+  "hover-bg-light-purple": Object {
+    ":focus": Object {
+      "backgroundColor": "#a463f2",
+    },
+    ":hover": Object {
+      "backgroundColor": "#a463f2",
+    },
+  },
+  "hover-bg-light-red": Object {
+    ":focus": Object {
+      "backgroundColor": "#ff725c",
+    },
+    ":hover": Object {
+      "backgroundColor": "#ff725c",
+    },
+  },
+  "hover-bg-light-silver": Object {
+    ":focus": Object {
+      "backgroundColor": "#aaa",
+    },
+    ":hover": Object {
+      "backgroundColor": "#aaa",
+    },
+  },
+  "hover-bg-light-yellow": Object {
+    ":focus": Object {
+      "backgroundColor": "#fbf1a9",
+    },
+    ":hover": Object {
+      "backgroundColor": "#fbf1a9",
+    },
+  },
+  "hover-bg-lightest-blue": Object {
+    ":focus": Object {
+      "backgroundColor": "#cdecff",
+    },
+    ":hover": Object {
+      "backgroundColor": "#cdecff",
+    },
+  },
+  "hover-bg-mid-gray": Object {
+    ":focus": Object {
+      "backgroundColor": "#555",
+    },
+    ":hover": Object {
+      "backgroundColor": "#555",
+    },
+  },
+  "hover-bg-moon-gray": Object {
+    ":focus": Object {
+      "backgroundColor": "#ccc",
+    },
+    ":hover": Object {
+      "backgroundColor": "#ccc",
+    },
+  },
+  "hover-bg-navy": Object {
+    ":focus": Object {
+      "backgroundColor": "#001b44",
+    },
+    ":hover": Object {
+      "backgroundColor": "#001b44",
+    },
+  },
+  "hover-bg-near-black": Object {
+    ":focus": Object {
+      "backgroundColor": "#111",
+    },
+    ":hover": Object {
+      "backgroundColor": "#111",
+    },
+  },
+  "hover-bg-near-white": Object {
+    ":focus": Object {
+      "backgroundColor": "#f4f4f4",
+    },
+    ":hover": Object {
+      "backgroundColor": "#f4f4f4",
+    },
+  },
+  "hover-bg-orange": Object {
+    ":focus": Object {
+      "backgroundColor": "#ff6300",
+    },
+    ":hover": Object {
+      "backgroundColor": "#ff6300",
+    },
+  },
+  "hover-bg-pink": Object {
+    ":focus": Object {
+      "backgroundColor": "#ff80cc",
+    },
+    ":hover": Object {
+      "backgroundColor": "#ff80cc",
+    },
+  },
+  "hover-bg-purple": Object {
+    ":focus": Object {
+      "backgroundColor": "#5e2ca5",
+    },
+    ":hover": Object {
+      "backgroundColor": "#5e2ca5",
+    },
+  },
+  "hover-bg-red": Object {
+    ":focus": Object {
+      "backgroundColor": "#ff4136",
+    },
+    ":hover": Object {
+      "backgroundColor": "#ff4136",
+    },
+  },
+  "hover-bg-silver": Object {
+    ":focus": Object {
+      "backgroundColor": "#999",
+    },
+    ":hover": Object {
+      "backgroundColor": "#999",
+    },
+  },
+  "hover-bg-transparent": Object {
+    ":focus": Object {
+      "backgroundColor": "transparent",
+    },
+    ":hover": Object {
+      "backgroundColor": "transparent",
+    },
+  },
+  "hover-bg-washed-blue": Object {
+    ":focus": Object {
+      "backgroundColor": "#f6fffe",
+    },
+    ":hover": Object {
+      "backgroundColor": "#f6fffe",
+    },
+  },
+  "hover-bg-washed-green": Object {
+    ":focus": Object {
+      "backgroundColor": "#e8fdf5",
+    },
+    ":hover": Object {
+      "backgroundColor": "#e8fdf5",
+    },
+  },
+  "hover-bg-washed-red": Object {
+    ":focus": Object {
+      "backgroundColor": "#ffdfdf",
+    },
+    ":hover": Object {
+      "backgroundColor": "#ffdfdf",
+    },
+  },
+  "hover-bg-washed-yellow": Object {
+    ":focus": Object {
+      "backgroundColor": "#fffceb",
+    },
+    ":hover": Object {
+      "backgroundColor": "#fffceb",
+    },
+  },
+  "hover-bg-white": Object {
+    ":focus": Object {
+      "backgroundColor": "#fff",
+    },
+    ":hover": Object {
+      "backgroundColor": "#fff",
+    },
+  },
+  "hover-bg-yellow": Object {
+    ":focus": Object {
+      "backgroundColor": "#ffd700",
+    },
+    ":hover": Object {
+      "backgroundColor": "#ffd700",
+    },
+  },
+  "hover-black": Object {
+    ":focus": Object {
+      "color": "#000",
+    },
+    ":hover": Object {
+      "color": "#000",
+    },
+  },
+  "hover-blue": Object {
+    ":focus": Object {
+      "color": "#357edd",
+    },
+    ":hover": Object {
+      "color": "#357edd",
+    },
+  },
+  "hover-dark-blue": Object {
+    ":focus": Object {
+      "color": "#00449e",
+    },
+    ":hover": Object {
+      "color": "#00449e",
+    },
+  },
+  "hover-dark-gray": Object {
+    ":focus": Object {
+      "color": "#333",
+    },
+    ":hover": Object {
+      "color": "#333",
+    },
+  },
+  "hover-dark-green": Object {
+    ":focus": Object {
+      "color": "#137752",
+    },
+    ":hover": Object {
+      "color": "#137752",
+    },
+  },
+  "hover-dark-pink": Object {
+    ":focus": Object {
+      "color": "#d5008f",
+    },
+    ":hover": Object {
+      "color": "#d5008f",
+    },
+  },
+  "hover-dark-red": Object {
+    ":focus": Object {
+      "color": "#e7040f",
+    },
+    ":hover": Object {
+      "color": "#e7040f",
+    },
+  },
+  "hover-gold": Object {
+    ":focus": Object {
+      "color": "#ffb700",
+    },
+    ":hover": Object {
+      "color": "#ffb700",
+    },
+  },
+  "hover-gray": Object {
+    ":focus": Object {
+      "color": "#777",
+    },
+    ":hover": Object {
+      "color": "#777",
+    },
+  },
+  "hover-green": Object {
+    ":focus": Object {
+      "color": "#19a974",
+    },
+    ":hover": Object {
+      "color": "#19a974",
+    },
+  },
+  "hover-hot-pink": Object {
+    ":focus": Object {
+      "color": "#ff41b4",
+    },
+    ":hover": Object {
+      "color": "#ff41b4",
+    },
+  },
+  "hover-light-blue": Object {
+    ":focus": Object {
+      "color": "#96ccff",
+    },
+    ":hover": Object {
+      "color": "#96ccff",
+    },
+  },
+  "hover-light-gray": Object {
+    ":focus": Object {
+      "color": "#eee",
+    },
+    ":hover": Object {
+      "color": "#eee",
+    },
+  },
+  "hover-light-green": Object {
+    ":focus": Object {
+      "color": "#9eebcf",
+    },
+    ":hover": Object {
+      "color": "#9eebcf",
+    },
+  },
+  "hover-light-pink": Object {
+    ":focus": Object {
+      "color": "#ffa3d7",
+    },
+    ":hover": Object {
+      "color": "#ffa3d7",
+    },
+  },
+  "hover-light-purple": Object {
+    ":focus": Object {
+      "color": "#a463f2",
+    },
+    ":hover": Object {
+      "color": "#a463f2",
+    },
+  },
+  "hover-light-red": Object {
+    ":focus": Object {
+      "color": "#ff725c",
+    },
+    ":hover": Object {
+      "color": "#ff725c",
+    },
+  },
+  "hover-light-silver": Object {
+    ":focus": Object {
+      "color": "#aaa",
+    },
+    ":hover": Object {
+      "color": "#aaa",
+    },
+  },
+  "hover-light-yellow": Object {
+    ":focus": Object {
+      "color": "#fbf1a9",
+    },
+    ":hover": Object {
+      "color": "#fbf1a9",
+    },
+  },
+  "hover-lightest-blue": Object {
+    ":focus": Object {
+      "color": "#cdecff",
+    },
+    ":hover": Object {
+      "color": "#cdecff",
+    },
+  },
+  "hover-mid-gray": Object {
+    ":focus": Object {
+      "color": "#555",
+    },
+    ":hover": Object {
+      "color": "#555",
+    },
+  },
+  "hover-moon-gray": Object {
+    ":focus": Object {
+      "color": "#ccc",
+    },
+    ":hover": Object {
+      "color": "#ccc",
+    },
+  },
+  "hover-navy": Object {
+    ":focus": Object {
+      "color": "#001b44",
+    },
+    ":hover": Object {
+      "color": "#001b44",
+    },
+  },
+  "hover-near-black": Object {
+    ":focus": Object {
+      "color": "#111",
+    },
+    ":hover": Object {
+      "color": "#111",
+    },
+  },
+  "hover-near-white": Object {
+    ":focus": Object {
+      "color": "#f4f4f4",
+    },
+    ":hover": Object {
+      "color": "#f4f4f4",
+    },
+  },
+  "hover-orange": Object {
+    ":focus": Object {
+      "color": "#ff6300",
+    },
+    ":hover": Object {
+      "color": "#ff6300",
+    },
+  },
+  "hover-pink": Object {
+    ":focus": Object {
+      "color": "#ff80cc",
+    },
+    ":hover": Object {
+      "color": "#ff80cc",
+    },
+  },
+  "hover-purple": Object {
+    ":focus": Object {
+      "color": "#5e2ca5",
+    },
+    ":hover": Object {
+      "color": "#5e2ca5",
+    },
+  },
+  "hover-red": Object {
+    ":focus": Object {
+      "color": "#ff4136",
+    },
+    ":hover": Object {
+      "color": "#ff4136",
+    },
+  },
+  "hover-silver": Object {
+    ":focus": Object {
+      "color": "#999",
+    },
+    ":hover": Object {
+      "color": "#999",
+    },
+  },
+  "hover-washed-blue": Object {
+    ":focus": Object {
+      "color": "#f6fffe",
+    },
+    ":hover": Object {
+      "color": "#f6fffe",
+    },
+  },
+  "hover-washed-green": Object {
+    ":focus": Object {
+      "color": "#e8fdf5",
+    },
+    ":hover": Object {
+      "color": "#e8fdf5",
+    },
+  },
+  "hover-washed-red": Object {
+    ":focus": Object {
+      "color": "#ffdfdf",
+    },
+    ":hover": Object {
+      "color": "#ffdfdf",
+    },
+  },
+  "hover-washed-yellow": Object {
+    ":focus": Object {
+      "color": "#fffceb",
+    },
+    ":hover": Object {
+      "color": "#fffceb",
+    },
+  },
+  "hover-white": Object {
+    ":focus": Object {
+      "color": "#fff",
+    },
+    ":hover": Object {
+      "color": "#fff",
+    },
+  },
+  "hover-yellow": Object {
+    ":focus": Object {
+      "color": "#ffd700",
+    },
+    ":hover": Object {
+      "color": "#ffd700",
+    },
+  },
+  "inline-flex": Object {
+    "display": "inline-flex",
+  },
+  "inline-flex-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "display": "inline-flex",
+    },
+  },
+  "inline-flex-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "display": "inline-flex",
+    },
+  },
+  "inline-flex-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "display": "inline-flex",
+    },
+  },
+  "input-reset": Object {
+    "-moz-appearance": "none",
+    "-webkit-appearance": "none",
+    "::-moz-focus-inner": Object {
+      "border": 0,
+      "padding": 0,
+    },
+  },
+  "items-baseline": Object {
+    "alignItems": "baseline",
+  },
+  "items-baseline-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "alignItems": "baseline",
+    },
+  },
+  "items-baseline-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "alignItems": "baseline",
+    },
+  },
+  "items-baseline-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "alignItems": "baseline",
+    },
+  },
+  "items-center": Object {
+    "alignItems": "center",
+  },
+  "items-center-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "alignItems": "center",
+    },
+  },
+  "items-center-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "alignItems": "center",
+    },
+  },
+  "items-center-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "alignItems": "center",
+    },
+  },
+  "items-end": Object {
+    "alignItems": "flex-end",
+  },
+  "items-end-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "alignItems": "flex-end",
+    },
+  },
+  "items-end-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "alignItems": "flex-end",
+    },
+  },
+  "items-end-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "alignItems": "flex-end",
+    },
+  },
+  "items-start": Object {
+    "alignItems": "flex-start",
+  },
+  "items-start-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "alignItems": "flex-start",
+    },
+  },
+  "items-start-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "alignItems": "flex-start",
+    },
+  },
+  "items-start-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "alignItems": "flex-start",
+    },
+  },
+  "items-stretch": Object {
+    "alignItems": "stretch",
+  },
+  "items-stretch-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "alignItems": "stretch",
+    },
+  },
+  "items-stretch-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "alignItems": "stretch",
+    },
+  },
+  "items-stretch-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "alignItems": "stretch",
+    },
+  },
+  "justify-around": Object {
+    "justifyContent": "space-around",
+  },
+  "justify-around-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "justifyContent": "space-around",
+    },
+  },
+  "justify-around-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "justifyContent": "space-around",
+    },
+  },
+  "justify-around-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "justifyContent": "space-around",
+    },
+  },
+  "justify-between": Object {
+    "justifyContent": "space-between",
+  },
+  "justify-between-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "justifyContent": "space-between",
+    },
+  },
+  "justify-between-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "justifyContent": "space-between",
+    },
+  },
+  "justify-between-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "justifyContent": "space-between",
+    },
+  },
+  "justify-center": Object {
+    "justifyContent": "center",
+  },
+  "justify-center-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "justifyContent": "center",
+    },
+  },
+  "justify-center-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "justifyContent": "center",
+    },
+  },
+  "justify-center-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "justifyContent": "center",
+    },
+  },
+  "justify-end": Object {
+    "justifyContent": "flex-end",
+  },
+  "justify-end-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "justifyContent": "flex-end",
+    },
+  },
+  "justify-end-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "justifyContent": "flex-end",
+    },
+  },
+  "justify-end-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "justifyContent": "flex-end",
+    },
+  },
+  "justify-start": Object {
+    "justifyContent": "flex-start",
+  },
+  "justify-start-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "justifyContent": "flex-start",
+    },
+  },
+  "justify-start-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "justifyContent": "flex-start",
+    },
+  },
+  "justify-start-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "justifyContent": "flex-start",
+    },
+  },
+  "light-blue": Object {
+    "color": "#96ccff",
+  },
+  "light-gray": Object {
+    "color": "#eee",
+  },
+  "light-green": Object {
+    "color": "#9eebcf",
+  },
+  "light-pink": Object {
+    "color": "#ffa3d7",
+  },
+  "light-purple": Object {
+    "color": "#a463f2",
+  },
+  "light-red": Object {
+    "color": "#ff725c",
+  },
+  "light-silver": Object {
+    "color": "#aaa",
+  },
+  "light-yellow": Object {
+    "color": "#fbf1a9",
+  },
+  "lightest-blue": Object {
+    "color": "#cdecff",
+  },
+  "mid-gray": Object {
+    "color": "#555",
+  },
+  "moon-gray": Object {
+    "color": "#ccc",
+  },
+  "mw-100": Object {
+    "maxWidth": "100%",
+  },
+  "mw-100-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "maxWidth": "100%",
+    },
+  },
+  "mw-100-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "maxWidth": "100%",
+    },
+  },
+  "mw-100-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "maxWidth": "100%",
+    },
+  },
+  "mw-none": Object {
+    "maxWidth": "none",
+  },
+  "mw-none-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "maxWidth": "none",
+    },
+  },
+  "mw-none-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "maxWidth": "none",
+    },
+  },
+  "mw-none-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "maxWidth": "none",
+    },
+  },
+  "mw1": Object {
+    "maxWidth": "1rem",
+  },
+  "mw1-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "maxWidth": "1rem",
+    },
+  },
+  "mw1-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "maxWidth": "1rem",
+    },
+  },
+  "mw1-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "maxWidth": "1rem",
+    },
+  },
+  "mw2": Object {
+    "maxWidth": "2rem",
+  },
+  "mw2-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "maxWidth": "2rem",
+    },
+  },
+  "mw2-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "maxWidth": "2rem",
+    },
+  },
+  "mw2-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "maxWidth": "2rem",
+    },
+  },
+  "mw3": Object {
+    "maxWidth": "4rem",
+  },
+  "mw3-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "maxWidth": "4rem",
+    },
+  },
+  "mw3-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "maxWidth": "4rem",
+    },
+  },
+  "mw3-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "maxWidth": "4rem",
+    },
+  },
+  "mw4": Object {
+    "maxWidth": "8rem",
+  },
+  "mw4-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "maxWidth": "8rem",
+    },
+  },
+  "mw4-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "maxWidth": "8rem",
+    },
+  },
+  "mw4-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "maxWidth": "8rem",
+    },
+  },
+  "mw5": Object {
+    "maxWidth": "16rem",
+  },
+  "mw5-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "maxWidth": "16rem",
+    },
+  },
+  "mw5-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "maxWidth": "16rem",
+    },
+  },
+  "mw5-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "maxWidth": "16rem",
+    },
+  },
+  "mw6": Object {
+    "maxWidth": "32rem",
+  },
+  "mw6-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "maxWidth": "32rem",
+    },
+  },
+  "mw6-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "maxWidth": "32rem",
+    },
+  },
+  "mw6-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "maxWidth": "32rem",
+    },
+  },
+  "mw7": Object {
+    "maxWidth": "48rem",
+  },
+  "mw7-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "maxWidth": "48rem",
+    },
+  },
+  "mw7-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "maxWidth": "48rem",
+    },
+  },
+  "mw7-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "maxWidth": "48rem",
+    },
+  },
+  "mw8": Object {
+    "maxWidth": "64rem",
+  },
+  "mw8-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "maxWidth": "64rem",
+    },
+  },
+  "mw8-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "maxWidth": "64rem",
+    },
+  },
+  "mw8-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "maxWidth": "64rem",
+    },
+  },
+  "mw9": Object {
+    "maxWidth": "96rem",
+  },
+  "mw9-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "maxWidth": "96rem",
+    },
+  },
+  "mw9-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "maxWidth": "96rem",
+    },
+  },
+  "mw9-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "maxWidth": "96rem",
+    },
+  },
+  "navy": Object {
+    "color": "#001b44",
+  },
+  "near-black": Object {
+    "color": "#111",
+  },
+  "near-white": Object {
+    "color": "#f4f4f4",
+  },
+  "orange": Object {
+    "color": "#ff6300",
+  },
+  "order-0": Object {
+    "order": 0,
+  },
+  "order-0-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "order": 0,
+    },
+  },
+  "order-0-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "order": 0,
+    },
+  },
+  "order-0-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "order": 0,
+    },
+  },
+  "order-1": Object {
+    "order": 1,
+  },
+  "order-1-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "order": 1,
+    },
+  },
+  "order-1-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "order": 1,
+    },
+  },
+  "order-1-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "order": 1,
+    },
+  },
+  "order-2": Object {
+    "order": 2,
+  },
+  "order-2-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "order": 2,
+    },
+  },
+  "order-2-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "order": 2,
+    },
+  },
+  "order-2-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "order": 2,
+    },
+  },
+  "order-3": Object {
+    "order": 3,
+  },
+  "order-3-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "order": 3,
+    },
+  },
+  "order-3-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "order": 3,
+    },
+  },
+  "order-3-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "order": 3,
+    },
+  },
+  "order-4": Object {
+    "order": 4,
+  },
+  "order-4-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "order": 4,
+    },
+  },
+  "order-4-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "order": 4,
+    },
+  },
+  "order-4-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "order": 4,
+    },
+  },
+  "order-5": Object {
+    "order": 5,
+  },
+  "order-5-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "order": 5,
+    },
+  },
+  "order-5-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "order": 5,
+    },
+  },
+  "order-5-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "order": 5,
+    },
+  },
+  "order-6": Object {
+    "order": 6,
+  },
+  "order-6-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "order": 6,
+    },
+  },
+  "order-6-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "order": 6,
+    },
+  },
+  "order-6-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "order": 6,
+    },
+  },
+  "order-7": Object {
+    "order": 7,
+  },
+  "order-7-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "order": 7,
+    },
+  },
+  "order-7-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "order": 7,
+    },
+  },
+  "order-7-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "order": 7,
+    },
+  },
+  "order-8": Object {
+    "order": 8,
+  },
+  "order-8-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "order": 8,
+    },
+  },
+  "order-8-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "order": 8,
+    },
+  },
+  "order-8-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "order": 8,
+    },
+  },
+  "order-last": Object {
+    "order": 99999,
+  },
+  "order-last-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "order": 99999,
+    },
+  },
+  "order-last-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "order": 99999,
+    },
+  },
+  "order-last-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "order": 99999,
+    },
+  },
+  "pink": Object {
+    "color": "#ff80cc",
+  },
+  "pointer": Object {
+    ":hover": Object {
+      "cursor": "pointer",
+    },
+  },
+  "purple": Object {
+    "color": "#5e2ca5",
+  },
+  "red": Object {
+    "color": "#ff4136",
+  },
+  "relative": Object {
+    "position": "relative",
+  },
+  "relative-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "position": "relative",
+    },
+  },
+  "relative-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "position": "relative",
+    },
+  },
+  "relative-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "position": "relative",
+    },
+  },
+  "self-baseline": Object {
+    "alignSelf": "baseline",
+  },
+  "self-baseline-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "alignSelf": "baseline",
+    },
+  },
+  "self-baseline-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "alignSelf": "baseline",
+    },
+  },
+  "self-baseline-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "alignSelf": "baseline",
+    },
+  },
+  "self-center": Object {
+    "alignSelf": "center",
+  },
+  "self-center-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "alignSelf": "center",
+    },
+  },
+  "self-center-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "alignSelf": "center",
+    },
+  },
+  "self-center-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "alignSelf": "center",
+    },
+  },
+  "self-end": Object {
+    "alignSelf": "flex-end",
+  },
+  "self-end-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "alignSelf": "flex-end",
+    },
+  },
+  "self-end-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "alignSelf": "flex-end",
+    },
+  },
+  "self-end-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "alignSelf": "flex-end",
+    },
+  },
+  "self-start": Object {
+    "alignSelf": "flex-start",
+  },
+  "self-start-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "alignSelf": "flex-start",
+    },
+  },
+  "self-start-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "alignSelf": "flex-start",
+    },
+  },
+  "self-start-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "alignSelf": "flex-start",
+    },
+  },
+  "self-stretch": Object {
+    "alignSelf": "stretch",
+  },
+  "self-stretch-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "alignSelf": "stretch",
+    },
+  },
+  "self-stretch-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "alignSelf": "stretch",
+    },
+  },
+  "self-stretch-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "alignSelf": "stretch",
+    },
+  },
+  "shadow-hover": Object {
+    "::after": Object {
+      "box-shadow": "0 0 8px 2px rgba( 0, 0, 0, .2 )",
+      "opacity": 0,
+      "transition": "opacity .25s ease-in-out",
+    },
+    ":focus::after": Object {
+      "opacity": 1,
+    },
+    ":hover::after": Object {
+      "opacity": 1,
+    },
+  },
+  "silver": Object {
+    "color": "#999",
+  },
+  "static": Object {
+    "position": "static",
+  },
+  "static-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "position": "static",
+    },
+  },
+  "static-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "position": "static",
+    },
+  },
+  "static-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "position": "static",
+    },
+  },
+  "striped--light-gray": Object {
+    ":nth-child(odd)": Object {
+      "backgroundColor": "#eee",
+    },
+  },
+  "striped--moon-gray": Object {
+    ":nth-child(odd)": Object {
+      "backgroundColor": "#ccc",
+    },
+  },
+  "striped--near-white": Object {
+    ":nth-child(odd)": Object {
+      "backgroundColor": "#f4f4f4",
+    },
+  },
+  "underline-hover": Object {
+    ":focus": Object {
+      "text-decoration": "underline",
+    },
+    ":hover": Object {
+      "text-decoration": "underline",
+    },
+  },
+  "w-10": Object {
+    "width": "10%",
+  },
+  "w-10-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "width": "10%",
+    },
+  },
+  "w-10-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "width": "10%",
+    },
+  },
+  "w-10-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "width": "10%",
+    },
+  },
+  "w-100": Object {
+    "width": "100%",
+  },
+  "w-100-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "width": "100%",
+    },
+  },
+  "w-100-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "width": "100%",
+    },
+  },
+  "w-100-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "width": "100%",
+    },
+  },
+  "w-20": Object {
+    "width": "20%",
+  },
+  "w-20-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "width": "20%",
+    },
+  },
+  "w-20-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "width": "20%",
+    },
+  },
+  "w-20-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "width": "20%",
+    },
+  },
+  "w-25": Object {
+    "width": "25%",
+  },
+  "w-25-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "width": "25%",
+    },
+  },
+  "w-25-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "width": "25%",
+    },
+  },
+  "w-25-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "width": "25%",
+    },
+  },
+  "w-30": Object {
+    "width": "30%",
+  },
+  "w-30-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "width": "30%",
+    },
+  },
+  "w-30-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "width": "30%",
+    },
+  },
+  "w-30-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "width": "30%",
+    },
+  },
+  "w-40": Object {
+    "width": "40%",
+  },
+  "w-40-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "width": "40%",
+    },
+  },
+  "w-40-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "width": "40%",
+    },
+  },
+  "w-40-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "width": "40%",
+    },
+  },
+  "w-50": Object {
+    "width": "50%",
+  },
+  "w-50-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "width": "50%",
+    },
+  },
+  "w-50-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "width": "50%",
+    },
+  },
+  "w-50-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "width": "50%",
+    },
+  },
+  "w-60": Object {
+    "width": "60%",
+  },
+  "w-60-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "width": "60%",
+    },
+  },
+  "w-60-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "width": "60%",
+    },
+  },
+  "w-60-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "width": "60%",
+    },
+  },
+  "w-70": Object {
+    "width": "70%",
+  },
+  "w-70-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "width": "70%",
+    },
+  },
+  "w-70-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "width": "70%",
+    },
+  },
+  "w-70-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "width": "70%",
+    },
+  },
+  "w-75": Object {
+    "width": "75%",
+  },
+  "w-75-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "width": "75%",
+    },
+  },
+  "w-75-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "width": "75%",
+    },
+  },
+  "w-75-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "width": "75%",
+    },
+  },
+  "w-80": Object {
+    "width": "80%",
+  },
+  "w-80-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "width": "80%",
+    },
+  },
+  "w-80-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "width": "80%",
+    },
+  },
+  "w-80-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "width": "80%",
+    },
+  },
+  "w-90": Object {
+    "width": "90%",
+  },
+  "w-90-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "width": "90%",
+    },
+  },
+  "w-90-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "width": "90%",
+    },
+  },
+  "w-90-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "width": "90%",
+    },
+  },
+  "w-auto": Object {
+    "width": "auto",
+  },
+  "w-auto-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "width": "auto",
+    },
+  },
+  "w-auto-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "width": "auto",
+    },
+  },
+  "w-auto-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "width": "auto",
+    },
+  },
+  "w-third": Object {
+    "width": "calc(100% / 3)",
+  },
+  "w-third-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "width": "calc(100% / 3)",
+    },
+  },
+  "w-third-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "width": "calc(100% / 3)",
+    },
+  },
+  "w-third-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "width": "calc(100% / 3)",
+    },
+  },
+  "w-two-thirds": Object {
+    "width": "calc(100% / 1.5)",
+  },
+  "w-two-thirds-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "width": "calc(100% / 1.5)",
+    },
+  },
+  "w-two-thirds-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "width": "calc(100% / 1.5)",
+    },
+  },
+  "w-two-thirds-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "width": "calc(100% / 1.5)",
+    },
+  },
+  "w1": Object {
+    "width": "1rem",
+  },
+  "w1-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "width": "1rem",
+    },
+  },
+  "w1-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "width": "1rem",
+    },
+  },
+  "w1-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "width": "1rem",
+    },
+  },
+  "w2": Object {
+    "width": "2rem",
+  },
+  "w2-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "width": "2rem",
+    },
+  },
+  "w2-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "width": "2rem",
+    },
+  },
+  "w2-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "width": "2rem",
+    },
+  },
+  "w3": Object {
+    "width": "4rem",
+  },
+  "w3-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "width": "4rem",
+    },
+  },
+  "w3-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "width": "4rem",
+    },
+  },
+  "w3-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "width": "4rem",
+    },
+  },
+  "w4": Object {
+    "width": "8rem",
+  },
+  "w4-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "width": "8rem",
+    },
+  },
+  "w4-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "width": "8rem",
+    },
+  },
+  "w4-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "width": "8rem",
+    },
+  },
+  "w5": Object {
+    "width": "16rem",
+  },
+  "w5-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "width": "16rem",
+    },
+  },
+  "w5-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "width": "16rem",
+    },
+  },
+  "w5-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "width": "16rem",
+    },
+  },
+  "washed-blue": Object {
+    "color": "#f6fffe",
+  },
+  "washed-green": Object {
+    "color": "#e8fdf5",
+  },
+  "washed-red": Object {
+    "color": "#ffdfdf",
+  },
+  "washed-yellow": Object {
+    "color": "#fffceb",
+  },
+  "white": Object {
+    "color": "#fff",
+  },
+  "white-10": Object {
+    "color": "rgba( 255, 255, 255, .1 )",
+  },
+  "white-20": Object {
+    "color": "rgba( 255, 255, 255, .2 )",
+  },
+  "white-30": Object {
+    "color": "rgba( 255, 255, 255, .3 )",
+  },
+  "white-40": Object {
+    "color": "rgba( 255, 255, 255, .4 )",
+  },
+  "white-50": Object {
+    "color": "rgba( 255, 255, 255, .5 )",
+  },
+  "white-60": Object {
+    "color": "rgba( 255, 255, 255, .6 )",
+  },
+  "white-70": Object {
+    "color": "rgba( 255, 255, 255, .7 )",
+  },
+  "white-80": Object {
+    "color": "rgba( 255, 255, 255, .8 )",
+  },
+  "white-90": Object {
+    "color": "rgba( 255, 255, 255, .9 )",
+  },
+  "yellow": Object {
+    "color": "#ffd700",
+  },
+}
+`;
