@@ -19,6 +19,7 @@ import coordinates from './properties/coordinates';
 import floats from './properties/floats';
 import visibility from './properties/visibility';
 import clears from './properties/clears';
+import boxSizing from './properties/boxSizing';
 
 export const aphroditeTachyons = {
     ...position,
@@ -41,5 +42,6 @@ export const aphroditeTachyons = {
     ...coordinates,
     ...floats,
     ...visibility,
-    ...clears
+    ...clears,
+    ...boxSizing
 };

@@ -730,6 +730,9 @@ Object {
       "borderWidth": 0,
     },
   },
+  "border-box": Object {
+    "boxSizing": "border-box",
+  },
   "bottom--1": Object {
     "bottom": "-1rem",
   },
