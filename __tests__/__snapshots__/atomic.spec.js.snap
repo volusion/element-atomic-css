@@ -2819,6 +2819,32 @@ Object {
       "color": "#ffd700",
     },
   },
+  "indent": Object {
+    "marginBottom": 0,
+    "marginTop": 0,
+    "textIndent": "1em",
+  },
+  "indent-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "marginBottom": 0,
+      "marginTop": 0,
+      "textIndent": "1em",
+    },
+  },
+  "indent-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "marginBottom": 0,
+      "marginTop": 0,
+      "textIndent": "1em",
+    },
+  },
+  "indent-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "marginBottom": 0,
+      "marginTop": 0,
+      "textIndent": "1em",
+    },
+  },
   "inline-flex": Object {
     "display": "inline-flex",
   },
@@ -3428,6 +3454,60 @@ Object {
   "mb7-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "marginBottom": "16rem",
+    },
+  },
+  "measure": Object {
+    "maxWidth": "30em",
+  },
+  "measure-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "maxWidth": "30em",
+    },
+  },
+  "measure-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "maxWidth": "30em",
+    },
+  },
+  "measure-narrow": Object {
+    "maxWidth": "20em",
+  },
+  "measure-narrow-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "maxWidth": "20em",
+    },
+  },
+  "measure-narrow-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "maxWidth": "20em",
+    },
+  },
+  "measure-narrow-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "maxWidth": "20em",
+    },
+  },
+  "measure-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "maxWidth": "30em",
+    },
+  },
+  "measure-wide": Object {
+    "maxWidth": "34em",
+  },
+  "measure-wide-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "maxWidth": "34em",
+    },
+  },
+  "measure-wide-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "maxWidth": "34em",
+    },
+  },
+  "measure-wide-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "maxWidth": "34em",
     },
   },
   "mh0": Object {
@@ -6000,6 +6080,24 @@ Object {
   "silver": Object {
     "color": "#999",
   },
+  "small-caps": Object {
+    "fontVariant": "small-caps",
+  },
+  "small-caps-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "fontVariant": "small-caps",
+    },
+  },
+  "small-caps-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "fontVariant": "small-caps",
+    },
+  },
+  "small-caps-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "fontVariant": "small-caps",
+    },
+  },
   "static": Object {
     "position": "static",
   },
@@ -6121,6 +6219,32 @@ Object {
   "top-2-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "top": "2rem",
+    },
+  },
+  "truncate": Object {
+    "overflow": "hidden",
+    "textOverflow": "ellipsis",
+    "whiteSpace": "nowrap",
+  },
+  "truncate-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "overflow": "hidden",
+      "textOverflow": "ellipsis",
+      "whiteSpace": "nowrap",
+    },
+  },
+  "truncate-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "overflow": "hidden",
+      "textOverflow": "ellipsis",
+      "whiteSpace": "nowrap",
+    },
+  },
+  "truncate-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "overflow": "hidden",
+      "textOverflow": "ellipsis",
+      "whiteSpace": "nowrap",
     },
   },
   "underline-hover": Object {
