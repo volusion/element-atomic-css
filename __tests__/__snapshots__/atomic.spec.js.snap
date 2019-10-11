@@ -7323,6 +7323,78 @@ Object {
       "whiteSpace": "nowrap",
     },
   },
+  "ttc": Object {
+    "textTransform": "capitalize",
+  },
+  "ttc-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "textTransform": "capitalize",
+    },
+  },
+  "ttc-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "textTransform": "capitalize",
+    },
+  },
+  "ttc-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "textTransform": "capitalize",
+    },
+  },
+  "ttl": Object {
+    "textTransform": "lowercase",
+  },
+  "ttl-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "textTransform": "lowercase",
+    },
+  },
+  "ttl-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "textTransform": "lowercase",
+    },
+  },
+  "ttl-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "textTransform": "lowercase",
+    },
+  },
+  "ttn": Object {
+    "textTransform": "none",
+  },
+  "ttn-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "textTransform": "none",
+    },
+  },
+  "ttn-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "textTransform": "none",
+    },
+  },
+  "ttn-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "textTransform": "none",
+    },
+  },
+  "ttu": Object {
+    "textTransform": "uppercase",
+  },
+  "ttu-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "textTransform": "uppercase",
+    },
+  },
+  "ttu-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "textTransform": "uppercase",
+    },
+  },
+  "ttu-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "textTransform": "uppercase",
+    },
+  },
   "underline-hover": Object {
     ":focus": Object {
       "text-decoration": "underline",
