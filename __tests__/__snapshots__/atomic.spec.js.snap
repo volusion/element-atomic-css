@@ -3555,6 +3555,60 @@ Object {
       "left": "2rem",
     },
   },
+  "lh-copy": Object {
+    "lineHeight": 1.5,
+  },
+  "lh-copy-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "lineHeight": 1.5,
+    },
+  },
+  "lh-copy-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "lineHeight": 1.5,
+    },
+  },
+  "lh-copy-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "lineHeight": 1.5,
+    },
+  },
+  "lh-solid": Object {
+    "lineHeight": 1,
+  },
+  "lh-solid-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "lineHeight": 1,
+    },
+  },
+  "lh-solid-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "lineHeight": 1,
+    },
+  },
+  "lh-solid-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "lineHeight": 1,
+    },
+  },
+  "lh-title": Object {
+    "lineHeight": 1.25,
+  },
+  "lh-title-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "lineHeight": 1.25,
+    },
+  },
+  "lh-title-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "lineHeight": 1.25,
+    },
+  },
+  "lh-title-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "lineHeight": 1.25,
+    },
+  },
   "light-blue": Object {
     "color": "#96ccff",
   },
