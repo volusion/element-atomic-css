@@ -7189,6 +7189,60 @@ Object {
       "backgroundColor": "#f4f4f4",
     },
   },
+  "tc": Object {
+    "textAlign": "center",
+  },
+  "tc-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "textAlign": "center",
+    },
+  },
+  "tc-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "textAlign": "center",
+    },
+  },
+  "tc-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "textAlign": "center",
+    },
+  },
+  "tj": Object {
+    "textAlign": "justify",
+  },
+  "tj-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "textAlign": "justify",
+    },
+  },
+  "tj-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "textAlign": "justify",
+    },
+  },
+  "tj-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "textAlign": "justify",
+    },
+  },
+  "tl": Object {
+    "textAlign": "left",
+  },
+  "tl-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "textAlign": "left",
+    },
+  },
+  "tl-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "textAlign": "left",
+    },
+  },
+  "tl-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "textAlign": "left",
+    },
+  },
   "top--1": Object {
     "top": "-1rem",
   },
@@ -7277,6 +7331,24 @@ Object {
   "top-2-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "top": "2rem",
+    },
+  },
+  "tr": Object {
+    "textAlign": "right",
+  },
+  "tr-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "textAlign": "right",
+    },
+  },
+  "tr-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "textAlign": "right",
+    },
+  },
+  "tr-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "textAlign": "right",
     },
   },
   "tracked": Object {
