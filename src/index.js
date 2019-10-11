@@ -17,6 +17,7 @@ import borders from './properties/borders';
 import aspectRatios from './properties/aspectRatios';
 import coordinates from './properties/coordinates';
 import floats from './properties/floats';
+import visibility from './properties/visibility';
 
 export const aphroditeTachyons = {
     ...position,
@@ -37,5 +38,6 @@ export const aphroditeTachyons = {
     ...borders,
     ...aspectRatios,
     ...coordinates,
-    ...floats
+    ...floats,
+    ...visibility
 };

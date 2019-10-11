@@ -1084,6 +1084,16 @@ Object {
       "padding": 0,
     },
   },
+  "clip": "rect( 1px, 1px, 1px, 1px )",
+  "clip-l": Object {
+    "@media only screen and (min-width: 60em)": "rect( 1px, 1px, 1px, 1px )",
+  },
+  "clip-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": "rect( 1px, 1px, 1px, 1px )",
+  },
+  "clip-ns": Object {
+    "@media only screen and (min-width: 30em)": "rect( 1px, 1px, 1px, 1px )",
+  },
   "collapse": Object {
     "borderCollapse": "collapse",
     "borderSpacing": 0,
