@@ -5219,6 +5219,60 @@ Object {
       "order": 99999,
     },
   },
+  "outline": Object {
+    "outline": "1px solid",
+  },
+  "outline-0": Object {
+    "outline": 0,
+  },
+  "outline-0-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "outline": 0,
+    },
+  },
+  "outline-0-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "outline": 0,
+    },
+  },
+  "outline-0-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "outline": 0,
+    },
+  },
+  "outline-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "outline": "1px solid",
+    },
+  },
+  "outline-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "outline": "1px solid",
+    },
+  },
+  "outline-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "outline": "1px solid",
+    },
+  },
+  "outline-transparent": Object {
+    "outline": "1px solid transparent",
+  },
+  "outline-transparent-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "outline": "1px solid transparent",
+    },
+  },
+  "outline-transparent-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "outline": "1px solid transparent",
+    },
+  },
+  "outline-transparent-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "outline": "1px solid transparent",
+    },
+  },
   "overflow-auto": Object {
     "overflow": "auto",
   },
