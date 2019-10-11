@@ -1084,6 +1084,92 @@ Object {
       "padding": 0,
     },
   },
+  "cb": Object {
+    "clear": "both",
+  },
+  "cb-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "clear": "both",
+    },
+  },
+  "cb-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "clear": "both",
+    },
+  },
+  "cb-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "clear": "both",
+    },
+  },
+  "cf": Object {
+    ":after": Object {
+      "clear": "both",
+      "content": "\\" \\"",
+      "display": "table",
+    },
+    ":before": Object {
+      "content": "\\" \\"",
+      "display": "table",
+    },
+  },
+  "cf-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      ":after": Object {
+        "clear": "both",
+        "content": "\\" \\"",
+        "display": "table",
+      },
+      ":before": Object {
+        "content": "\\" \\"",
+        "display": "table",
+      },
+    },
+  },
+  "cf-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      ":after": Object {
+        "clear": "both",
+        "content": "\\" \\"",
+        "display": "table",
+      },
+      ":before": Object {
+        "content": "\\" \\"",
+        "display": "table",
+      },
+    },
+  },
+  "cf-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      ":after": Object {
+        "clear": "both",
+        "content": "\\" \\"",
+        "display": "table",
+      },
+      ":before": Object {
+        "content": "\\" \\"",
+        "display": "table",
+      },
+    },
+  },
+  "cl": Object {
+    "clear": "left",
+  },
+  "cl-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "clear": "left",
+    },
+  },
+  "cl-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "clear": "left",
+    },
+  },
+  "cl-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "clear": "left",
+    },
+  },
   "clip": "rect( 1px, 1px, 1px, 1px )",
   "clip-l": Object {
     "@media only screen and (min-width: 60em)": "rect( 1px, 1px, 1px, 1px )",
@@ -1093,6 +1179,24 @@ Object {
   },
   "clip-ns": Object {
     "@media only screen and (min-width: 30em)": "rect( 1px, 1px, 1px, 1px )",
+  },
+  "cn": Object {
+    "clear": "none",
+  },
+  "cn-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "clear": "none",
+    },
+  },
+  "cn-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "clear": "none",
+    },
+  },
+  "cn-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "clear": "none",
+    },
   },
   "collapse": Object {
     "borderCollapse": "collapse",
@@ -1243,6 +1347,24 @@ Object {
   "cover-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "backgroundSize": "cover",
+    },
+  },
+  "cr": Object {
+    "clear": "right",
+  },
+  "cr-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "clear": "right",
+    },
+  },
+  "cr-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "clear": "right",
+    },
+  },
+  "cr-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "clear": "right",
     },
   },
   "dark-blue": Object {
