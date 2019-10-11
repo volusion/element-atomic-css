@@ -5037,6 +5037,24 @@ Object {
   "near-white": Object {
     "color": "#f4f4f4",
   },
+  "no-underline": Object {
+    "textDecoration": "none",
+  },
+  "no-underline-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "textDecoration": "none",
+    },
+  },
+  "no-underline-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "textDecoration": "none",
+    },
+  },
+  "no-underline-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "textDecoration": "none",
+    },
+  },
   "normal": Object {
     "fontWeight": "normal",
   },
@@ -7138,6 +7156,24 @@ Object {
       "position": "static",
     },
   },
+  "strike": Object {
+    "textDecoration": "line-through",
+  },
+  "strike-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "textDecoration": "line-through",
+    },
+  },
+  "strike-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "textDecoration": "line-through",
+    },
+  },
+  "strike-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "textDecoration": "line-through",
+    },
+  },
   "striped--light-gray": Object {
     ":nth-child(odd)": Object {
       "backgroundColor": "#eee",
@@ -7395,12 +7431,30 @@ Object {
       "textTransform": "uppercase",
     },
   },
+  "underline": Object {
+    "textDecoration": "underline",
+  },
   "underline-hover": Object {
     ":focus": Object {
       "text-decoration": "underline",
     },
     ":hover": Object {
       "text-decoration": "underline",
+    },
+  },
+  "underline-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "textDecoration": "underline",
+    },
+  },
+  "underline-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "textDecoration": "underline",
+    },
+  },
+  "underline-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "textDecoration": "underline",
     },
   },
   "v-base": Object {
