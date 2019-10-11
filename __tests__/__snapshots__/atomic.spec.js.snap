@@ -316,6 +316,24 @@ Object {
       "position": "relative",
     },
   },
+  "b": Object {
+    "fontWeight": "bold",
+  },
+  "b-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "fontWeight": "bold",
+    },
+  },
+  "b-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "fontWeight": "bold",
+    },
+  },
+  "b-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "fontWeight": "bold",
+    },
+  },
   "ba": Object {
     "borderStyle": "solid",
     "borderWidth": "1px",
@@ -2169,6 +2187,168 @@ Object {
     "@media only screen and (min-width: 30em)": Object {
       "_display": "inline",
       "float": "right",
+    },
+  },
+  "fw1": Object {
+    "fontWeight": 100,
+  },
+  "fw1-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "fontWeight": 100,
+    },
+  },
+  "fw1-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "fontWeight": 100,
+    },
+  },
+  "fw1-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "fontWeight": 100,
+    },
+  },
+  "fw2": Object {
+    "fontWeight": 200,
+  },
+  "fw2-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "fontWeight": 200,
+    },
+  },
+  "fw2-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "fontWeight": 200,
+    },
+  },
+  "fw2-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "fontWeight": 200,
+    },
+  },
+  "fw3": Object {
+    "fontWeight": 300,
+  },
+  "fw3-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "fontWeight": 300,
+    },
+  },
+  "fw3-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "fontWeight": 300,
+    },
+  },
+  "fw3-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "fontWeight": 300,
+    },
+  },
+  "fw4": Object {
+    "fontWeight": 400,
+  },
+  "fw4-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "fontWeight": 400,
+    },
+  },
+  "fw4-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "fontWeight": 400,
+    },
+  },
+  "fw4-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "fontWeight": 400,
+    },
+  },
+  "fw5": Object {
+    "fontWeight": 500,
+  },
+  "fw5-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "fontWeight": 500,
+    },
+  },
+  "fw5-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "fontWeight": 500,
+    },
+  },
+  "fw5-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "fontWeight": 500,
+    },
+  },
+  "fw6": Object {
+    "fontWeight": 600,
+  },
+  "fw6-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "fontWeight": 600,
+    },
+  },
+  "fw6-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "fontWeight": 600,
+    },
+  },
+  "fw6-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "fontWeight": 600,
+    },
+  },
+  "fw7": Object {
+    "fontWeight": 700,
+  },
+  "fw7-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "fontWeight": 700,
+    },
+  },
+  "fw7-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "fontWeight": 700,
+    },
+  },
+  "fw7-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "fontWeight": 700,
+    },
+  },
+  "fw8": Object {
+    "fontWeight": 800,
+  },
+  "fw8-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "fontWeight": 800,
+    },
+  },
+  "fw8-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "fontWeight": 800,
+    },
+  },
+  "fw8-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "fontWeight": 800,
+    },
+  },
+  "fw9": Object {
+    "fontWeight": 900,
+  },
+  "fw9-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "fontWeight": 900,
+    },
+  },
+  "fw9-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "fontWeight": 900,
+    },
+  },
+  "fw9-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "fontWeight": 900,
     },
   },
   "gold": Object {
@@ -4506,6 +4686,24 @@ Object {
   },
   "near-white": Object {
     "color": "#f4f4f4",
+  },
+  "normal": Object {
+    "fontWeight": "normal",
+  },
+  "normal-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "fontWeight": "normal",
+    },
+  },
+  "normal-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "fontWeight": "normal",
+    },
+  },
+  "normal-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "fontWeight": "normal",
+    },
   },
   "orange": Object {
     "color": "#ff6300",
