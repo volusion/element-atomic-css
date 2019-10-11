@@ -21,6 +21,7 @@ import visibility from './properties/visibility';
 import clears from './properties/clears';
 import boxSizing from './properties/boxSizing';
 import boxShadow from './properties/boxShadow';
+import typeScale from './properties/typeScale';
 
 export const aphroditeTachyons = {
     ...position,
@@ -45,5 +46,6 @@ export const aphroditeTachyons = {
     ...visibility,
     ...clears,
     ...boxSizing,
-    ...boxShadow
+    ...boxShadow,
+    ...typeScale
 };
