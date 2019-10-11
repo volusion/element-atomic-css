@@ -20,6 +20,50 @@ Object {
       "position": "absolute",
     },
   },
+  "ba": Object {
+    "borderStyle": "solid",
+    "borderWidth": "1px",
+  },
+  "ba-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "borderStyle": "solid",
+      "borderWidth": "1px",
+    },
+  },
+  "ba-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "borderStyle": "solid",
+      "borderWidth": "1px",
+    },
+  },
+  "ba-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "borderStyle": "solid",
+      "borderWidth": "1px",
+    },
+  },
+  "bb": Object {
+    "borderBottomStyle": "solid",
+    "borderBottomWidth": "1px",
+  },
+  "bb-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "borderBottomStyle": "solid",
+      "borderBottomWidth": "1px",
+    },
+  },
+  "bb-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "borderBottomStyle": "solid",
+      "borderBottomWidth": "1px",
+    },
+  },
+  "bb-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "borderBottomStyle": "solid",
+      "borderBottomWidth": "1px",
+    },
+  },
   "bg-animate": Object {
     ":focus": Object {
       "transition": "background-color .15s ease-in-out",
@@ -310,6 +354,28 @@ Object {
   "bg-yellow": Object {
     "backgroundColor": "#ffd700",
   },
+  "bl": Object {
+    "borderLeftStyle": "solid",
+    "borderLeftWidth": "1px",
+  },
+  "bl-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "borderLeftStyle": "solid",
+      "borderLeftWidth": "1px",
+    },
+  },
+  "bl-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "borderLeftStyle": "solid",
+      "borderLeftWidth": "1px",
+    },
+  },
+  "bl-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "borderLeftStyle": "solid",
+      "borderLeftWidth": "1px",
+    },
+  },
   "black": Object {
     "color": "#000",
   },
@@ -345,6 +411,32 @@ Object {
   },
   "blue": Object {
     "color": "#357edd",
+  },
+  "bn": Object {
+    "borderStyle": "none",
+    "borderWidth": 0,
+  },
+  "bn-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "borderStyle": "none",
+      "borderWidth": 0,
+    },
+  },
+  "bn-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "borderStyle": "none",
+      "borderWidth": 0,
+    },
+  },
+  "bn-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "borderStyle": "none",
+      "borderWidth": 0,
+    },
+  },
+  "br": Object {
+    "borderRightStyle": "solid",
+    "borderRightWidth": "1px",
   },
   "br--bottom": Object {
     "border-top-left-radius": 0,
@@ -450,6 +542,24 @@ Object {
   "br-100-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "border-radius": "100%",
+    },
+  },
+  "br-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "borderRightStyle": "solid",
+      "borderRightWidth": "1px",
+    },
+  },
+  "br-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "borderRightStyle": "solid",
+      "borderRightWidth": "1px",
+    },
+  },
+  "br-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "borderRightStyle": "solid",
+      "borderRightWidth": "1px",
     },
   },
   "br-pill": Object {
@@ -558,6 +668,28 @@ Object {
   "br4-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "border-radius": "1rem",
+    },
+  },
+  "bt": Object {
+    "borderTopStyle": "solid",
+    "borderTopWidth": "1px",
+  },
+  "bt-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "borderTopStyle": "solid",
+      "borderTopWidth": "1px",
+    },
+  },
+  "bt-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "borderTopStyle": "solid",
+      "borderTopWidth": "1px",
+    },
+  },
+  "bt-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "borderTopStyle": "solid",
+      "borderTopWidth": "1px",
     },
   },
   "button-reset": Object {
