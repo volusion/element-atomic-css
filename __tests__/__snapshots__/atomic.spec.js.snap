@@ -5696,6 +5696,96 @@ Object {
       "alignSelf": "stretch",
     },
   },
+  "shadow-1": Object {
+    "boxShadow": "0 0 4px 2px rgba( 0, 0, 0, .2 )",
+  },
+  "shadow-1-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "boxShadow": "0 0 4px 2px rgba( 0, 0, 0, .2 )",
+    },
+  },
+  "shadow-1-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "boxShadow": "0 0 4px 2px rgba( 0, 0, 0, .2 )",
+    },
+  },
+  "shadow-1-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "boxShadow": "0 0 4px 2px rgba( 0, 0, 0, .2 )",
+    },
+  },
+  "shadow-2": Object {
+    "boxShadow": "0 0 8px 2px rgba( 0, 0, 0, .2 )",
+  },
+  "shadow-2-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "boxShadow": "0 0 8px 2px rgba( 0, 0, 0, .2 )",
+    },
+  },
+  "shadow-2-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "boxShadow": "0 0 8px 2px rgba( 0, 0, 0, .2 )",
+    },
+  },
+  "shadow-2-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "boxShadow": "0 0 8px 2px rgba( 0, 0, 0, .2 )",
+    },
+  },
+  "shadow-3": Object {
+    "boxShadow": "2px 2px 4px 2px rgba( 0, 0, 0, .2 )",
+  },
+  "shadow-3-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "boxShadow": "2px 2px 4px 2px rgba( 0, 0, 0, .2 )",
+    },
+  },
+  "shadow-3-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "boxShadow": "2px 2px 4px 2px rgba( 0, 0, 0, .2 )",
+    },
+  },
+  "shadow-3-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "boxShadow": "2px 2px 4px 2px rgba( 0, 0, 0, .2 )",
+    },
+  },
+  "shadow-4": Object {
+    "boxShadow": "2px 2px 8px 0 rgba( 0, 0, 0, .2 )",
+  },
+  "shadow-4-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "boxShadow": "2px 2px 8px 0 rgba( 0, 0, 0, .2 )",
+    },
+  },
+  "shadow-4-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "boxShadow": "2px 2px 8px 0 rgba( 0, 0, 0, .2 )",
+    },
+  },
+  "shadow-4-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "boxShadow": "2px 2px 8px 0 rgba( 0, 0, 0, .2 )",
+    },
+  },
+  "shadow-5": Object {
+    "boxShadow": "4px 4px 8px 0 rgba( 0, 0, 0, .2 )",
+  },
+  "shadow-5-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "boxShadow": "4px 4px 8px 0 rgba( 0, 0, 0, .2 )",
+    },
+  },
+  "shadow-5-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "boxShadow": "4px 4px 8px 0 rgba( 0, 0, 0, .2 )",
+    },
+  },
+  "shadow-5-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "boxShadow": "4px 4px 8px 0 rgba( 0, 0, 0, .2 )",
+    },
+  },
   "shadow-hover": Object {
     "::after": Object {
       "box-shadow": "0 0 8px 2px rgba( 0, 0, 0, .2 )",
