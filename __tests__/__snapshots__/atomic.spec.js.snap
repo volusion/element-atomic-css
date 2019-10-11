@@ -7205,6 +7205,78 @@ Object {
       "text-decoration": "underline",
     },
   },
+  "v-base": Object {
+    "verticalAlign": "baseline",
+  },
+  "v-base-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "verticalAlign": "baseline",
+    },
+  },
+  "v-base-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "verticalAlign": "baseline",
+    },
+  },
+  "v-base-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "verticalAlign": "baseline",
+    },
+  },
+  "v-btm": Object {
+    "verticalAlign": "bottom",
+  },
+  "v-btm-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "verticalAlign": "bottom",
+    },
+  },
+  "v-btm-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "verticalAlign": "bottom",
+    },
+  },
+  "v-btm-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "verticalAlign": "bottom",
+    },
+  },
+  "v-mid": Object {
+    "verticalAlign": "middle",
+  },
+  "v-mid-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "verticalAlign": "middle",
+    },
+  },
+  "v-mid-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "verticalAlign": "middle",
+    },
+  },
+  "v-mid-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "verticalAlign": "middle",
+    },
+  },
+  "v-top": Object {
+    "verticalAlign": "top",
+  },
+  "v-top-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "verticalAlign": "top",
+    },
+  },
+  "v-top-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "verticalAlign": "top",
+    },
+  },
+  "v-top-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "verticalAlign": "top",
+    },
+  },
   "vh-100-ns": Object {
     "height": "100vh",
   },
