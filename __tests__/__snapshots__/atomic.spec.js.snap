@@ -6746,6 +6746,60 @@ Object {
       "top": "2rem",
     },
   },
+  "tracked": Object {
+    "letterSpacing": ".1em",
+  },
+  "tracked-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "letterSpacing": ".1em",
+    },
+  },
+  "tracked-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "letterSpacing": ".1em",
+    },
+  },
+  "tracked-mega": Object {
+    "letterSpacing": ".25em",
+  },
+  "tracked-mega-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "letterSpacing": ".25em",
+    },
+  },
+  "tracked-mega-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "letterSpacing": ".25em",
+    },
+  },
+  "tracked-mega-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "letterSpacing": ".25em",
+    },
+  },
+  "tracked-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "letterSpacing": ".1em",
+    },
+  },
+  "tracked-tight": Object {
+    "letterSpacing": "-.05em",
+  },
+  "tracked-tight-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "letterSpacing": "-.05em",
+    },
+  },
+  "tracked-tight-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "letterSpacing": "-.05em",
+    },
+  },
+  "tracked-tight-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "letterSpacing": "-.05em",
+    },
+  },
   "truncate": Object {
     "overflow": "hidden",
     "textOverflow": "ellipsis",
