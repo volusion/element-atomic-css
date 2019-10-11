@@ -10,6 +10,7 @@ import { skins } from './properties/skins';
 import { skinsPseudo } from './properties/skinsPseudo';
 import { tables } from './properties/tables';
 import { backgroundPosition } from './properties/backgroundPosition';
+import { backgroundSize } from './properties/backgroundSize';
 
 export const aphroditeTachyons = {
     ...position,
@@ -23,5 +24,6 @@ export const aphroditeTachyons = {
     ...skins,
     ...skinsPseudo,
     ...tables,
-    ...backgroundPosition
+    ...backgroundPosition,
+    ...backgroundSize
 };
