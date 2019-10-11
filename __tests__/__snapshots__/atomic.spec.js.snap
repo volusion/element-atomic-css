@@ -20,6 +20,272 @@ Object {
       "position": "absolute",
     },
   },
+  "aspect-ratio": Object {
+    "height": 0,
+    "position": "relative",
+  },
+  "aspect-ratio--16x9": Object {
+    "paddingBottom": "56.25%",
+  },
+  "aspect-ratio--16x9-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "paddingBottom": "56.25%",
+    },
+  },
+  "aspect-ratio--16x9-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "paddingBottom": "56.25%",
+    },
+  },
+  "aspect-ratio--16x9-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "paddingBottom": "56.25%",
+    },
+  },
+  "aspect-ratio--1x1": Object {
+    "paddingBottom": "100%",
+  },
+  "aspect-ratio--1x1-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "paddingBottom": "100%",
+    },
+  },
+  "aspect-ratio--1x1-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "paddingBottom": "100%",
+    },
+  },
+  "aspect-ratio--1x1-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "paddingBottom": "100%",
+    },
+  },
+  "aspect-ratio--3x4": Object {
+    "paddingBottom": "133.33%",
+  },
+  "aspect-ratio--3x4-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "paddingBottom": "133.33%",
+    },
+  },
+  "aspect-ratio--3x4-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "paddingBottom": "133.33%",
+    },
+  },
+  "aspect-ratio--3x4-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "paddingBottom": "133.33%",
+    },
+  },
+  "aspect-ratio--4x3": Object {
+    "paddingBottom": "75%",
+  },
+  "aspect-ratio--4x3-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "paddingBottom": "75%",
+    },
+  },
+  "aspect-ratio--4x3-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "paddingBottom": "75%",
+    },
+  },
+  "aspect-ratio--4x3-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "paddingBottom": "75%",
+    },
+  },
+  "aspect-ratio--4x6": Object {
+    "paddingBottom": "150%",
+  },
+  "aspect-ratio--4x6-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "paddingBottom": "150%",
+    },
+  },
+  "aspect-ratio--4x6-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "paddingBottom": "150%",
+    },
+  },
+  "aspect-ratio--4x6-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "paddingBottom": "150%",
+    },
+  },
+  "aspect-ratio--5x7": Object {
+    "paddingBottom": "140%",
+  },
+  "aspect-ratio--5x7-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "paddingBottom": "140%",
+    },
+  },
+  "aspect-ratio--5x7-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "paddingBottom": "140%",
+    },
+  },
+  "aspect-ratio--5x7-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "paddingBottom": "140%",
+    },
+  },
+  "aspect-ratio--5x8": Object {
+    "paddingBottom": "160%",
+  },
+  "aspect-ratio--5x8-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "paddingBottom": "160%",
+    },
+  },
+  "aspect-ratio--5x8-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "paddingBottom": "160%",
+    },
+  },
+  "aspect-ratio--5x8-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "paddingBottom": "160%",
+    },
+  },
+  "aspect-ratio--6x4": Object {
+    "paddingBottom": "66.6%",
+  },
+  "aspect-ratio--6x4-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "paddingBottom": "66.6%",
+    },
+  },
+  "aspect-ratio--6x4-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "paddingBottom": "66.6%",
+    },
+  },
+  "aspect-ratio--6x4-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "paddingBottom": "66.6%",
+    },
+  },
+  "aspect-ratio--7x5": Object {
+    "paddingBottom": "71.42%",
+  },
+  "aspect-ratio--7x5-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "paddingBottom": "71.42%",
+    },
+  },
+  "aspect-ratio--7x5-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "paddingBottom": "71.42%",
+    },
+  },
+  "aspect-ratio--7x5-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "paddingBottom": "71.42%",
+    },
+  },
+  "aspect-ratio--8x5": Object {
+    "paddingBottom": "62.5%",
+  },
+  "aspect-ratio--8x5-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "paddingBottom": "62.5%",
+    },
+  },
+  "aspect-ratio--8x5-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "paddingBottom": "62.5%",
+    },
+  },
+  "aspect-ratio--8x5-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "paddingBottom": "62.5%",
+    },
+  },
+  "aspect-ratio--9x16": Object {
+    "paddingBottom": "177.77%",
+  },
+  "aspect-ratio--9x16-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "paddingBottom": "177.77%",
+    },
+  },
+  "aspect-ratio--9x16-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "paddingBottom": "177.77%",
+    },
+  },
+  "aspect-ratio--9x16-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "paddingBottom": "177.77%",
+    },
+  },
+  "aspect-ratio--object": Object {
+    "bottom": 0,
+    "height": "100%",
+    "left": 0,
+    "position": "absolute",
+    "right": 0,
+    "top": 0,
+    "width": "100%",
+    "zIndex": 100,
+  },
+  "aspect-ratio--object-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "bottom": 0,
+      "height": "100%",
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+      "width": "100%",
+      "zIndex": 100,
+    },
+  },
+  "aspect-ratio--object-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "bottom": 0,
+      "height": "100%",
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+      "width": "100%",
+      "zIndex": 100,
+    },
+  },
+  "aspect-ratio--object-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "bottom": 0,
+      "height": "100%",
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+      "width": "100%",
+      "zIndex": 100,
+    },
+  },
+  "aspect-ratio-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "height": 0,
+      "position": "relative",
+    },
+  },
+  "aspect-ratio-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "height": 0,
+      "position": "relative",
+    },
+  },
+  "aspect-ratio-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "height": 0,
+      "position": "relative",
+    },
+  },
   "ba": Object {
     "borderStyle": "solid",
     "borderWidth": "1px",

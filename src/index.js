@@ -14,6 +14,7 @@ import { backgroundSize } from './properties/backgroundSize';
 import { borderRadius } from './properties/borderRadius';
 import { spacing } from './properties/spacing';
 import { borders } from './properties/borders';
+import { aspectRatios } from './properties/aspectRatios';
 
 export const aphroditeTachyons = {
     ...position,
@@ -31,5 +32,6 @@ export const aphroditeTachyons = {
     ...backgroundSize,
     ...borderRadius,
     ...spacing,
-    ...borders
+    ...borders,
+    ...aspectRatios
 };
