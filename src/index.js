@@ -12,6 +12,7 @@ import { tables } from './properties/tables';
 import { backgroundPosition } from './properties/backgroundPosition';
 import { backgroundSize } from './properties/backgroundSize';
 import { borderRadius } from './properties/borderRadius';
+import { spacing } from './properties/spacing';
 
 export const aphroditeTachyons = {
     ...position,
@@ -27,5 +28,6 @@ export const aphroditeTachyons = {
     ...tables,
     ...backgroundPosition,
     ...backgroundSize,
-    ...borderRadius
+    ...borderRadius,
+    ...spacing
 };
