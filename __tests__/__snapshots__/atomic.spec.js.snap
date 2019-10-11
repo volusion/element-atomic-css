@@ -1516,6 +1516,28 @@ Object {
       "position": "fixed",
     },
   },
+  "fl": Object {
+    "_display": "inline",
+    "float": "left",
+  },
+  "fl-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "_display": "inline",
+      "float": "left",
+    },
+  },
+  "fl-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "_display": "inline",
+      "float": "left",
+    },
+  },
+  "fl-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "_display": "inline",
+      "float": "left",
+    },
+  },
   "flex": Object {
     "display": "flex",
   },
@@ -1774,6 +1796,46 @@ Object {
   "flex-wrap-reverse-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "flexWrap": "wrap-reverse",
+    },
+  },
+  "fn": Object {
+    "float": "none",
+  },
+  "fn-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "float": "none",
+    },
+  },
+  "fn-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "float": "none",
+    },
+  },
+  "fn-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "float": "none",
+    },
+  },
+  "fr": Object {
+    "_display": "inline",
+    "float": "right",
+  },
+  "fr-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "_display": "inline",
+      "float": "right",
+    },
+  },
+  "fr-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "_display": "inline",
+      "float": "right",
+    },
+  },
+  "fr-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "_display": "inline",
+      "float": "right",
     },
   },
   "gold": Object {
