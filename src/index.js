@@ -26,6 +26,7 @@ import typography from './properties/typography';
 import fontWeight from './properties/fontWeight';
 import fontStyle from './properties/fontStyle';
 import height from './properties/height';
+import lists from './properties/lists';
 
 export const aphroditeTachyons = {
     ...position,
@@ -55,5 +56,6 @@ export const aphroditeTachyons = {
     ...typography,
     ...fontWeight,
     ...fontStyle,
-    ...height
+    ...height,
+    ...lists
 };

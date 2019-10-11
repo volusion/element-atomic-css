@@ -3582,6 +3582,9 @@ Object {
   "lightest-blue": Object {
     "color": "#cdecff",
   },
+  "list": Object {
+    "listStyleType": "none",
+  },
   "ma0": Object {
     "margin": 0,
   },
