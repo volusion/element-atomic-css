@@ -6780,6 +6780,132 @@ Object {
       "right": "2rem",
     },
   },
+  "rotate-135": Object {
+    "transform": "rotate(135deg)",
+  },
+  "rotate-135-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "transform": "rotate(135deg)",
+    },
+  },
+  "rotate-135-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "transform": "rotate(135deg)",
+    },
+  },
+  "rotate-135-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "transform": "rotate(135deg)",
+    },
+  },
+  "rotate-180": Object {
+    "transform": "rotate(180deg)",
+  },
+  "rotate-180-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "transform": "rotate(180deg)",
+    },
+  },
+  "rotate-180-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "transform": "rotate(180deg)",
+    },
+  },
+  "rotate-180-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "transform": "rotate(180deg)",
+    },
+  },
+  "rotate-225": Object {
+    "transform": "rotate(225deg)",
+  },
+  "rotate-225-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "transform": "rotate(225deg)",
+    },
+  },
+  "rotate-225-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "transform": "rotate(225deg)",
+    },
+  },
+  "rotate-225-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "transform": "rotate(225deg)",
+    },
+  },
+  "rotate-270": Object {
+    "transform": "rotate(270deg)",
+  },
+  "rotate-270-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "transform": "rotate(270deg)",
+    },
+  },
+  "rotate-270-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "transform": "rotate(270deg)",
+    },
+  },
+  "rotate-270-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "transform": "rotate(270deg)",
+    },
+  },
+  "rotate-315": Object {
+    "transform": "rotate(315deg)",
+  },
+  "rotate-315-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "transform": "rotate(315deg)",
+    },
+  },
+  "rotate-315-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "transform": "rotate(315deg)",
+    },
+  },
+  "rotate-315-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "transform": "rotate(315deg)",
+    },
+  },
+  "rotate-45": Object {
+    "transform": "rotate(45deg)",
+  },
+  "rotate-45-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "transform": "rotate(45deg)",
+    },
+  },
+  "rotate-45-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "transform": "rotate(45deg)",
+    },
+  },
+  "rotate-45-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "transform": "rotate(45deg)",
+    },
+  },
+  "rotate-90": Object {
+    "transform": "rotate(90deg)",
+  },
+  "rotate-90-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "transform": "rotate(90deg)",
+    },
+  },
+  "rotate-90-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "transform": "rotate(90deg)",
+    },
+  },
+  "rotate-90-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "transform": "rotate(90deg)",
+    },
+  },
   "self-baseline": Object {
     "alignSelf": "baseline",
   },

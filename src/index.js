@@ -37,6 +37,7 @@ import link from './properties/link';
 import zIndex from './properties/zIndex';
 import whiteSpace from './properties/whiteSpace';
 import verticalAlign from './properties/verticalAlign';
+import rotations from './properties/rotations';
 
 export const aphroditeTachyons = {
     ...position,
@@ -77,5 +78,6 @@ export const aphroditeTachyons = {
     ...link,
     ...zIndex,
     ...whiteSpace,
-    ...verticalAlign
+    ...verticalAlign,
+    ...rotations
 };
