@@ -5036,6 +5036,45 @@ Object {
       "fontWeight": "normal",
     },
   },
+  "o-0": Object {
+    "opacity": 0,
+  },
+  "o-025": Object {
+    "opacity": 0.025,
+  },
+  "o-05": Object {
+    "opacity": 0.05,
+  },
+  "o-10": Object {
+    "opacity": 0.1,
+  },
+  "o-100": Object {
+    "opacity": 1,
+  },
+  "o-20": Object {
+    "opacity": 0.2,
+  },
+  "o-30": Object {
+    "opacity": 0.3,
+  },
+  "o-40": Object {
+    "opacity": 0.4,
+  },
+  "o-50": Object {
+    "opacity": 0.5,
+  },
+  "o-60": Object {
+    "opacity": 0.6,
+  },
+  "o-70": Object {
+    "opacity": 0.7,
+  },
+  "o-80": Object {
+    "opacity": 0.8,
+  },
+  "o-90": Object {
+    "opacity": 0.9,
+  },
   "orange": Object {
     "color": "#ff6300",
   },

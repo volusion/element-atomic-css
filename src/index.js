@@ -32,6 +32,7 @@ import letterSpacing from './properties/letterSpacing';
 import utilities from './properties/utilities';
 import overflow from './properties/overflow';
 import outline from './properties/outline';
+import opacity from './properties/opacity';
 
 export const aphroditeTachyons = {
     ...position,
@@ -67,5 +68,6 @@ export const aphroditeTachyons = {
     ...letterSpacing,
     ...utilities,
     ...overflow,
-    ...outline
+    ...outline,
+    ...opacity
 };
