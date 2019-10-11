@@ -33,6 +33,7 @@ import utilities from './properties/utilities';
 import overflow from './properties/overflow';
 import outline from './properties/outline';
 import opacity from './properties/opacity';
+import link from './properties/link';
 
 export const aphroditeTachyons = {
     ...position,
@@ -69,5 +70,6 @@ export const aphroditeTachyons = {
     ...utilities,
     ...overflow,
     ...outline,
-    ...opacity
+    ...opacity,
+    ...link
 };

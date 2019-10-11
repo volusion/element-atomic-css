@@ -3640,6 +3640,25 @@ Object {
   "lightest-blue": Object {
     "color": "#cdecff",
   },
+  "link": Object {
+    ":active": Object {
+      "transition": "color .15s ease-in",
+    },
+    ":focus": Object {
+      "transition": "color .15s ease-in",
+    },
+    ":hover": Object {
+      "transition": "color .15s ease-in",
+    },
+    ":link": Object {
+      "transition": "color .15s ease-in",
+    },
+    ":visited": Object {
+      "transition": "color .15s ease-in",
+    },
+    "textDecoration": "none",
+    "transition": "color .15s ease-in",
+  },
   "list": Object {
     "listStyleType": "none",
   },
