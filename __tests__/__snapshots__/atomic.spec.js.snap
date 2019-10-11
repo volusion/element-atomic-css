@@ -2189,6 +2189,24 @@ Object {
       "float": "right",
     },
   },
+  "fs-normal": Object {
+    "fontStyle": "normal",
+  },
+  "fs-normal-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "fontStyle": "normal",
+    },
+  },
+  "fs-normal-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "fontStyle": "normal",
+    },
+  },
+  "fs-normal-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "fontStyle": "normal",
+    },
+  },
   "fw1": Object {
     "fontWeight": 100,
   },
@@ -2997,6 +3015,24 @@ Object {
     },
     ":hover": Object {
       "color": "#ffd700",
+    },
+  },
+  "i": Object {
+    "fontStyle": "italic",
+  },
+  "i-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "fontStyle": "italic",
+    },
+  },
+  "i-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "fontStyle": "italic",
+    },
+  },
+  "i-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "fontStyle": "italic",
     },
   },
   "indent": Object {
