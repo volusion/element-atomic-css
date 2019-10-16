@@ -33,3 +33,11 @@ export const createResponsiveClasses = (cssObj = { yourClassName: {} }) => {
         return responsiveClasses;
     }
 };
+
+export const joinClasses = (...classes) => {
+    const whitespacePattern = /\s+/g;
+    return classes
+        .join(' ')
+        .replace(whitespacePattern, ' ')
+        .trim();
+};
