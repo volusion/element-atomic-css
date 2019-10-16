@@ -42,7 +42,7 @@ import whiteSpace from './properties/whiteSpace';
 import width from './properties/width';
 import zIndex from './properties/zIndex';
 
-export const aphroditeTachyons = {
+export const atomic = {
     ...aspectRatios,
     ...backgroundPosition,
     ...backgroundSize,
