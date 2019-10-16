@@ -1,22 +1,35 @@
 export const createResponsiveClasses = (cssObj = { yourClassName: {} }) => {
     const className = Object.keys(cssObj)[0];
-    const responsiveClasses = {};
     const passedCss = cssObj[className];
     if (passedCss) {
+        const breakpoint = {
+            ns: {
+                suffix: '-ns',
+                mediaRule: '@media only screen and (min-width: 30em)'
+            },
+            m: {
+                suffix: '-m',
+                mediaRule:
+                    '@media only screen and (min-width: 30em) and (max-width: 60em)'
+            },
+            l: {
+                suffix: '-l',
+                mediaRule: '@media only screen and (min-width: 60em)'
+            }
+        };
+        const responsiveClasses = {};
         responsiveClasses[className] = passedCss;
-        const notSmallClassName = `${className}-ns`;
-        const notSmallBreakpoint = '@media only screen and (min-width: 30em)';
-        const mediumClassName = `${className}-m`;
-        const mediumBreakpoint =
-            '@media only screen and (min-width: 30em) and (max-width: 60em)';
-        const largeClassName = `${className}-l`;
-        const largeBreakpoint = '@media only screen and (min-width: 60em)';
+        const notSmallClassName = className + breakpoint.ns.suffix;
         responsiveClasses[notSmallClassName] = {};
-        responsiveClasses[notSmallClassName][notSmallBreakpoint] = passedCss;
+        responsiveClasses[notSmallClassName][
+            breakpoint.ns.mediaRule
+        ] = passedCss;
+        const mediumClassName = className + breakpoint.m.suffix;
         responsiveClasses[mediumClassName] = {};
-        responsiveClasses[mediumClassName][mediumBreakpoint] = passedCss;
+        responsiveClasses[mediumClassName][breakpoint.m.mediaRule] = passedCss;
+        const largeClassName = className + breakpoint.l.suffix;
         responsiveClasses[largeClassName] = {};
-        responsiveClasses[largeClassName][largeBreakpoint] = passedCss;
+        responsiveClasses[largeClassName][breakpoint.l.mediaRule] = passedCss;
         return responsiveClasses;
     }
 };
