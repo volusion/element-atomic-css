@@ -2,7 +2,7 @@
     "name": "@volusion/element-atomic-css",
     "version": "1.0.0-alpha.0",
     "description": "",
-    "main": " ",
+    "main": "dist/element-atomic-css.js",
     "scripts": {
         "lint": "eslint .",
         "test": "jest ",
