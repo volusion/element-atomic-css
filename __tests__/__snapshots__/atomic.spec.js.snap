@@ -2410,200 +2410,200 @@ Object {
     "transform": "translateZ(0)",
     "transition": "transform .25s ease-out",
   },
-  "h-100-ns": Object {
+  "h-100": Object {
     "height": "100%",
   },
-  "h-100-ns-l": Object {
+  "h-100-l": Object {
     "@media only screen and (min-width: 60em)": Object {
       "height": "100%",
     },
   },
-  "h-100-ns-m": Object {
+  "h-100-m": Object {
     "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
       "height": "100%",
     },
   },
-  "h-100-ns-ns": Object {
+  "h-100-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "height": "100%",
+    },
+  },
+  "h-25": Object {
+    "height": "25%",
+  },
+  "h-25-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "height": "25%",
+    },
+  },
+  "h-25-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "height": "25%",
     },
   },
   "h-25-ns": Object {
-    "height": "25%",
-  },
-  "h-25-ns-l": Object {
-    "@media only screen and (min-width: 60em)": Object {
-      "height": "25%",
-    },
-  },
-  "h-25-ns-m": Object {
-    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
-      "height": "25%",
-    },
-  },
-  "h-25-ns-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "height": "25%",
+    },
+  },
+  "h-50": Object {
+    "height": "50%",
+  },
+  "h-50-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "height": "50%",
+    },
+  },
+  "h-50-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "height": "50%",
     },
   },
   "h-50-ns": Object {
-    "height": "50%",
-  },
-  "h-50-ns-l": Object {
-    "@media only screen and (min-width: 60em)": Object {
-      "height": "50%",
-    },
-  },
-  "h-50-ns-m": Object {
-    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
-      "height": "50%",
-    },
-  },
-  "h-50-ns-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "height": "50%",
+    },
+  },
+  "h-75": Object {
+    "height": "75%",
+  },
+  "h-75-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "height": "75%",
+    },
+  },
+  "h-75-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "height": "75%",
     },
   },
   "h-75-ns": Object {
-    "height": "75%",
-  },
-  "h-75-ns-l": Object {
-    "@media only screen and (min-width: 60em)": Object {
-      "height": "75%",
-    },
-  },
-  "h-75-ns-m": Object {
-    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
-      "height": "75%",
-    },
-  },
-  "h-75-ns-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "height": "75%",
+    },
+  },
+  "h-auto": Object {
+    "height": "auto",
+  },
+  "h-auto-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "height": "auto",
+    },
+  },
+  "h-auto-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "height": "auto",
     },
   },
   "h-auto-ns": Object {
-    "height": "auto",
-  },
-  "h-auto-ns-l": Object {
-    "@media only screen and (min-width: 60em)": Object {
-      "height": "auto",
-    },
-  },
-  "h-auto-ns-m": Object {
-    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
-      "height": "auto",
-    },
-  },
-  "h-auto-ns-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "height": "auto",
+    },
+  },
+  "h-inherit": Object {
+    "height": "inherit",
+  },
+  "h-inherit-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "height": "inherit",
+    },
+  },
+  "h-inherit-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "height": "inherit",
     },
   },
   "h-inherit-ns": Object {
-    "height": "inherit",
-  },
-  "h-inherit-ns-l": Object {
-    "@media only screen and (min-width: 60em)": Object {
-      "height": "inherit",
-    },
-  },
-  "h-inherit-ns-m": Object {
-    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
-      "height": "inherit",
-    },
-  },
-  "h-inherit-ns-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "height": "inherit",
+    },
+  },
+  "h1": Object {
+    "height": "1rem",
+  },
+  "h1-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "height": "1rem",
+    },
+  },
+  "h1-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "height": "1rem",
     },
   },
   "h1-ns": Object {
-    "height": "1rem",
-  },
-  "h1-ns-l": Object {
-    "@media only screen and (min-width: 60em)": Object {
-      "height": "1rem",
-    },
-  },
-  "h1-ns-m": Object {
-    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
-      "height": "1rem",
-    },
-  },
-  "h1-ns-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "height": "1rem",
+    },
+  },
+  "h2": Object {
+    "height": "2rem",
+  },
+  "h2-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "height": "2rem",
+    },
+  },
+  "h2-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "height": "2rem",
     },
   },
   "h2-ns": Object {
-    "height": "2rem",
-  },
-  "h2-ns-l": Object {
-    "@media only screen and (min-width: 60em)": Object {
-      "height": "2rem",
-    },
-  },
-  "h2-ns-m": Object {
-    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
-      "height": "2rem",
-    },
-  },
-  "h2-ns-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "height": "2rem",
+    },
+  },
+  "h3": Object {
+    "height": "4rem",
+  },
+  "h3-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "height": "4rem",
+    },
+  },
+  "h3-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "height": "4rem",
     },
   },
   "h3-ns": Object {
-    "height": "4rem",
-  },
-  "h3-ns-l": Object {
-    "@media only screen and (min-width: 60em)": Object {
-      "height": "4rem",
-    },
-  },
-  "h3-ns-m": Object {
-    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
-      "height": "4rem",
-    },
-  },
-  "h3-ns-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "height": "4rem",
+    },
+  },
+  "h4": Object {
+    "height": "8rem",
+  },
+  "h4-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "height": "8rem",
+    },
+  },
+  "h4-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "height": "8rem",
     },
   },
   "h4-ns": Object {
-    "height": "8rem",
-  },
-  "h4-ns-l": Object {
-    "@media only screen and (min-width: 60em)": Object {
-      "height": "8rem",
-    },
-  },
-  "h4-ns-m": Object {
-    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
-      "height": "8rem",
-    },
-  },
-  "h4-ns-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "height": "8rem",
     },
   },
-  "h5-ns": Object {
+  "h5": Object {
     "height": "16rem",
   },
-  "h5-ns-l": Object {
+  "h5-l": Object {
     "@media only screen and (min-width: 60em)": Object {
       "height": "16rem",
     },
   },
-  "h5-ns-m": Object {
+  "h5-m": Object {
     "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
       "height": "16rem",
     },
   },
-  "h5-ns-ns": Object {
+  "h5-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "height": "16rem",
     },
@@ -4183,38 +4183,38 @@ Object {
   "mid-gray": Object {
     "color": "#555",
   },
-  "min-h-100-ns": Object {
+  "min-h-100": Object {
     "minHeight": "100%",
   },
-  "min-h-100-ns-l": Object {
+  "min-h-100-l": Object {
     "@media only screen and (min-width: 60em)": Object {
       "minHeight": "100%",
     },
   },
-  "min-h-100-ns-m": Object {
+  "min-h-100-m": Object {
     "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
       "minHeight": "100%",
     },
   },
-  "min-h-100-ns-ns": Object {
+  "min-h-100-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "minHeight": "100%",
     },
   },
-  "min-vh-100-ns": Object {
+  "min-vh-100": Object {
     "minHeight": "100vh",
   },
-  "min-vh-100-ns-l": Object {
+  "min-vh-100-l": Object {
     "@media only screen and (min-width: 60em)": Object {
       "minHeight": "100vh",
     },
   },
-  "min-vh-100-ns-m": Object {
+  "min-vh-100-m": Object {
     "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
       "minHeight": "100vh",
     },
   },
-  "min-vh-100-ns-ns": Object {
+  "min-vh-100-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "minHeight": "100vh",
     },
@@ -7601,74 +7601,74 @@ Object {
       "verticalAlign": "top",
     },
   },
-  "vh-100-ns": Object {
+  "vh-100": Object {
     "height": "100vh",
   },
-  "vh-100-ns-l": Object {
+  "vh-100-l": Object {
     "@media only screen and (min-width: 60em)": Object {
       "height": "100vh",
     },
   },
-  "vh-100-ns-m": Object {
+  "vh-100-m": Object {
     "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
       "height": "100vh",
     },
   },
-  "vh-100-ns-ns": Object {
+  "vh-100-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "height": "100vh",
+    },
+  },
+  "vh-25": Object {
+    "height": "25vh",
+  },
+  "vh-25-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "height": "25vh",
+    },
+  },
+  "vh-25-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "height": "25vh",
     },
   },
   "vh-25-ns": Object {
-    "height": "25vh",
-  },
-  "vh-25-ns-l": Object {
-    "@media only screen and (min-width: 60em)": Object {
-      "height": "25vh",
-    },
-  },
-  "vh-25-ns-m": Object {
-    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
-      "height": "25vh",
-    },
-  },
-  "vh-25-ns-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "height": "25vh",
+    },
+  },
+  "vh-50": Object {
+    "height": "50vh",
+  },
+  "vh-50-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "height": "50vh",
+    },
+  },
+  "vh-50-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "height": "50vh",
     },
   },
   "vh-50-ns": Object {
-    "height": "50vh",
-  },
-  "vh-50-ns-l": Object {
-    "@media only screen and (min-width: 60em)": Object {
-      "height": "50vh",
-    },
-  },
-  "vh-50-ns-m": Object {
-    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
-      "height": "50vh",
-    },
-  },
-  "vh-50-ns-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "height": "50vh",
     },
   },
-  "vh-75-ns": Object {
+  "vh-75": Object {
     "height": "75vh",
   },
-  "vh-75-ns-l": Object {
+  "vh-75-l": Object {
     "@media only screen and (min-width: 60em)": Object {
       "height": "75vh",
     },
   },
-  "vh-75-ns-m": Object {
+  "vh-75-m": Object {
     "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
       "height": "75vh",
     },
   },
-  "vh-75-ns-ns": Object {
+  "vh-75-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "height": "75vh",
     },
