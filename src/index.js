@@ -44,45 +44,45 @@ import zIndex from './properties/zIndex';
 
 export const atomic = {
     ...aspectRatios,
-    ...backgroundPosition,
-    ...backgroundSize,
+    ...backgroundPosition, // Should avoid background images for lazy loading, but maybe useful for bg svgs?
+    ...backgroundSize, // Should avoid background images for lazy loading, but maybe useful for bg svgs?
     ...borderRadius,
     ...borders,
     ...boxShadow,
     ...boxSizing,
-    ...clears,
+    ...clears, // Not sure I've ever used these rules.
     ...coordinates,
-    ...debug,
+    ...debug, // Not sure if useful
     ...display,
     ...flexbox,
     ...floats,
-    ...fontStyle,
-    ...fontWeight,
+    ...fontStyle, // definite benefit for custom design, but shoudl be avoided in favor of Site Designer tools.
+    ...fontWeight, // definite benefit for custom design, but shoudl be avoided in favor of Site Designer tools.
     ...forms,
     ...height,
-    ...hovers,
+    ...hovers, // Has some CSS which requires extending aphrodite to work
     ...letterSpacing,
     ...lineHeight,
-    ...link,
+    ...link, // Seems unnecessary. Should be covered by global anchor rules.
     ...lists,
     ...maxWidth,
-    ...opacity,
+    ...opacity, // Is there a reason to apply opacity without a hover effect?
     ...outline,
     ...overflow,
     ...position,
     ...rotations,
-    ...skins,
-    ...skinsPseudo,
+    ...skins, // Seems like we could get rid of these in favor of global/block props
+    ...skinsPseudo, // Seems like we could get rid of these in favor of global/block props
     ...spacing,
     ...tables,
     ...textAlign,
     ...textDecoration,
-    ...textTransform,
-    ...typeScale,
+    ...textTransform, // I don't see a need for this when the user can choose to type text as upper/lowercase
+    ...typeScale, // definite benefit for custom design, but shoudl be avoided in favor of Site Designer tools.
     ...typography,
     ...utilities,
     ...verticalAlign,
-    ...visibility,
+    ...visibility, // Seems unnecessary
     ...whiteSpace,
     ...width,
     ...zIndex
