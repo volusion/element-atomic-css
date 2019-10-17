@@ -7,16 +7,5 @@ export default {
         name: 'elementAtomicCss',
         format: 'umd',
     },
-    // external: ['aphrodite'],
-    plugins: [
-    //     babel({
-    //         babelrc: false,
-    //         presets: [['env', { modules: false }], 'stage-1', 'react'],
-    //         externalHelpers: true,
-    //         exclude: ['node_modules/**']
-    //     }),
-        resolve(),
-    //     commonjs(),
-    //     options.minify && uglify()
-    ]
+    plugins: [ resolve() ]
 }
