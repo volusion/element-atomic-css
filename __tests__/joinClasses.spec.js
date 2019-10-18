@@ -15,9 +15,9 @@ describe('The joinClasses function', () => {
     });
     describe('when an argument is not a valid value', () => {
         it('should not include the argument in the returned string', () => {
-            expect(joinClasses(null, 'classA', '', 'classB', undefined)).toBe(
-                'classA classB'
-            );
+            expect(
+                joinClasses(null, 'classA', '', 'classB', undefined, false)
+            ).toBe('classA classB');
         });
     });
     describe('when no arugment is passed', () => {
