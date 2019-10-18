@@ -32,6 +32,5 @@
         "watchPathIgnorePatterns": [
             "<rootDir>/__tests__/utils"
         ]
-    },
-    "dependencies": {}
+    }
 }
