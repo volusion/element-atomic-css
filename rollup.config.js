@@ -1,4 +1,5 @@
 import resolve from 'rollup-plugin-node-resolve'
+import babel from 'rollup-plugin-babel'
 
 export default {
     input: 'src/index.js',
@@ -8,5 +9,5 @@ export default {
             format: 'esm',
         }
     ],
-    plugins: [ resolve() ]
+    plugins: [ resolve(), babel() ]
 }
