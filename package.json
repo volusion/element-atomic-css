@@ -1,6 +1,6 @@
 {
     "name": "@volusion/element-atomic-css",
-    "version": "1.0.0-alpha.1",
+    "version": "1.0.0-alpha.2",
     "description": "",
     "main": "dist/element-atomic-css.js",
     "module": "dist/element-atomic-css.mjs",
