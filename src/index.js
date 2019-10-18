@@ -42,7 +42,7 @@ import whiteSpace from './properties/whiteSpace';
 import width from './properties/width';
 import zIndex from './properties/zIndex';
 
-export const atomic = {
+export default {
     ...aspectRatios,
     ...backgroundPosition, // Should avoid background images for lazy loading, but maybe useful for bg svgs?
     ...backgroundSize, // Should avoid background images for lazy loading, but maybe useful for bg svgs?
