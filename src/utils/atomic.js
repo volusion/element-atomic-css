@@ -1,4 +1,4 @@
-import { joinClasses } from '.';
+import { default as joinClasses } from './joinClasses';
 
 export default ({ StyleSheet, css, atomicObj }) => atomicClasses => {
     const atomicStyles = StyleSheet.create(atomicObj);

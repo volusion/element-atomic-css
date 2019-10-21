@@ -47,6 +47,26 @@ function _objectSpread2(target) {
   return target;
 }
 
+function _toConsumableArray(arr) {
+  return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread();
+}
+
+function _arrayWithoutHoles(arr) {
+  if (Array.isArray(arr)) {
+    for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) arr2[i] = arr[i];
+
+    return arr2;
+  }
+}
+
+function _iterableToArray(iter) {
+  if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter);
+}
+
+function _nonIterableSpread() {
+  throw new TypeError("Invalid attempt to spread non-iterable instance");
+}
+
 var createResponsiveClasses = (function () {
   var cssObj = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {
     yourClassName: {}
@@ -82,6 +102,37 @@ var createResponsiveClasses = (function () {
     responsiveClasses[largeClassName][breakpoint.l.mediaRule] = passedCss;
     return responsiveClasses;
   }
+});
+
+var joinClasses = (function () {
+  var whitespace = /\s+/g;
+
+  for (var _len = arguments.length, classes = new Array(_len), _key = 0; _key < _len; _key++) {
+    classes[_key] = arguments[_key];
+  }
+
+  var validClasses = classes.filter(function (className) {
+    return className ? className : '';
+  });
+  return validClasses.join(' ').replace(whitespace, ' ').trim();
+});
+
+var atomic = (function (_ref) {
+  var StyleSheet = _ref.StyleSheet,
+      css = _ref.css,
+      atomicObj = _ref.atomicObj;
+  return function (atomicClasses) {
+    var atomicStyles = StyleSheet.create(atomicObj);
+    var whitespace = /\s+/g;
+    var atomicClassesArray = atomicClasses.split(whitespace).map(function (className) {
+      if (!atomicObj[className]) {
+        return console.warn("\"".concat(className, "\" is not a valid atomic class. Please check the docs."));
+      }
+
+      return css(atomicStyles[className]);
+    });
+    return joinClasses.apply(void 0, _toConsumableArray(atomicClassesArray));
+  };
 });
 
 var classes = _objectSpread2({}, createResponsiveClasses({
@@ -1596,3 +1647,4 @@ var classes$r = {
 var index = _objectSpread2({}, classes, {}, classes$1, {}, classes$2, {}, classes$3, {}, classes$4, {}, classes$5, {}, classes$6, {}, classes$7, {}, classes$8, {}, classes$9, {}, classes$a, {}, classes$b, {}, classes$c, {}, classes$d, {}, classes$e, {}, classes$f, {}, classes$g, {}, classes$h, {}, classes$i, {}, classes$j, {}, classes$k, {}, classes$l, {}, classes$m, {}, classes$n, {}, classes$o, {}, classes$p, {}, classes$q, {}, classes$r);
 
 export default index;
+export { atomic, joinClasses };
