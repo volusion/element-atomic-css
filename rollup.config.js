@@ -7,7 +7,7 @@ export default {
         {
             file: 'dist/element-atomic-css.js',
             name: 'elementAtomicCss',
-            format: 'umd',
+            format: 'cjs',
         },
         {
             file: 'dist/element-atomic-css.mjs',
