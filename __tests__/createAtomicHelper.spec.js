@@ -1,5 +1,5 @@
 import { StyleSheetTestUtils } from 'aphrodite';
-import { createAtomicHelper } from '../src/utils';
+import { createAtomicHelper } from '../src';
 import { StyleSheet, css } from 'aphrodite';
 import atomicObj from '../src';
 

@@ -1,4 +1,4 @@
-export { atomic } from './utils';
+export { createAtomicHelper } from './utils';
 export { joinClasses } from './utils';
 
 import aspectRatios from './properties/aspectRatios';

@@ -1,4 +1,4 @@
-import { joinClasses } from '../src/utils';
+import { joinClasses } from '../src';
 
 describe('The joinClasses function', () => {
     it('should create a string joining all passed arguments', () => {
