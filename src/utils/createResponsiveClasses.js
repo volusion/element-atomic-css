@@ -1,4 +1,4 @@
-export const createResponsiveClasses = (cssObj = { yourClassName: {} }) => {
+export default (cssObj = { yourClassName: {} }) => {
     const className = Object.keys(cssObj)[0];
     const passedCss = cssObj[className];
     if (passedCss) {
