@@ -589,6 +589,24 @@ Object {
       "borderBottomRightRadius": 0,
     },
   },
+  "br-100": Object {
+    "borderRadius": "100%",
+  },
+  "br-100-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "borderRadius": "100%",
+    },
+  },
+  "br-100-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "borderRadius": "100%",
+    },
+  },
+  "br-100-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "borderRadius": "100%",
+    },
+  },
   "br-l": Object {
     "@media only screen and (min-width: 60em)": Object {
       "borderRightStyle": "solid",
@@ -605,6 +623,24 @@ Object {
     "@media only screen and (min-width: 30em)": Object {
       "borderRightStyle": "solid",
       "borderRightWidth": "1px",
+    },
+  },
+  "br-pill": Object {
+    "borderRadius": "9999px",
+  },
+  "br-pill-l": Object {
+    "@media only screen and (min-width: 60em)": Object {
+      "borderRadius": "9999px",
+    },
+  },
+  "br-pill-m": Object {
+    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
+      "borderRadius": "9999px",
+    },
+  },
+  "br-pill-ns": Object {
+    "@media only screen and (min-width: 30em)": Object {
+      "borderRadius": "9999px",
     },
   },
   "br0": Object {
@@ -641,24 +677,6 @@ Object {
   "br1-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "borderRadius": ".125rem",
-    },
-  },
-  "br100": Object {
-    "borderRadius": "100%",
-  },
-  "br100-l": Object {
-    "@media only screen and (min-width: 60em)": Object {
-      "borderRadius": "100%",
-    },
-  },
-  "br100-m": Object {
-    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
-      "borderRadius": "100%",
-    },
-  },
-  "br100-ns": Object {
-    "@media only screen and (min-width: 30em)": Object {
-      "borderRadius": "100%",
     },
   },
   "br2": Object {
@@ -713,24 +731,6 @@ Object {
   "br4-ns": Object {
     "@media only screen and (min-width: 30em)": Object {
       "borderRadius": "1rem",
-    },
-  },
-  "brPill": Object {
-    "borderRadius": "9999px",
-  },
-  "brPill-l": Object {
-    "@media only screen and (min-width: 60em)": Object {
-      "borderRadius": "9999px",
-    },
-  },
-  "brPill-m": Object {
-    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
-      "borderRadius": "9999px",
-    },
-  },
-  "brPill-ns": Object {
-    "@media only screen and (min-width: 30em)": Object {
-      "borderRadius": "9999px",
     },
   },
   "bt": Object {

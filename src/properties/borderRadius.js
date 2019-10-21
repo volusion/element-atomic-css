@@ -6,8 +6,8 @@ const classes = {
     ...createResponsiveClasses({ br2: { borderRadius: '.25rem' } }),
     ...createResponsiveClasses({ br3: { borderRadius: '.5rem' } }),
     ...createResponsiveClasses({ br4: { borderRadius: '1rem' } }),
-    ...createResponsiveClasses({ br100: { borderRadius: '100%' } }),
-    ...createResponsiveClasses({ brPill: { borderRadius: '9999px' } }),
+    ...createResponsiveClasses({ 'br-100': { borderRadius: '100%' } }),
+    ...createResponsiveClasses({ 'br-pill': { borderRadius: '9999px' } }),
     ...createResponsiveClasses({
         'br--bottom': {
             borderTopLeftRadius: 0,
