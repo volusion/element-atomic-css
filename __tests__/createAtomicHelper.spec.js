@@ -1,5 +1,5 @@
 import { StyleSheetTestUtils } from 'aphrodite';
-import { atomic as createCssHelper } from '../src/utils';
+import { createAtomicHelper } from '../src/utils';
 import { StyleSheet, css } from 'aphrodite';
 import atomicObj from '../src';
 
@@ -9,7 +9,7 @@ describe('The atomic function', () => {
     });
     it('should execute the aphrodite css function on every argument', () => {
         const atomicStyles = StyleSheet.create(atomicObj);
-        const atomic = createCssHelper({ atomicStyles, css });
+        const atomic = createAtomicHelper({ atomicStyles, css });
         const aphroditeSuffix = '_\\S+';
         const aphroditeClassList = new RegExp(
             `absolute${aphroditeSuffix} db${aphroditeSuffix}`
