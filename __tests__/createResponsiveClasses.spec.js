@@ -7,7 +7,7 @@ describe('The createResponsiveClasses function', () => {
     it('should return an object containing the passed styles', () => {
         expect(responsiveClasses).toEqual(expect.objectContaining(baseStyles));
     });
-    it('should return an object containing the a key with the suffix "-ns" which contians a media query with the original CSS rules', () => {
+    it('should return an object containing a key with the suffix "-ns" which contians a media query with the original CSS rules', () => {
         expect(responsiveClasses).toEqual(
             expect.objectContaining({
                 'db-ns': {
@@ -16,7 +16,7 @@ describe('The createResponsiveClasses function', () => {
             })
         );
     });
-    it('should return an object containing the a key with the suffix "-m" which contians a media query with the original CSS rules', () => {
+    it('should return an object containing a key with the suffix "-m" which contians a media query with the original CSS rules', () => {
         expect(responsiveClasses).toEqual(
             expect.objectContaining({
                 'db-m': {
@@ -25,7 +25,7 @@ describe('The createResponsiveClasses function', () => {
             })
         );
     });
-    it('should return an object containing the a key with the suffix "-l" which contians a media query with the original CSS rules', () => {
+    it('should return an object containing a key with the suffix "-l" which contians a media query with the original CSS rules', () => {
         expect(responsiveClasses).toEqual(
             expect.objectContaining({
                 'db-l': {
