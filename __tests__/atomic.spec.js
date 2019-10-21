@@ -8,7 +8,8 @@ describe('The atomic function', () => {
         StyleSheetTestUtils.suppressStyleInjection();
     });
     it('should execute the aphrodite css function on every argument', () => {
-        const atomic = createCssHelper({ StyleSheet, css, atomicObj });
+        const atomicStyles = StyleSheet.create(atomicObj);
+        const atomic = createCssHelper({ atomicStyles, css });
         const aphroditeSuffix = '_\\S+';
         const aphroditeClassList = new RegExp(
             `absolute${aphroditeSuffix} db${aphroditeSuffix}`
