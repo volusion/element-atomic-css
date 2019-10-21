@@ -1,12 +1,11 @@
 import { default as joinClasses } from './joinClasses';
 
-export default ({ StyleSheet, css, atomicObj }) => atomicClasses => {
-    const atomicStyles = StyleSheet.create(atomicObj);
+export default ({ atomicStyles, css }) => atomicClasses => {
     const whitespace = /\s+/g;
     const atomicClassesArray = atomicClasses
         .split(whitespace)
         .map(className => {
-            if (!atomicObj[className]) {
+            if (!atomicStyles[className]) {
                 return console.warn(
                     `"${className}" is not a valid atomic class. Please check the docs.`
                 );
