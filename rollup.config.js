@@ -5,6 +5,11 @@ export default {
     input: 'src/index.js',
     output: [
         {
+            file: 'dist/element-atomic-css.js',
+            name: 'elementAtomicCss',
+            format: 'cjs',
+        },
+        {
             file: 'dist/element-atomic-css.mjs',
             format: 'esm',
         }
