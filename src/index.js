@@ -1,3 +1,6 @@
+export { atomic } from './utils';
+export { joinClasses } from './utils';
+
 import aspectRatios from './properties/aspectRatios';
 // import backgroundPosition from './properties/backgroundPosition';
 // import backgroundSize from './properties/backgroundSize';
