@@ -342,24 +342,6 @@ Object {
     "borderBottomStyle": "solid",
     "borderBottomWidth": "1px",
   },
-  "bb-0": Object {
-    "borderBottomWidth": 0,
-  },
-  "bb-0-l": Object {
-    "@media only screen and (min-width: 60em)": Object {
-      "borderBottomWidth": 0,
-    },
-  },
-  "bb-0-m": Object {
-    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
-      "borderBottomWidth": 0,
-    },
-  },
-  "bb-0-ns": Object {
-    "@media only screen and (min-width: 30em)": Object {
-      "borderBottomWidth": 0,
-    },
-  },
   "bb-l": Object {
     "@media only screen and (min-width: 60em)": Object {
       "borderBottomStyle": "solid",
@@ -381,24 +363,6 @@ Object {
   "bl": Object {
     "borderLeftStyle": "solid",
     "borderLeftWidth": "1px",
-  },
-  "bl-0": Object {
-    "borderLeftWidth": 0,
-  },
-  "bl-0-l": Object {
-    "@media only screen and (min-width: 60em)": Object {
-      "borderLeftWidth": 0,
-    },
-  },
-  "bl-0-m": Object {
-    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
-      "borderLeftWidth": 0,
-    },
-  },
-  "bl-0-ns": Object {
-    "@media only screen and (min-width: 30em)": Object {
-      "borderLeftWidth": 0,
-    },
   },
   "bl-l": Object {
     "@media only screen and (min-width: 60em)": Object {
@@ -625,24 +589,6 @@ Object {
       "borderBottomRightRadius": 0,
     },
   },
-  "br-0": Object {
-    "borderRightWidth": 0,
-  },
-  "br-0-l": Object {
-    "@media only screen and (min-width: 60em)": Object {
-      "borderRightWidth": 0,
-    },
-  },
-  "br-0-m": Object {
-    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
-      "borderRightWidth": 0,
-    },
-  },
-  "br-0-ns": Object {
-    "@media only screen and (min-width: 30em)": Object {
-      "borderRightWidth": 0,
-    },
-  },
   "br-100": Object {
     "borderRadius": "100%",
   },
@@ -791,24 +737,6 @@ Object {
     "borderTopStyle": "solid",
     "borderTopWidth": "1px",
   },
-  "bt-0": Object {
-    "borderTopWidth": 0,
-  },
-  "bt-0-l": Object {
-    "@media only screen and (min-width: 60em)": Object {
-      "borderTopWidth": 0,
-    },
-  },
-  "bt-0-m": Object {
-    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
-      "borderTopWidth": 0,
-    },
-  },
-  "bt-0-ns": Object {
-    "@media only screen and (min-width: 30em)": Object {
-      "borderTopWidth": 0,
-    },
-  },
   "bt-l": Object {
     "@media only screen and (min-width: 60em)": Object {
       "borderTopStyle": "solid",
@@ -831,114 +759,6 @@ Object {
     "::-moz-focus-inner": Object {
       "border": 0,
       "padding": 0,
-    },
-  },
-  "bw0": Object {
-    "borderWidth": 0,
-  },
-  "bw0-l": Object {
-    "@media only screen and (min-width: 60em)": Object {
-      "borderWidth": 0,
-    },
-  },
-  "bw0-m": Object {
-    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
-      "borderWidth": 0,
-    },
-  },
-  "bw0-ns": Object {
-    "@media only screen and (min-width: 30em)": Object {
-      "borderWidth": 0,
-    },
-  },
-  "bw1": Object {
-    "borderWidth": ".125rem",
-  },
-  "bw1-l": Object {
-    "@media only screen and (min-width: 60em)": Object {
-      "borderWidth": ".125rem",
-    },
-  },
-  "bw1-m": Object {
-    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
-      "borderWidth": ".125rem",
-    },
-  },
-  "bw1-ns": Object {
-    "@media only screen and (min-width: 30em)": Object {
-      "borderWidth": ".125rem",
-    },
-  },
-  "bw2": Object {
-    "borderWidth": ".25rem",
-  },
-  "bw2-l": Object {
-    "@media only screen and (min-width: 60em)": Object {
-      "borderWidth": ".25rem",
-    },
-  },
-  "bw2-m": Object {
-    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
-      "borderWidth": ".25rem",
-    },
-  },
-  "bw2-ns": Object {
-    "@media only screen and (min-width: 30em)": Object {
-      "borderWidth": ".25rem",
-    },
-  },
-  "bw3": Object {
-    "borderWidth": ".5rem",
-  },
-  "bw3-l": Object {
-    "@media only screen and (min-width: 60em)": Object {
-      "borderWidth": ".5rem",
-    },
-  },
-  "bw3-m": Object {
-    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
-      "borderWidth": ".5rem",
-    },
-  },
-  "bw3-ns": Object {
-    "@media only screen and (min-width: 30em)": Object {
-      "borderWidth": ".5rem",
-    },
-  },
-  "bw4": Object {
-    "borderWidth": "1rem",
-  },
-  "bw4-l": Object {
-    "@media only screen and (min-width: 60em)": Object {
-      "borderWidth": "1rem",
-    },
-  },
-  "bw4-m": Object {
-    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
-      "borderWidth": "1rem",
-    },
-  },
-  "bw4-ns": Object {
-    "@media only screen and (min-width: 30em)": Object {
-      "borderWidth": "1rem",
-    },
-  },
-  "bw5": Object {
-    "borderWidth": "2rem",
-  },
-  "bw5-l": Object {
-    "@media only screen and (min-width: 60em)": Object {
-      "borderWidth": "2rem",
-    },
-  },
-  "bw5-m": Object {
-    "@media only screen and (min-width: 30em) and (max-width: 60em)": Object {
-      "borderWidth": "2rem",
-    },
-  },
-  "bw5-ns": Object {
-    "@media only screen and (min-width: 30em)": Object {
-      "borderWidth": "2rem",
     },
   },
   "center": Object {
