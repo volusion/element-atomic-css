@@ -6,6 +6,7 @@ import aspectRatios from './properties/aspectRatios';
 // import backgroundSize from './properties/backgroundSize';
 import borderRadius from './properties/borderRadius';
 import borders from './properties/borders';
+// import borderWidths from './properties/borderWidths';
 import boxShadow from './properties/boxShadow';
 import boxSizing from './properties/boxSizing';
 // import clears from './properties/clears';
@@ -51,6 +52,7 @@ export default {
     // ...backgroundSize,
     ...borderRadius,
     ...borders,
+    // ...borderWidths,
     ...boxShadow,
     ...boxSizing,
     // ...clears,
