@@ -769,6 +769,9 @@ Object {
     "borderCollapse": "collapse",
     "borderSpacing": 0,
   },
+  "color-inherit": Object {
+    "color": "inherit",
+  },
   "content-around": Object {
     "alignContent": "space-around",
   },

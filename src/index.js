@@ -30,7 +30,7 @@ import outline from './properties/outline';
 import overflow from './properties/overflow';
 import position from './properties/position';
 import rotations from './properties/rotations';
-// import skins from './properties/skins';
+import skins from './properties/skins';
 // import skinsPseudo from './properties/skinsPseudo';
 import spacing from './properties/spacing';
 import tables from './properties/tables';
@@ -76,7 +76,7 @@ export default {
     ...overflow,
     ...position,
     ...rotations,
-    // ...skins,
+    ...skins,
     // ...skinsPseudo,
     ...spacing,
     ...tables,
