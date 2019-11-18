@@ -1,24 +1,26 @@
 import { createResponsiveClasses } from '../utils';
 
 const classes = {
-    ...createResponsiveClasses({ dn: { display: 'none' } }),
-    ...createResponsiveClasses({ di: { display: 'inline' } }),
-    ...createResponsiveClasses({ db: { display: 'block' } }),
-    ...createResponsiveClasses({ dib: { display: 'inline-block' } }),
-    ...createResponsiveClasses({ dit: { display: 'inline-table' } }),
-    ...createResponsiveClasses({ dt: { display: 'table' } }),
-    ...createResponsiveClasses({ dtc: { display: 'table-cell' } }),
-    ...createResponsiveClasses({ 'dt-row': { display: 'table-row' } }),
-    ...createResponsiveClasses({
-        'dt-row-group': { display: 'table-row-group' }
-    }),
-    ...createResponsiveClasses({ 'dt-column': { display: 'table-column' } }),
-    ...createResponsiveClasses({
-        'dt-column-group': { display: 'table-column-group' }
-    }),
-    ...createResponsiveClasses({
-        'dt--fixed': { display: 'fixed', width: '100%' }
-    })
+    ...createResponsiveClasses(
+        { dn: { display: 'none' } },
+        { di: { display: 'inline' } },
+        { db: { display: 'block' } },
+        { dib: { display: 'inline-block' } },
+        { dit: { display: 'inline-table' } },
+        { dt: { display: 'table' } },
+        { dtc: { display: 'table-cell' } },
+        { 'dt-row': { display: 'table-row' } },
+        {
+            'dt-row-group': { display: 'table-row-group' }
+        },
+        { 'dt-column': { display: 'table-column' } },
+        {
+            'dt-column-group': { display: 'table-column-group' }
+        },
+        {
+            'dt--fixed': { display: 'fixed', width: '100%' }
+        }
+    )
 };
 
 export default classes;

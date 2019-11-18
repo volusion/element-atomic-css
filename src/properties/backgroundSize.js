@@ -1,16 +1,18 @@
 import { createResponsiveClasses } from '../utils';
 
 const classes = {
-    ...createResponsiveClasses({
-        cover: {
-            backgroundSize: 'cover'
+    ...createResponsiveClasses(
+        {
+            cover: {
+                backgroundSize: 'cover'
+            }
+        },
+        {
+            contain: {
+                backgroundSize: 'contain'
+            }
         }
-    }),
-    ...createResponsiveClasses({
-        contain: {
-            backgroundSize: 'contain'
-        }
-    })
+    )
 };
 
 export default classes;
