@@ -1,5 +1,3 @@
-import { createResponsiveClasses } from '../utils';
-
 const classes = {
     'overflow-container': { overflowY: 'scroll' },
     center: { marginRight: 'auto', marginLeft: 'auto' }
