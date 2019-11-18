@@ -1,9 +1,6 @@
 const classes = {
     collapse: { borderCollapse: 'collapse', borderSpacing: 0 },
     'striped--moon-gray': {
-        ':nth-child(odd)': { backgroundColor: '#aaa' }
-    },
-    'striped--moon-gray': {
         ':nth-child(odd)': { backgroundColor: '#ccc' }
     },
     'striped--light-gray': {
