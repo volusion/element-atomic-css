@@ -2,9 +2,15 @@ import { createResponsiveClasses } from '../utils';
 
 const classes = {
     ...createResponsiveClasses(
-        { 'ws-normal': { whiteSpace: 'normal' } },
-        { nowrap: { whiteSpace: 'nowrap' } },
-        { pre: { whiteSpace: 'pre' } }
+        {
+            'ws-normal': { whiteSpace: 'normal' }
+        },
+        {
+            nowrap: { whiteSpace: 'nowrap' }
+        },
+        {
+            pre: { whiteSpace: 'pre' }
+        }
     )
 };
 

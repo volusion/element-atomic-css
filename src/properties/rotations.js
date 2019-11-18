@@ -2,8 +2,12 @@ import { createResponsiveClasses } from '../utils';
 
 const classes = {
     ...createResponsiveClasses(
-        { 'rotate-45': { transform: 'rotate(45deg)' } },
-        { 'rotate-90': { transform: 'rotate(90deg)' } },
+        {
+            'rotate-45': { transform: 'rotate(45deg)' }
+        },
+        {
+            'rotate-90': { transform: 'rotate(90deg)' }
+        },
         {
             'rotate-135': { transform: 'rotate(135deg)' }
         },

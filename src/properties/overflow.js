@@ -2,10 +2,18 @@ import { createResponsiveClasses } from '../utils';
 
 const classes = {
     ...createResponsiveClasses(
-        { 'overflow-visible': { overflow: 'visible' } },
-        { 'overflow-hidden': { overflow: 'hidden' } },
-        { 'overflow-scroll': { overflow: 'scroll' } },
-        { 'overflow-auto': { overflow: 'auto' } },
+        {
+            'overflow-visible': { overflow: 'visible' }
+        },
+        {
+            'overflow-hidden': { overflow: 'hidden' }
+        },
+        {
+            'overflow-scroll': { overflow: 'scroll' }
+        },
+        {
+            'overflow-auto': { overflow: 'auto' }
+        },
         {
             'overflow-x-visible': { overflowX: 'visible' }
         },
@@ -15,7 +23,9 @@ const classes = {
         {
             'overflow-x-scroll': { overflowX: 'scroll' }
         },
-        { 'overflow-x-auto': { overflowX: 'auto' } },
+        {
+            'overflow-x-auto': { overflowX: 'auto' }
+        },
         {
             'overflow-y-visible': { overflowY: 'visible' }
         },
@@ -25,7 +35,9 @@ const classes = {
         {
             'overflow-y-scroll': { overflowY: 'scroll' }
         },
-        { 'overflow-y-auto': { overflowY: 'auto' } }
+        {
+            'overflow-y-auto': { overflowY: 'auto' }
+        }
     )
 };
 

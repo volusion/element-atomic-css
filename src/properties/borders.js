@@ -17,7 +17,9 @@ const classes = {
         {
             bl: { borderLeftStyle: 'solid', borderLeftWidth: '1px' }
         },
-        { bn: { borderStyle: 'none', borderWidth: 0 } }
+        {
+            bn: { borderStyle: 'none', borderWidth: 0 }
+        }
     )
 };
 

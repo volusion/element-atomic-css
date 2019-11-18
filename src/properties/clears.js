@@ -13,10 +13,18 @@ const classes = {
                 }
             }
         },
-        { cl: { clear: 'left' } },
-        { cr: { clear: 'right' } },
-        { cb: { clear: 'both' } },
-        { cn: { clear: 'none' } }
+        {
+            cl: { clear: 'left' }
+        },
+        {
+            cr: { clear: 'right' }
+        },
+        {
+            cb: { clear: 'both' }
+        },
+        {
+            cn: { clear: 'none' }
+        }
     )
 };
 
