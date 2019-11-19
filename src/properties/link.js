@@ -1,5 +1,3 @@
-import { createResponsiveClasses } from '../utils';
-
 const transitionCssRules = { transition: 'color .15s ease-in' };
 
 const classes = {

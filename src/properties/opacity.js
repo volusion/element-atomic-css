@@ -1,5 +1,3 @@
-import { createResponsiveClasses } from '../utils';
-
 const classes = {
     'o-100': { opacity: 1 },
     'o-90': { opacity: 0.9 },
