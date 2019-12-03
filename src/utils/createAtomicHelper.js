@@ -12,6 +12,5 @@ export default ({ atomicStyles, css }) => atomicClasses => {
             return atomicStyles[className];
         });
 
-    const aphroditeClass = css(...splitClasses);
-    return aphroditeClass;
+    return css(...splitClasses);
 };
