@@ -10,6 +10,8 @@ export default ({ atomicStyles, css }) => atomicClasses => {
                 );
             }
             return atomicStyles[className];
-        });
+        })
+        .filter(atomicClass => atomicClass);
+    if (!atomicClassesArray.length) return;
     return css(...atomicClassesArray);
 };

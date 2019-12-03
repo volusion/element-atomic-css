@@ -25,6 +25,11 @@ describe('The atomic function', () => {
             expect(atomic('absolute')).toMatch(validClass);
         });
     });
+    describe('when a single invalid class is requested', () => {
+        it('should return undefined', () => {
+            expect(atomic('FAKE_CLASS')).toBeUndefined();
+        });
+    });
     describe('when multiple classes are requested', () => {
         const mergedClass = new RegExp(
             `^absolute${aphroditeSuffix + aphroditeJoiner}db${aphroditeSuffix}$`
