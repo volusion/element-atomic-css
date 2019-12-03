@@ -1,6 +1,6 @@
 export default ({ atomicStyles, css }) => atomicClasses => {
     const whitespace = /\s+/g;
-    const splitClasses = atomicClasses
+    const atomicClassesArray = atomicClasses
         .trim()
         .split(whitespace)
         .map(className => {
@@ -11,6 +11,5 @@ export default ({ atomicStyles, css }) => atomicClasses => {
             }
             return atomicStyles[className];
         });
-
-    return css(...splitClasses);
+    return css(...atomicClassesArray);
 };
