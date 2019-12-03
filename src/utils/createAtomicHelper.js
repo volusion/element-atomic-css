@@ -1,8 +1,6 @@
-import { default as joinClasses } from './joinClasses';
-
 export default ({ atomicStyles, css }) => atomicClasses => {
     const whitespace = /\s+/g;
-    const atomicClassesArray = atomicClasses
+    const splitClasses = atomicClasses
         .trim()
         .split(whitespace)
         .map(className => {
@@ -11,7 +9,9 @@ export default ({ atomicStyles, css }) => atomicClasses => {
                     `"${className}" is not a valid atomic class. Please check the docs.`
                 );
             }
-            return css(atomicStyles[className]);
+            return atomicStyles[className];
         });
-    return joinClasses(...atomicClassesArray);
+
+    const aphroditeClass = css(...splitClasses);
+    return aphroditeClass;
 };

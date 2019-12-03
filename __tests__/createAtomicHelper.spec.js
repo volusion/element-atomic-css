@@ -4,6 +4,9 @@ import { StyleSheet, css } from 'aphrodite';
 import atomicObj from '../src';
 
 describe('The atomic function', () => {
+    console.warn = jest.fn();
+    const aphroditeSuffix = '_[a-zA-Z0-9]+';
+    const aphroditeJoiner = '-o_O-';
     beforeEach(() => {
         StyleSheetTestUtils.suppressStyleInjection();
     });
@@ -16,11 +19,28 @@ describe('The atomic function', () => {
             expect(warn).not.toHaveBeenCalled();
         });
     });
-    it('should execute the aphrodite css function on every argument', () => {
-        const aphroditeSuffix = '_\\S+';
-        const aphroditeClassList = new RegExp(
-            `absolute${aphroditeSuffix} db${aphroditeSuffix}`
+    describe('when a single atomic class is requested', () => {
+        it('should return the aphrodite class', () => {
+            const validClass = new RegExp(`^absolute${aphroditeSuffix}$`);
+            expect(atomic('absolute')).toMatch(validClass);
+        });
+    });
+    describe('when multiple classes are requested', () => {
+        const mergedClass = new RegExp(
+            `^absolute${aphroditeSuffix + aphroditeJoiner}db${aphroditeSuffix}$`
         );
-        expect(atomic('absolute db')).toMatch(aphroditeClassList);
+        it('should merge the atomic classes into one aphrodite class', () => {
+            expect(atomic('absolute db')).toMatch(mergedClass);
+        });
+        describe('when an invalid class is requested', () => {
+            const getWithInvalidClass = () => atomic('absolute FAKE_CLASS db');
+            it('should exclude the invalid class from the output', () => {
+                expect(getWithInvalidClass()).toMatch(mergedClass);
+            });
+            it('should log a warning', () => {
+                getWithInvalidClass();
+                expect(console.warn).toHaveBeenCalled();
+            });
+        });
     });
 });
