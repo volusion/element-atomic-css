@@ -1,5 +1,3 @@
-import { default as joinClasses } from './joinClasses';
-
 export default ({ atomicStyles, css }) => atomicClasses => {
     const whitespace = /\s+/g;
     const atomicClassesArray = atomicClasses
@@ -11,7 +9,9 @@ export default ({ atomicStyles, css }) => atomicClasses => {
                     `"${className}" is not a valid atomic class. Please check the docs.`
                 );
             }
-            return css(atomicStyles[className]);
-        });
-    return joinClasses(...atomicClassesArray);
+            return atomicStyles[className];
+        })
+        .filter(atomicClass => atomicClass);
+    if (!atomicClassesArray.length) return;
+    return css(...atomicClassesArray);
 };

@@ -12,10 +12,10 @@ It's best to reference Atomic CSS classes is using the `atomic()` helper functio
 <div className={atomic('flex items-center w-100')} />
 ```
 
-Output (where each class is actually a dynamically created aphrodite class):
+Output:
 
-```html
-<div class="[flex] [items-center] [w-100]"></div>
+```jsx
+<div class="dynamic_atomic_class"></div>
 ```
 
 ### Breaking `atomic()` down
@@ -24,37 +24,15 @@ The above example is essentially shorthand for writing:
 
 ```jsx
 <div
-    className={[
-        css(atomicStyles['flex']),
-        css(atomicStyles['items-center']),
-        css(atomicStyles['w-100'])
-    ].join(' ')}
+    className={css(
+        atomicStyles['flex'],
+        atomicStyles['items-center'],
+        atomicStyles['w-100']
+    )}
 />
 ```
 
 It also includes some logic to let you know if you accidentally reference an Atomic class that doesn't exist via a console warning.
-
-### Why call css on every class? Aphrodite says not to do it this way.
-
--   **The short version:** This keeps your CSS small, which reduces page load times, which keeps Google happy, and increases your site's ranking!
--   **The long version:**
-
-    -   The reason for calling css on every class instead of following aphrodite's recommendation of combining classes is that each set of css rules is added to your page's styles only once using the above method. This means that every piece of code on the page using the same method to call a class all references the same single css rule instead of creating many different classes that include the exact same CSS rule, bloating your CSS.
-    -   Combining the exact same css in a different order creates different classes with identical behavior, bloating your CSS.
-
-        Example:
-
-        ```js
-        css(atomic['flex'], atomic['items-center'], atomic['w-100']);
-        ```
-
-        does not equal
-
-        ```js
-        css(atomic['w-100']), css(atomic['flex'], atomic['items-center']);
-        ```
-
-    -   This does not mean that you can't still combine your custom aphrodite classes as necessary. See below.
 
 ### Combining Atomic CSS with custom aphrodite classes
 
@@ -65,6 +43,12 @@ It also includes some logic to let you know if you accidentally reference an Ato
         css(classes.yourCustomClassA, classes.yourCustomClassB)
     )}
 />
+```
+
+Output:
+
+```jsx
+<div class="dynamic_atomic_class dynamic_custom_class"></div>
 ```
 
 #### What is the `joinClasses` function?
