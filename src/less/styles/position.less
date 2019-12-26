@@ -1,0 +1,16 @@
+@position-styles: {
+    .static& {
+        position: static;
+    }
+    .relative& {
+        position: relative;
+    }
+    .absolute& {
+        position: absolute;
+    }
+    .fixed& {
+        position: fixed;
+    }
+};
+
+.create-responsive-classes-from(@position-styles);

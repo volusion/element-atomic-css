@@ -8,7 +8,8 @@
         "lint": "eslint .",
         "test": "jest ",
         "test:watch": "jest --watch",
-        "build": "rollup --config"
+        "build": "rollup --config",
+        "less": "lessc src/less/index.less > dist/element-atomic.css"
     },
     "repository": {
         "type": "git",
@@ -25,6 +26,7 @@
         "eslint-config-prettier": "^6.5.0",
         "eslint-plugin-prettier": "^3.1.1",
         "jest": "^24.9.0",
+        "less": "^3.10.3",
         "prettier": "^1.19.1",
         "prettier-eslint": "^9.0.0",
         "rollup": "^1.25.1",

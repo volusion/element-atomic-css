@@ -1,2 +1,3 @@
 node_modules
-/dist
+/dist/*
+!/dist/element-atomic.css
