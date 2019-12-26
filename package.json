@@ -9,7 +9,9 @@
         "test": "jest ",
         "test:watch": "jest --watch",
         "build": "rollup --config",
-        "less": "lessc src/less/index.less > dist/element-atomic.css"
+        "less": "lessc src/less/index.less > dist/element-atomic.css",
+        "minify": "cleancss -o dist/element-atomic.min.css dist/element-atomic.css",
+        "compile": "npm run less && npm run minify"
     },
     "repository": {
         "type": "git",
@@ -22,6 +24,7 @@
         "aphrodite": "^2.4.0",
         "babel-eslint": "^10.0.3",
         "babel-jest": "^24.9.0",
+        "clean-css-cli": "^4.3.0",
         "eslint": "^6.6.0",
         "eslint-config-prettier": "^6.5.0",
         "eslint-plugin-prettier": "^3.1.1",

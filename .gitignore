@@ -1,3 +1,4 @@
 node_modules
 /dist/*
 !/dist/element-atomic.css
+!/dist/element-atomic.min.css
