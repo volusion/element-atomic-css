@@ -7,6 +7,7 @@ A CSS library based on <a href="https://github.com/tachyons-css/tachyons" target
 -   [aspect-ratios](./dist/styles/aspect-ratios.css)
 -   [border-radius](./dist/styles/border-radius.css)
 -   [borders](./dist/styles/borders.css)
+-   [border-widths](./dist/styles/border-widths.css)
 -   [box-shadow](./dist/styles/box-shadow.css)
 -   [box-sizing](./dist/styles/box-sizing.css)
 -   [coordinates](./dist/styles/coordinates.css)
