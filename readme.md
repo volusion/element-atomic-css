@@ -37,12 +37,12 @@ A CSS library based on <a href="https://github.com/tachyons-css/tachyons" target
 
 ## NPM Scripts
 
-| npm script | Description                                                                                                                                  |
-| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| `less`     | Compiles the `src/less/index.less` file to `dist/index.css`.                                                                                 |
-| `minify`   | Minifies the `dist/index.css` file to `dist/index.min.css`.                                                                                  |
-| `compile`  | Runs the `less` script and then the `minify` script.                                                                                         |
-| `watch`    | Watches the files in `src/less/` for changes and compiles matching css files in `dist`. Does NOT minify the final `dist/index.min.css` file. |
+| npm script | Description                                                                                                                                      |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `less`     | Compiles the `src/less/index.less` file to `dist/index.css`.                                                                                     |
+| `minify`   | Minifies the `dist/index.css` file to `dist/index.min.css`.                                                                                      |
+| `compile`  | Runs the `less` script and then the `minify` script.                                                                                             |
+| `watch`    | Watches the files in `src/less/` for changes and compiles matching css files in `dist`. Does **NOT** minify the final `dist/index.min.css` file. |
 
 ## Combining Atomic CSS with custom aphrodite classes
 
