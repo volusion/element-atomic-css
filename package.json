@@ -9,9 +9,9 @@
         "test": "jest ",
         "test:watch": "jest --watch",
         "build": "rollup --config",
-        "less": "lessc src/less/index.less > dist/element-atomic.css",
-        "minify": "cleancss -o dist/element-atomic.min.css dist/element-atomic.css",
         "compile": "npm run less && npm run minify"
+        "less": "lessc src/less/index.less > dist/index.css",
+        "minify": "cleancss -o dist/index.min.css dist/index.css",
     },
     "repository": {
         "type": "git",
