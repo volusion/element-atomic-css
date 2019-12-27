@@ -9,9 +9,10 @@
         "test": "jest ",
         "test:watch": "jest --watch",
         "build": "rollup --config",
-        "compile": "npm run less && npm run minify"
         "less": "lessc src/less/index.less > dist/index.css",
         "minify": "cleancss -o dist/index.min.css dist/index.css",
+        "compile": "npm run less && npm run minify",
+        "watch": "less-watch-compiler src/less dist && minify"
     },
     "repository": {
         "type": "git",
@@ -30,6 +31,7 @@
         "eslint-plugin-prettier": "^3.1.1",
         "jest": "^24.9.0",
         "less": "^3.10.3",
+        "less-watch-compiler": "^1.14.1",
         "prettier": "^1.19.1",
         "prettier-eslint": "^9.0.0",
         "rollup": "^1.25.1",
