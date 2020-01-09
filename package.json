@@ -20,13 +20,5 @@
         "clean-css-cli": "^4.3.0",
         "less": "^3.10.3",
         "less-watch-compiler": "^1.14.1"
-    },
-    "jest": {
-        "transform": {
-            "^.+\\.jsx?$": "babel-jest"
-        },
-        "watchPathIgnorePatterns": [
-            "<rootDir>/__tests__/utils"
-        ]
     }
 }
