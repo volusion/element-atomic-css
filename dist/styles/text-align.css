@@ -10,7 +10,7 @@
 .tj {
   text-align: justify;
 }
-@media only screen and (max-width: 30em) {
+@media only screen and (min-width: 30em) {
   .tl-ns {
     text-align: left;
   }

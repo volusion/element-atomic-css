@@ -7,7 +7,7 @@
 .no-underline {
   text-decoration: none;
 }
-@media only screen and (max-width: 30em) {
+@media only screen and (min-width: 30em) {
   .strike-ns {
     text-decoration: line-through;
   }
