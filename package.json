@@ -5,8 +5,8 @@
     "main": "dist/element-atomic-css.js",
     "module": "dist/element-atomic-css.mjs",
     "scripts": {
-        "less": "lessc src/less/index.less > dist/index.css",
-        "minify": "cleancss -o dist/index.min.css dist/index.css",
+        "less": "lessc src/less/atomic.less > dist/atomic.css",
+        "minify": "cleancss -o dist/atomic.min.css dist/atomic.css",
         "compile": "npm run less && npm run minify",
         "watch": "less-watch-compiler src/less dist && minify"
     },
