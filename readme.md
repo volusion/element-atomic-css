@@ -1,45 +1,43 @@
 # Atomic CSS by Volusion
 
-## _Readme In Progress_
+A CSS library based on <a href="https://github.com/tachyons-css/tachyons" target="_blank">Tachyons</a> for use on Element based Volusion storefronts.
 
-A CSS library based on <a href="https://github.com/tachyons-css/tachyons" target="_blank">Tachyons</a> for use in the <a href="https://github.com/Khan/aphrodite" target="_blank">aphrodite</a> framework.
+## Individual Stylesheets
 
-## Using Atomic CSS in Element blocks.
+-   [box-sizing](./dist/styles/box-sizing.css)
+-   [coordinates](./dist/styles/coordinates.css)
+-   [display](./dist/styles/display.css)
+-   [flexbox](./dist/styles/flexbox.css)
+-   [height](./dist/styles/height.css)
+-   [images](./dist/styles/images.css)
+-   [lists](./dist/styles/lists.css)
+-   [max-width](./dist/styles/max-width.css)
+-   [normalize](./dist/styles/normalize.css)
+-   [overflow](./dist/styles/overflow.css)
+-   [position](./dist/styles/position.css)
+-   [spacing](./dist/styles/spacing.css)
+-   [text-align](./dist/styles/text-align.css)
+-   [text-decoration](./dist/styles/text-decoration.css)
+-   [utilities](./dist/styles/utilities.css)
+-   [vertical-align](./dist/styles/vertical-align.css)
+-   [width](./dist/styles/width.css)
+-   [z-index](./dist/styles/z-index.css)
 
-It's best to reference Atomic CSS classes is using the `atomic()` helper function found in your props via the syntax below:
+## NPM Scripts
 
-```jsx
-<div className={atomic('flex items-center w-100')} />
-```
+| npm script | Description                                                                                                                                      |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `less`     | Compiles the `src/less/index.less` file to `dist/index.css`.                                                                                     |
+| `minify`   | Minifies the `dist/index.css` file to `dist/index.min.css`.                                                                                      |
+| `compile`  | Runs the `less` script and then the `minify` script.                                                                                             |
+| `watch`    | Watches the files in `src/less/` for changes and compiles matching css files in `dist`. Does **NOT** minify the final `dist/index.min.css` file. |
 
-Output:
-
-```jsx
-<div class="dynamic_atomic_class"></div>
-```
-
-### Breaking `atomic()` down
-
-The above example is essentially shorthand for writing:
-
-```jsx
-<div
-    className={css(
-        atomicStyles['flex'],
-        atomicStyles['items-center'],
-        atomicStyles['w-100']
-    )}
-/>
-```
-
-It also includes some logic to let you know if you accidentally reference an Atomic class that doesn't exist via a console warning.
-
-### Combining Atomic CSS with custom aphrodite classes
+## Combining Atomic CSS with custom aphrodite classes
 
 ```jsx
 <div
     className={joinClasses(
-        atomic('flex items-center w-100'),
+        'flex items-center w-100',
         css(classes.yourCustomClassA, classes.yourCustomClassB)
     )}
 />
@@ -48,38 +46,13 @@ It also includes some logic to let you know if you accidentally reference an Ato
 Output:
 
 ```jsx
-<div class="dynamic_atomic_class dynamic_custom_class"></div>
+<div class="flex items-center w-100 dynamic_custom_class"></div>
 ```
 
-#### What is the `joinClasses` function?
+### What is the `joinClasses` function?
 
-That function can be found in your block props and is meant to join your classes together with some extra logic to ensure you output classlist is clean and free of unintended classes. It will
+That function can be found in your block props and is meant to join your classes together with some extra logic to ensure you output classlist is clean and free of unintended classes and whitespace. It will
 
 -   Join all arguments together with a single space between each one.
 -   Remove any unnecessary whitespace that might be caused before, between, or after your final classes.
--   Remove any invalid classes that might be output by bad logic (removes `undefined`, `null`, and `false`), which is the biggest reason to use it over string literals.
-
-## Responsive Suffixes
-
-Any content tagged for responsive suffixes will contain the following class/css structure:
-
-```css
-[className] {
-    // ...
-}
-@media only screen and (min-width: 30em) {
-    [className]-ns {
-        // ...
-    }
-}
-@media only screen and (min-width: 30em) and (max-width: 60em) {
-    [className]-m {
-        // ...
-    }
-}
-@media only screen and (min-width: 60em) {
-    [className]-l {
-        // ...
-    }
-}
-```
+-   Remove any invalid classes that might be output by bad logic (removes `undefined`, `null`, `false`, and additional whitespace), which is the biggest reason to use it over string literals.

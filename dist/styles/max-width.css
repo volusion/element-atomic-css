@@ -1,0 +1,18 @@
+.mw-100 {
+  max-width: 100%;
+}
+@media only screen and (min-width: 30em) {
+  .mw-100-ns {
+    max-width: 100%;
+  }
+}
+@media only screen and (min-width: 30em) and (max-width: 60em) {
+  .mw-100-m {
+    max-width: 100%;
+  }
+}
+@media only screen and (min-width: 60em) {
+  .mw-100-l {
+    max-width: 100%;
+  }
+}

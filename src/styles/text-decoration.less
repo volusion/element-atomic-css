@@ -1,0 +1,15 @@
+@import (reference) '../mixins/_create-responsive-classes-from';
+
+@text-decoration-styles: {
+    .strike& {
+        text-decoration: line-through;
+    }
+    .underline& {
+        text-decoration: underline;
+    }
+    .no-underline& {
+        text-decoration: none;
+    }
+};
+
+.create-responsive-classes-from(@text-decoration-styles);

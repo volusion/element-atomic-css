@@ -5,10 +5,10 @@
     "main": "dist/element-atomic-css.js",
     "module": "dist/element-atomic-css.mjs",
     "scripts": {
-        "lint": "eslint .",
-        "test": "jest ",
-        "test:watch": "jest --watch",
-        "build": "rollup --config"
+        "less": "lessc src/atomic.less > dist/atomic.css",
+        "minify": "cleancss -o dist/atomic.min.css dist/atomic.css",
+        "compile": "npm run less && npm run minify",
+        "watch": "less-watch-compiler src dist"
     },
     "repository": {
         "type": "git",
@@ -17,26 +17,8 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "@babel/preset-env": "^7.6.2",
-        "aphrodite": "^2.4.0",
-        "babel-eslint": "^10.0.3",
-        "babel-jest": "^24.9.0",
-        "eslint": "^6.6.0",
-        "eslint-config-prettier": "^6.5.0",
-        "eslint-plugin-prettier": "^3.1.1",
-        "jest": "^24.9.0",
-        "prettier": "^1.19.1",
-        "prettier-eslint": "^9.0.0",
-        "rollup": "^1.25.1",
-        "rollup-plugin-babel": "^4.3.3",
-        "rollup-plugin-node-resolve": "^5.2.0"
-    },
-    "jest": {
-        "transform": {
-            "^.+\\.jsx?$": "babel-jest"
-        },
-        "watchPathIgnorePatterns": [
-            "<rootDir>/__tests__/utils"
-        ]
+        "clean-css-cli": "^4.3.0",
+        "less": "^3.10.3",
+        "less-watch-compiler": "^1.14.1"
     }
 }

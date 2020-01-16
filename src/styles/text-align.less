@@ -1,0 +1,18 @@
+@import (reference) '../mixins/_create-responsive-classes-from';
+
+@text-align-styles: {
+    .tl& {
+        text-align: left;
+    }
+    .tr& {
+        text-align: right;
+    }
+    .tc& {
+        text-align: center;
+    }
+    .tj& {
+        text-align: justify;
+    }
+};
+
+.create-responsive-classes-from(@text-align-styles);

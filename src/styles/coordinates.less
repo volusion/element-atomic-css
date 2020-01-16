@@ -1,0 +1,24 @@
+@import (reference) '../mixins/_create-responsive-classes-from';
+
+@coordinates-styles: {
+    .top-0& {
+        top: 0;
+    }
+    .right-0& {
+        right: 0;
+    }
+    .bottom-0& {
+        bottom: 0;
+    }
+    .left-0& {
+        left: 0;
+    }
+    .absolute--fill& {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+};
+
+.create-responsive-classes-from(@coordinates-styles);
