@@ -15,6 +15,7 @@ A CSS library based on <a href="https://github.com/tachyons-css/tachyons" target
 -   [normalize](./dist/styles/normalize.css)
 -   [overflow](./dist/styles/overflow.css)
 -   [position](./dist/styles/position.css)
+-   [skins](./dist/styles/skins.css)
 -   [spacing](./dist/styles/spacing.css)
 -   [text-align](./dist/styles/text-align.css)
 -   [text-decoration](./dist/styles/text-decoration.css)
