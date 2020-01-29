@@ -10,6 +10,12 @@
 .dib {
   display: inline-block;
 }
+.flex {
+  display: flex;
+}
+.inline-flex {
+  display: inline-flex;
+}
 @media only screen and (min-width: 30em) {
   .dn-ns {
     display: none;
@@ -22,6 +28,12 @@
   }
   .dib-ns {
     display: inline-block;
+  }
+  .flex-ns {
+    display: flex;
+  }
+  .inline-flex-ns {
+    display: inline-flex;
   }
 }
 @media only screen and (min-width: 30em) and (max-width: 60em) {
@@ -37,6 +49,12 @@
   .dib-m {
     display: inline-block;
   }
+  .flex-m {
+    display: flex;
+  }
+  .inline-flex-m {
+    display: inline-flex;
+  }
 }
 @media only screen and (min-width: 60em) {
   .dn-l {
@@ -50,5 +68,11 @@
   }
   .dib-l {
     display: inline-block;
+  }
+  .flex-l {
+    display: flex;
+  }
+  .inline-flex-l {
+    display: inline-flex;
   }
 }
