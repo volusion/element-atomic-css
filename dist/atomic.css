@@ -334,6 +334,7 @@ input[type='url'],
 }
 img {
   max-width: 100%;
+  height: auto;
 }
 .top-0 {
   top: 0;
