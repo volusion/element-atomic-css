@@ -10,6 +10,7 @@ html {
  * Remove the margin in all browsers.
  */
 body {
+  width: 100%;
   margin: 0;
 }
 /**
